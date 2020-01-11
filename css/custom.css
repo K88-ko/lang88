@@ -1,0 +1,56 @@
+body {
+    margin: 40px 0;
+    background: #3a3329;
+    color: #f2d35a;
+}
+
+p, ul, table {
+    margin-bottom: 0;
+}
+
+a {
+    color: #d6aa54;
+}
+
+.portrait {
+    width: 120px;
+    margin-right: 20px;
+}
+
+a:hover {
+    color: #d6aa54;
+}
+
+.pv20 {
+    padding: 20px 0;
+}
+
+.row {
+    background: #000000;
+    border: 1px solid #d6aa54;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.block {
+    overflow: hidden;
+    padding: 25px 20px 20px 20px;
+}
+
+.row-name, .row-content {
+    padding: 20px;
+}
+
+.row-name {
+    border-bottom: 1px solid #d6aa54;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+td {
+    border: 0;
+}
+
+.help {
+    padding: 40px 0;
+}
