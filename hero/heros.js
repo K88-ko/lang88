@@ -52,21 +52,21 @@ const Hero = {
             <div class="row-content">
                 <table>
                     <tr>
-                        <td>HP</td>
+                        <td>생명력</td>
                         <td>{{ hero.stats[0] }}</td>
-                        <td>Atk</td>
+                        <td>공격</td>
                         <td>{{ hero.stats[1] }}</td>
                     </tr>
                     <tr>
-                        <td>Mag</td>
+                        <td>지력</td>
                         <td>{{ hero.stats[2] }}</td>
-                        <td>Def</td>
+                        <td>방어</td>
                         <td>{{ hero.stats[3] }}</td>
                     </tr>
                     <tr>
-                        <td>Res</td>
+                        <td>마방</td>
                         <td>{{ hero.stats[4] }}</td>
-                        <td>Skill</td>
+                        <td>기술</td>
                         <td>{{ hero.stats[5] }}</td>
                     </tr>
                 </table>
