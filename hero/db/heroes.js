@@ -34,7 +34,7 @@ const heroes = [
         skills: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
         group1: 0,
         group2: 1,
-        group3: 3
+        group3: 12
     },
     {
         name: "매튜-비병",
@@ -71,7 +71,7 @@ const heroes = [
         skills: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
         group1: 0,
         group2: 1,
-        group3: 3
+        group3: 12
     },
         {
         name: "매튜-궁병",
@@ -108,7 +108,7 @@ const heroes = [
         skills: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
         group1: 0,
         group2: 1,
-        group3: 3
+        group3: 12
     },
         {
         name: "매튜-암살자",
@@ -145,7 +145,7 @@ const heroes = [
         skills: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
         group1: 0,
         group2: 1,
-        group3: 3
+        group3: 12
     },
     {
         name: "아멜다",
@@ -182,8 +182,8 @@ const heroes = [
         troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
         skills: [30, 10, 31, 32, 33, 34, 35, 36, 37],
         group1: 0,
-        group2: 5,
-        group3: 9
+        group2: 1,
+        group3: 10
     },
     {
         name: "그레니어",
@@ -219,8 +219,8 @@ const heroes = [
         ],
         troops: [0, 14, 17, 30, 32, 10, 13, 77, 79, 35, 42],
         skills: [38, 39, 40, 41, 42, 43, 44, 45, 46],
-        group1: 0,
-        group2: 5,
+        group1: 1,
+        group2: 12,
         group3: 12
     }
 ]
