@@ -1,32 +1,44 @@
 const heroes = [
     {
-        name: "Altemüller",
+        name: "매튜",
         type: 0,
-        history: "拥有利古利亚帝国的王位继承权，同时拥有帝国大军的指挥权，擅长谋略，剑术超群，手下拥有4个善战的将军",
         stats: [335, 55, 27, 28, 30, 40],
-        ability: 0,
+        ability: 4,
         classes: [
             {
-                name: "Hawk Knight",
+                name: "견습 파이터",
                 classes: [
                     {
-                        name: "Dragon Knight",
+                        name: "파이터",
                         classes: [
                             {
-                                name: "Dragon Master"
+                                name: "소드맨"
                             }
                         ]
                     },
                     {
-                        name: "General",
+                        name: "스나이퍼",
                         classes: [
                             {
-                                name: "Marshal"
+                                name: "레인저"
                             }
                         ]
                     },
                     {
-                        name: "Highlander",
+                        name: "그랜드 나이트",
+                        classes: [
+                            {
+                                name: "스트라이크 마스터"
+                            }
+                        ]
+                    },
+                    {
+                        name: "라이더",
+                        classes: [
+                            {
+                                name: "하이마스터"
+                            }
+                        ]
                     }
                 ]
             }
