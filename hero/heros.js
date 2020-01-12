@@ -43,12 +43,14 @@ const Hero = {
                 <img :src="'img/type/' + hero.type + '.png'" class="u-max-full-width">
                 <img :src="'img/group/' + hero.group1 + '.png'" calss="u-max-full-width">
                 if hero.group2 = 12 {
-                    else {
-                <img :src="'img/group/' + hero.group2 + '.png'" calss="u-max-full-width">
+                    return " ";
+                } else {
+                    return <img :src="'img/group/' + hero.group2 + '.png'" calss="u-max-full-width">;
                 }
                 if hero.group3 = 12 {
-                    else {
-                <img :src="'img/group/' + hero.group3 + '.png'" calss="u-max-full-width">
+                    return " ";    
+                } else {
+                    return <img :src="'img/group/' + hero.group3 + '.png'" calss="u-max-full-width">;
                 }
                 <br>
                 <img :src="'img/F_hero/' + $route.params.id + '.png'" class="u-max-full-width">
