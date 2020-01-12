@@ -130,7 +130,7 @@ const Hero = {
                             <td>{{ troops[troopId].stats[3] }}</td>
                         </tr>
                     </table>
-                    <div>스킬 : {{ troops[troopId].skill }}</div>
+                    <div>능력 : {{ troops[troopId].skill }}</div>
                 </div>
             </div>
         </div>
