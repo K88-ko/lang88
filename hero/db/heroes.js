@@ -6,47 +6,30 @@ const heroes = [
         ability: 0,
         classes: [
             {
-                name: "견습 파이터",
+                name: "Hawk Knight",
                 classes: [
                     {
-                        name: "파이터",
+                        name: "Dragon Knight",
                         classes: [
                             {
-                                name: "소드맨",
-                                classes: [
-                                    {
-                                        name: "히어로",
-                                    }
+                                name: "Dragon Master"
                             }
                         ]
                     },
-                        {
-                                name: "스나이퍼",
-                                classes: [
-                                {
-                                    name: "레인저"
-                                }
-                                ]
-                        },
-                        {
-                                name: "그랜드 나이트",
-                                classes: [
-                                {
-                                    name: "스트라이크 마스터"
-                                }
-                                ]
-                        },
-                        {
-                                name: "라이더",
-                                classes: [
-                                {
-                                    name: "하이마스터"
-                                }
-                                ]
-                        }
-                    ]
-                }
-            ],
+                    {
+                        name: "Striker",
+                        classes: [
+                            {
+                                name: "High Master"
+                            }
+                        ]
+                    },
+                    {
+                        name: "Pegasus Lord",
+                    }
+                ]
+            }
+        ],
         troops: [7, 13, 15, 19, 20, 10, 17, 42, 46, 56, 59],
         skills: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
     },
