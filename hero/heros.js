@@ -111,11 +111,7 @@ const Hero = {
         <div class="row u-max-full-width">
             <div class="row-name">용병</div>
             <div class="block" v-for="troopId in hero.troops">
-                <div class="two columns">
                     <img :src="'img/troop/' + troopId + '.png'" class="u-full-width">
-                    <p style="text-align: center;">{{ troops[troopId].name }}</p>
-                </div>
-              
             </div>
         </div>
         <div class="row u-max-full-width">
