@@ -2,7 +2,7 @@ const heroes = [
     {
         name: "매튜-기병",
         type: 3,
-        stats: [3931, 510, 211, 273, 288, 168],
+        stats: ["한한한", 510, 211, 273, 288, 168],
         ability: 0,
         classes: [
             {
