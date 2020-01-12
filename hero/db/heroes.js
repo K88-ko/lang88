@@ -221,6 +221,6 @@ const heroes = [
         skills: [38, 39, 40, 41, 42, 43, 44, 45, 46],
         group1: 0,
         group2: 5,
-        group3: 7
+        group3: 12
     }
 ]
