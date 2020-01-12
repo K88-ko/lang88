@@ -16,7 +16,8 @@ const Hero = {
             heroes: heroes,
             troops: troops,
             ability: ability,
-            skills: skills
+            skills: skills,
+            group: group
         }
     },
     methods: {
@@ -41,7 +42,12 @@ const Hero = {
             <div class="row-content">
                 <img :src="'img/type/' + hero.type + '.png'" class="u-max-full-width">
                 <img :src="'img/F_hero/' + $route.params.id + '.png'" class="u-max-full-width">
-            </div>
+                <div class="block" v-for="groupId in hero.group">
+                <div class="two columns">
+                    <img :src="'img/group/' + groupId + '.png'" class="u-max-full-width">
+                </div>
+                </div>
+        </div>
         </div>
         <div class="row u-max-full-width">
             <div class="row-name">능력치 60레벨 기준</div>
