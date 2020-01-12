@@ -1,7 +1,7 @@
 const heroes = [
     {
         name: "매튜",
-        type: 0,
+        type: 4,
         stats: [335, 55, 27, 28, 30, 40],
         ability: 4,
         classes: [
