@@ -130,12 +130,10 @@ const Hero = {
                 <div class="row-content">
                     <table>
                     <tr>
-                        <td>레벨</td>
+                        <td>생명 + </td>
                         <td>{{ hero.stats[9] }}</td>
                         <td>공격 + </td>
                         <td>{{ hero.stats[10] }}</td>
-                    </tr>
-                    <tr>
                         <td>방어 + </td>
                         <td>{{ hero.stats[11] }}</td>
                         <td>마방 + </td>
