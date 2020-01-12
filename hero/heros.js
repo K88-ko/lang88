@@ -4,10 +4,10 @@ const Main = {
             heroes: heroes
         }
     },
-    template:
+    template: `
     <div>
-        <router-link to="'/hero/' + Aaron" :key="Aaron"><img :src="img/hero/Card_Aaron.png'" class="mh20 portrait"></router-link>
-    </div>
+        <router-link v-for="(hero, i) in heroes" :to="'/hero/' + i" :key="i"><img :src="'images/portrait/' + i + '.png'" class="mh20 portrait"></router-link>
+    </div>` 
 }
 
 const Hero = {
