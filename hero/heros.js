@@ -44,7 +44,7 @@ const Hero = {
                 <img :src="'img/group/' + hero.group1 + '.png'" calss="u-max-full-width">
                 <img :src="'img/group/' + hero.group2 + '.png'" calss="u-max-full-width">
                 <img :src="'img/group/' + hero.group3 + '.png'" calss="u-max-full-width">
-                </p>
+                </p><br>
                 <img :src="'img/F_hero/' + $route.params.id + '.png'" class="u-max-full-width">
                 </div>
         </div>
