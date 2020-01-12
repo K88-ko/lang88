@@ -44,9 +44,10 @@ const Hero = {
                 <img :src="'img/group/' + hero.group1 + '.png'" calss="u-max-full-width">
                 <img :src="'img/group/' + hero.group2 + '.png'" calss="u-max-full-width">
                 <img :src="'img/group/' + hero.group3 + '.png'" calss="u-max-full-width">
-                </p><br>
+                <br>
                 <img :src="'img/F_hero/' + $route.params.id + '.png'" class="u-max-full-width">
-                </div>
+                </br>    
+            </div>
         </div>
         <div class="row u-max-full-width">
             <div class="row-name">능력치 60레벨 기준</div>
