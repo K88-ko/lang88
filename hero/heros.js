@@ -50,26 +50,47 @@ const Hero = {
             </div>
         </div>
         <div class="row u-max-full-width">
-            <div class="row-name">능력치 60레벨 기준</div>
+            <div class="row-name">호감도 정보</div>
             <div class="row-content">
                 <table>
                     <tr>
-                        <td>생명력</td>
+                        <td>중앙 4</td>
                         <td>{{ hero.stats[0] }}</td>
-                        <td>공격</td>
+                        <td>중앙 7</td>
                         <td>{{ hero.stats[1] }}</td>
                     </tr>
                     <tr>
-                        <td>지력</td>
+                        <td>중앙 4</td>
                         <td>{{ hero.stats[2] }}</td>
-                        <td>방어</td>
+                        <td>중앙 7</td>
                         <td>{{ hero.stats[3] }}</td>
                     </tr>
                     <tr>
-                        <td>마방</td>
+                        <td>호감도10</td>
                         <td>{{ hero.stats[4] }}</td>
-                        <td>기술</td>
+                        <td>호감도15</td>
                         <td>{{ hero.stats[5] }}</td>
+                    </tr>
+                    <tr>
+                        <td>호감도23</td>
+                        <td>{{ hero.stats[6] }}</td>
+                        <td>호감도25</td>
+                        <td>{{ hero.stats[7] }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="row-name">용병 수정치</div>
+                <div class="row-content">
+                    <table>
+                    <tr>
+                        <td>생명+</td>
+                        <td>{{ hero.stats[8] }}</td>
+                        <td>공격+</td>
+                        <td>{{ hero.stats[9] }}</td>
+                        <td>방어+</td>
+                        <td>{{ hero.stats[10] }}</td>
+                        <td>마방+</td>
+                        <td>{{ hero.stats[11] }}</td>
                     </tr>
                 </table>
             </div>
