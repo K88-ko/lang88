@@ -83,11 +83,54 @@ const Hero = {
                     </tr>
                 </table>
             </div>
-            <div class="row-name">용병 수정치</div>
+            <div class="row-name">중앙재료</div>
                 <div class="row-content">
                     <table>
                     <tr>
-                        <td>생명 + </td>
+                        <td>레벨></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                        <td>재료1</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart[0] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart[1] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart[2] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart[3] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart[4] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart[5] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart[6] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart[7] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart[8] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="img/heart/x.png" calss="u-max-full-width"> }}</td>
+                    </tr>
+                    <tr>
+                        <td>재료2</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart2[0] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart2[1] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart2[2] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart2[3] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart2[4] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart2[5] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart2[6] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart2[7] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart2[8] + '.png'" calss="u-max-full-width"> }}</td>
+                        <td>{{ <img :src="'img/heart/' + hero.heart2[9] + '.png'" calss="u-max-full-width"> }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="row-name">용병수정치</div>
+                <div class="row-content">
+                    <table>
+                    <tr>
+                        <td>레벨</td>
                         <td>{{ hero.stats[9] }}</td>
                         <td>공격 + </td>
                         <td>{{ hero.stats[10] }}</td>
