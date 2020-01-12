@@ -76,7 +76,7 @@ const Hero = {
             <div class="row-name">Ability</div>
             <div class="block">
                 <div class="two columns">
-                    <img :src="'images/ability/' + hero.ability + '.png'" class="u-full-width img">
+                    <img :src="'img/ability/' + hero.ability + '.png'" class="u-full-width img">
                 </div>
                 <div class="ten columns">
                     <p><strong>{{ ability[hero.ability].name }}</strong></p>
@@ -110,7 +110,7 @@ const Hero = {
             <div class="row-name">Troops</div>
             <div class="block" v-for="troopId in hero.troops">
                 <div class="two columns">
-                    <img :src="'images/troops/' + troopId + '.png'" class="u-full-width">
+                    <img :src="'img/troops/' + troopId + '.png'" class="u-full-width">
                     <p style="text-align: center;">{{ troops[troopId].name }}</p>
                 </div>
                 <div class="ten columns">
@@ -136,7 +136,7 @@ const Hero = {
             <div class="row-name">Skill Unlock</div>
             <div class="block" v-for="skillId in hero.skills">
                 <div class="two columns">
-                    <img :src="'images/skills/' + skill(skillId) + '.png'" class="u-full-width" style="border-radius: 10px;">
+                    <img :src="'img/skills/' + skill(skillId) + '.png'" class="u-full-width" style="border-radius: 10px;">
                 </div>
                 <div class="ten columns">
                     <p style="padding-bottom: 20px;"><strong>{{ skills[skillId].name }}</strong></p>
