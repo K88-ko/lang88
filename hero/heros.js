@@ -130,7 +130,7 @@ const Hero = {
                             <td>{{ troops[troopId].stats[3] }}</td>
                         </tr>
                     </table>
-                    <div>Skill: {{ troops[troopId].skill }}</div>
+                    //<div>Skill: {{ troops[troopId].skill }}</div>
                 </div>
             </div>
         </div>
@@ -140,9 +140,9 @@ const Hero = {
                 <div class="two columns">
                     <img :src="'img/skills/' + skill(skillId) + '.png'" class="u-full-width" style="border-radius: 10px;">
                 </div>
-               // <div class="ten columns">
-                   // <p style="padding-bottom: 20px;"><strong>{{ skills[skillId].name }}</strong></p>
-                   // <p>{{ skills[skillId].desc }}</p>
+                <div class="ten columns">
+                    <p style="padding-bottom: 20px;"><strong>{{ skills[skillId].name }}</strong></p>
+                    <p>{{ skills[skillId].desc }}</p>
                 </div>
             </div>
         </div>
