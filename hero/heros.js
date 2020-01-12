@@ -17,7 +17,6 @@ const Hero = {
             troops: troops,
             ability: ability,
             skills: skills,
-            group: group
         }
     },
     methods: {
