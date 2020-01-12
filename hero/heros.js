@@ -87,6 +87,8 @@ const Hero = {
                         <td>{{ hero.stats[8] }}</td>
                         <td>공격 + </td>
                         <td>{{ hero.stats[9] }}</td>
+                    </tr>
+                    <tr>
                         <td>방어 + </td>
                         <td>{{ hero.stats[10] }}</td>
                         <td>마방 + </td>
