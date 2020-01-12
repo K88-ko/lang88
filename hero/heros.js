@@ -66,7 +66,7 @@ const Hero = {
                         <td>{{ hero.stats[3] }}</td>
                     </tr>
                     <tr>
-                        <td>중앙 10레벨 스텟</td>
+                        <td>능력치</td>
                         <td>{{ hero.stats[4] }}</td>
                     </tr>
                     <tr>
