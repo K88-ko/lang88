@@ -115,23 +115,23 @@ const Hero = {
                     <img :src="'img/troop/' + troopId + '.png'" class="u-full-width">
                     <p style="text-align: center;">{{ troops[troopId].name }}</p>
                 </div>
-                <div class="ten columns">
-                    <table>
-                        <tr>
-                            <td>생명</td>
-                            <td>{{ troops[troopId].stats[0] }}</td>
-                            <td>공격</td>
-                            <td>{{ troops[troopId].stats[1] }}</td>
-                        </tr>
-                        <tr>
-                            <td>방어</td>
-                            <td>{{ troops[troopId].stats[2] }}</td>
-                            <td>마방</td>
-                            <td>{{ troops[troopId].stats[3] }}</td>
-                        </tr>
-                    </table>
-                    <div> 스킬 : {{ troops[troopId].skill }}</div>
-                </div>
+                //<div class="ten columns">
+                    //<table>
+                        //<tr>
+                            //<td>생명</td>
+                            //<td>{{ troops[troopId].stats[0] }}</td>
+                            //<td>공격</td>
+                            //<td>{{ troops[troopId].stats[1] }}</td>
+                       // </tr>
+                       // <tr>
+                            //<td>방어</td>
+                            //<td>{{ troops[troopId].stats[2] }}</td>
+                            //<td>마방</td>
+                            //<td>{{ troops[troopId].stats[3] }}</td>
+                       // </tr>
+                    //</table>
+                    //<div> 스킬 : {{ troops[troopId].skill }}</div>
+                //</div>
             </div>
         </div>
         <div class="row u-max-full-width">
