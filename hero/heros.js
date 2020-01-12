@@ -83,13 +83,13 @@ const Hero = {
                 <div class="row-content">
                     <table>
                     <tr>
-                        <td>생명+</td>
+                        <td>생명 + </td>
                         <td>{{ hero.stats[8] }}</td>
-                        <td>공격+</td>
+                        <td>공격 + </td>
                         <td>{{ hero.stats[9] }}</td>
-                        <td>방어+</td>
+                        <td>방어 + </td>
                         <td>{{ hero.stats[10] }}</td>
-                        <td>마방+</td>
+                        <td>마방 + </td>
                         <td>{{ hero.stats[11] }}</td>
                     </tr>
                 </table>
