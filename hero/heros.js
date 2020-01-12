@@ -66,16 +66,20 @@ const Hero = {
                         <td>{{ hero.stats[3] }}</td>
                     </tr>
                     <tr>
-                        <td>호감도10</td>
+                        <td>중앙 10레벨 스텟</td>
                         <td>{{ hero.stats[4] }}</td>
-                        <td>호감도15</td>
+                    </tr>
+                    <tr>
+                        <td>호감도10</td>
                         <td>{{ hero.stats[5] }}</td>
+                        <td>호감도15</td>
+                        <td>{{ hero.stats[6] }}</td>
                     </tr>
                     <tr>
                         <td>호감도23</td>
-                        <td>{{ hero.stats[6] }}</td>
-                        <td>호감도25</td>
                         <td>{{ hero.stats[7] }}</td>
+                        <td>호감도25</td>
+                        <td>{{ hero.stats[8] }}</td>
                     </tr>
                 </table>
             </div>
@@ -84,15 +88,15 @@ const Hero = {
                     <table>
                     <tr>
                         <td>생명 + </td>
-                        <td>{{ hero.stats[8] }}</td>
-                        <td>공격 + </td>
                         <td>{{ hero.stats[9] }}</td>
+                        <td>공격 + </td>
+                        <td>{{ hero.stats[10] }}</td>
                     </tr>
                     <tr>
                         <td>방어 + </td>
-                        <td>{{ hero.stats[10] }}</td>
-                        <td>마방 + </td>
                         <td>{{ hero.stats[11] }}</td>
+                        <td>마방 + </td>
+                        <td>{{ hero.stats[12] }}</td>
                     </tr>
                 </table>
             </div>
