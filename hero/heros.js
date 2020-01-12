@@ -85,7 +85,7 @@ const Hero = {
             </div>
         </div>
         <div class="row u-max-full-width">
-            <div class="row-name">Class Changes</div>
+            <div class="row-name">클래스 전직</div>
             <div class="row-content">
                 <table class="u-full-width">
                     <ul>
@@ -107,7 +107,7 @@ const Hero = {
             </div>
         </div>
         <div class="row u-max-full-width">
-            <div class="row-name">Troops</div>
+            <div class="row-name">용병</div>
             <div class="block" v-for="troopId in hero.troops">
                 <div class="two columns">
                     <img :src="'img/troops/' + troopId + '.png'" class="u-full-width">
@@ -116,15 +116,15 @@ const Hero = {
                 <div class="ten columns">
                     <table>
                         <tr>
-                            <td>HP</td>
+                            <td>생명</td>
                             <td>{{ troops[troopId].stats[0] }}</td>
-                            <td>Atk</td>
+                            <td>공격</td>
                             <td>{{ troops[troopId].stats[1] }}</td>
                         </tr>
                         <tr>
-                            <td>Def</td>
+                            <td>방어</td>
                             <td>{{ troops[troopId].stats[2] }}</td>
-                            <td>Res</td>
+                            <td>마방</td>
                             <td>{{ troops[troopId].stats[3] }}</td>
                         </tr>
                     </table>
@@ -133,7 +133,7 @@ const Hero = {
             </div>
         </div>
         <div class="row u-max-full-width">
-            <div class="row-name">Skill Unlock</div>
+            <div class="row-name">보유 스킬</div>
             <div class="block" v-for="skillId in hero.skills">
                 <div class="two columns">
                     <img :src="'img/skills/' + skill(skillId) + '.png'" class="u-full-width" style="border-radius: 10px;">
