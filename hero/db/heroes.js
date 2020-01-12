@@ -140,11 +140,11 @@ const heroes = [
         group: [0,1]
     },
     {
-        name: "Leon",
-        type: 0,
+        name: "아멜다",
+        type: 3,
         history: "光辉后裔之一，传说之人，史上无双的猛将，追随巴恩哈特皇帝的四将军之一，雷卡尔特帝国青龙骑士团团长。待人非常谦逊有礼，内心却极为骄傲，不仅在剑术上造诣极高，同样也具备着一流的智谋，被誉为【大陆最强的骑士】",
         stats: [343, 55, 23, 27, 23, 28],
-        ability: 4,
+        ability: 2,
         classes: [
             {
                 name: "Knight",
@@ -176,11 +176,11 @@ const heroes = [
         group: [0,1,2]
     },
     {
-        name: "Ledin",
-        type: 0,
+        name: "그레니어",
+        type: 3,
         history: "古巴尔迪亚王国的王子，继承光辉之力的末裔，勇气和荣誉感是他的座右铭，当祖国沦陷，雷丁带领伙伴们踏上复国之路，揭开了传奇史诗的序幕。被认大家认可为至死追随的领袖。",
         stats: [384, 47, 26, 30, 24, 34],
-        ability: 5,
+        ability: 3,
         classes: [
             {
                 name: "Fighter",
