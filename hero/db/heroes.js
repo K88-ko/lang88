@@ -1,9 +1,9 @@
 const heroes = [
     {
         name: "매튜",
-        type: 4,
-        stats: [335, 55, 27, 28, 30, 40],
-        ability: 4,
+        type: 3,
+        stats: [3931, 510, 211, 273, 288, 168],
+        ability: 0,
         classes: [
             {
                 name: "견습 파이터",
@@ -12,37 +12,41 @@ const heroes = [
                         name: "파이터",
                         classes: [
                             {
-                                name: "소드맨"
+                                name: "소드맨",
+                                classes: [
+                                    {
+                                        name: "히어로",
+                                    }
                             }
                         ]
                     },
-                    {
-                        name: "스나이퍼",
-                        classes: [
-                            {
-                                name: "레인저"
-                            }
-                        ]
-                    },
-                    {
-                        name: "그랜드 나이트",
-                        classes: [
-                            {
-                                name: "스트라이크 마스터"
-                            }
-                        ]
-                    },
-                    {
-                        name: "라이더",
-                        classes: [
-                            {
-                                name: "하이마스터"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+                        {
+                                name: "스나이퍼",
+                                classes: [
+                                {
+                                    name: "레인저"
+                                }
+                                ]
+                        },
+                        {
+                                name: "그랜드 나이트",
+                                classes: [
+                                {
+                                    name: "스트라이크 마스터"
+                                }
+                                ]
+                        },
+                        {
+                                name: "라이더",
+                                classes: [
+                                {
+                                    name: "하이마스터"
+                                }
+                                ]
+                        }
+                    ]
+                }
+            ],
         troops: [7, 13, 15, 19, 20, 10, 17, 42, 46, 56, 59],
         skills: [0, 1, 2, 3, 4, 5, 6, 7, 8]
     },
