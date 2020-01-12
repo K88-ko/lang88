@@ -6,26 +6,26 @@ const heroes = [
         ability: 0,
         classes: [
             {
-                name: "Hawk Knight",
+                name: "파이터",
                 classes: [
                     {
-                        name: "Dragon Knight",
+                        name: "그랜드 나이트",
                         classes: [
                             {
-                                name: "Dragon Master"
+                                name: "스트라이크 마스터"
                             }
                         ]
                     },
                     {
-                        name: "Striker",
+                        name: "소드맨",
                         classes: [
                             {
-                                name: "High Master"
+                                name: "히어로"
                             }
                         ]
                     },
                     {
-                        name: "Pegasus Lord",
+                        name: "닌자",
                     }
                 ]
             }
@@ -34,32 +34,32 @@ const heroes = [
         skills: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
     },
     {
-        name: "매튜-기병",
+        name: "매튜-비병",
         type: 3,
         stats: [3931, 510, 211, 273, 288, 168],
         ability: 0,
-        classes: [
+         classes: [
             {
-                name: "Hawk Knight",
+                name: "파이터",
                 classes: [
                     {
-                        name: "Dragon Knight",
+                        name: "드래곤 나이트",
                         classes: [
                             {
-                                name: "Dragon Master"
+                                name: "드래곤 마스터"
                             }
                         ]
                     },
                     {
-                        name: "Striker",
+                        name: "소드맨",
                         classes: [
                             {
-                                name: "High Master"
+                                name: "히어로"
                             }
                         ]
                     },
                     {
-                        name: "Pegasus Lord",
+                        name: "스나이퍼",
                     }
                 ]
             }
@@ -72,28 +72,28 @@ const heroes = [
         type: 3,
         stats: [3931, 510, 211, 273, 288, 168],
         ability: 0,
-        classes: [
+         classes: [
             {
-                name: "Hawk Knight",
+                name: "파이터",
                 classes: [
                     {
-                        name: "Dragon Knight",
+                        name: "스나이퍼",
                         classes: [
                             {
-                                name: "Dragon Master"
+                                name: "레인저"
                             }
                         ]
                     },
                     {
-                        name: "Striker",
+                        name: "소드맨",
                         classes: [
                             {
-                                name: "High Master"
+                                name: "히어로"
                             }
                         ]
                     },
                     {
-                        name: "Pegasus Lord",
+                        name: "그랜드 나이트",
                     }
                 ]
             }
@@ -102,32 +102,32 @@ const heroes = [
         skills: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
     },
         {
-        name: "매튜-기병",
+        name: "매튜-암살자",
         type: 3,
         stats: [3931, 510, 211, 273, 288, 168],
         ability: 0,
-        classes: [
+         classes: [
             {
-                name: "Hawk Knight",
+                name: "파이터",
                 classes: [
                     {
-                        name: "Dragon Knight",
+                        name: "닌자",
                         classes: [
                             {
-                                name: "Dragon Master"
+                                name: "쉐도우"
                             }
                         ]
                     },
                     {
-                        name: "Striker",
+                        name: "소드맨",
                         classes: [
                             {
-                                name: "High Master"
+                                name: "히어로"
                             }
                         ]
                     },
                     {
-                        name: "Pegasus Lord",
+                        name: "드래곤 ",
                     }
                 ]
             }
