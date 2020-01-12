@@ -296,10 +296,47 @@ const heroes = [
         group3: 12
     },
     {
-        name: "키스",
+        name: "디오스",
         type: 2,
         stats: [384, 47, 26, 30, 24, 34],
         ability: 5,
+        classes: [
+            {
+                name: "서전트",
+                classes: [
+                    {
+                        name: "제네럴",
+                        classes: [
+                            {
+                                name: "마샬"
+                            }
+                        ]
+                    },
+                    {
+                        name: "보우 나이트",
+                        classes: [
+                            {
+                                name: "보우 마스터"
+                            }
+                        ]
+                    },
+                    {
+                        name: "하이랜더",
+                    }
+                ]
+            }
+        ],
+        troops: [0, 14, 17, 30, 32, 10, 13, 77, 79, 35, 42],
+        skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
+        group1: 2,
+        group2: 5,
+        group3: 12
+    },
+    {
+        name: "키스",
+        type: 2,
+        stats: [384, 47, 26, 30, 24, 34],
+        ability: 6,
         classes: [
             {
                 name: "서전트",
@@ -336,7 +373,7 @@ const heroes = [
         name: "제시카",
         type: 2,
         stats: [384, 47, 26, 30, 24, 34],
-        ability: 6,
+        ability: 7,
         classes: [
             {
                 name: "서전트",
@@ -373,7 +410,7 @@ const heroes = [
         name: "스코트",
         type: 2,
         stats: [384, 47, 26, 30, 24, 34],
-        ability: 7,
+        ability: 8,
         classes: [
             {
                 name: "서전트",
@@ -410,7 +447,7 @@ const heroes = [
         name: "로우가",
         type: 2,
         stats: [384, 47, 26, 30, 24, 34],
-        ability: 8,
+        ability: 9,
         classes: [
             {
                 name: "서전트",
@@ -447,7 +484,7 @@ const heroes = [
         name: "루인",
         type: 2,
         stats: [384, 47, 26, 30, 24, 34],
-        ability: 9,
+        ability: 10,
         classes: [
             {
                 name: "서전트",
@@ -484,7 +521,7 @@ const heroes = [
         name: "레아드",
         type: 2,
         stats: [384, 47, 26, 30, 24, 34],
-        ability: 10,
+        ability: 11,
         classes: [
             {
                 name: "서전트",
@@ -521,7 +558,7 @@ const heroes = [
         name: "피엘",
         type: 2,
         stats: [384, 47, 26, 30, 24, 34],
-        ability: 11,
+        ability: 12,
         classes: [
             {
                 name: "서전트",
@@ -558,7 +595,7 @@ const heroes = [
         name: "레티시아",
         type: 2,
         stats: [384, 47, 26, 30, 24, 34],
-        ability: 12,
+        ability: 13,
         classes: [
             {
                 name: "서전트",
@@ -595,7 +632,7 @@ const heroes = [
         name: "레스터",
         type: 2,
         stats: [384, 47, 26, 30, 24, 34],
-        ability: 13,
+        ability: 14,
         classes: [
             {
                 name: "서전트",
