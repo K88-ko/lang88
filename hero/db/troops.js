@@ -1,24 +1,23 @@
 const troops = [
-    // I Level
     {
-        name: "Soldier",
-        stats: [28, 26, 15, 12],
-        skill: "Nope"
+        name: "신관",
+        stats: [34, 31, 19, 28],
+        skill: "일반 공격이 [마법 피해]를 준다. 영웅의 주는 치료 효과 +15%. 병사의 생명이 80% 이상일 때, 방어 +30%."
     },
     {
-        name: "Pike",
-        stats: [31, 24, 17, 10],
-        skill: "Nope"
+        name: "숲의 사제",
+        stats: [40, 31, 20, 23],
+        skill: "일반 공격이 마법 피해를 준다. 영웅의 치료효과 +15%. 영웅이 아군에게 스킬 사용시 100% 확률로 디버프 1개 제거."
     },
     {
-        name: "Knight",
-        stats: [26, 28, 14, 11],
-        skill: "Nope"
+        name: "무녀",
+        stats: [36, 31, 17, 28],
+        skill: "일반 공격이 [마법 피해]를 준다. 병사 생명이 100%일 경우, 영웅이 받는 물리 피해량 -75%."
     },
     {
-        name: "Thief",
-        stats: [26, 28, 13, 13],
-        skill: "Nope"
+        name: "광신자",
+        stats: [36, 40, 20, 20],
+        skill: "병사의 생명이 80% 이상일 때, 보유한 버프 하나마다 병사의 공격, 방어, 마방 +15%(최대 45%)."
     },
     {
         name: "Archer",
@@ -45,7 +44,6 @@ const troops = [
         stats: [23, 24, 13, 13],
         skill: "Nope"
     },
-    // II Level
     {
         name: "Fighter",
         stats: [31, 34, 17, 14],
@@ -171,7 +169,6 @@ const troops = [
         stats: [34, 29, 20, 12],
         skill: "攻击100%生命值的部队时，进入战斗后攻击提升10%"
     },
-    // III Level
     {
         name: "Dark Guard",
         stats: [53, 37, 23, 19],
