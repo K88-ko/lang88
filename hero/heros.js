@@ -44,11 +44,7 @@ const Hero = {
             </div>
         </div>
         <div class="row u-max-full-width">
-            <div class="row-name">History</div>
-            <div class="row-content">{{ hero.history }}</div>
-        </div>
-        <div class="row u-max-full-width">
-            <div class="row-name">Stats</div>
+            <div class="row-name">능력치 60레벨 기준</div>
             <div class="row-content">
                 <table>
                     <tr>
@@ -73,7 +69,7 @@ const Hero = {
             </div>
         </div>
         <div class="row u-max-full-width">
-            <div class="row-name">Ability</div>
+            <div class="row-name">고유 기술</div>
             <div class="block">
                 <div class="two columns">
                     <img :src="'img/ability/' + hero.ability + '.png'" class="u-full-width img">
