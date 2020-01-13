@@ -27,7 +27,7 @@ var filterFns = {
   },
   a2: function() {
     var name = $(this).find('.name').text();
-    return name.match( /$$/ );
+    return name.match( /$제국$/ );
   }
 };
 // bind filter button click
