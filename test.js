@@ -19,15 +19,15 @@ var filterFns = {
   },
   a0: function() {
     var name = $(this).find('.name').text();
-    return name.match( /$빛$/ );
+    return name.match( /빛$/ );
   },
   a1: function() {
     var name = $(this).find('.name').text();
-    return name.match( /$전략$/ );
+    return name.match( /전략$/ );
   },
   a2: function() {
     var name = $(this).find('.name').text();
-    return name.match( /$제국$/ );
+    return name.match( /제국$/ );
   }
 };
 // bind filter button click
