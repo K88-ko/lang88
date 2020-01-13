@@ -340,8 +340,8 @@ const heroes = [
         ],
         troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
-        group1: 2,
-        group2: 5,
+        group1: 3,
+        group2: 6,
         group3: 12
     },
     {
