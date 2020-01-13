@@ -201,7 +201,7 @@ const ability = [
     },
     {
         //40
-        name: "소피아",
+        name: "",
         desc: "작업중"
     }
 ]
