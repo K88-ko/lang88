@@ -676,5 +676,1045 @@ const heroes = [
         group1: 1,
         group2: 8,
         group3: 12
+    },
+    {
+        name: "소피아",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 15,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "페라키아",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 16,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "프레아",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 17,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "발가스",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 18,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "파나",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 19,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "나암",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 20,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "크리스",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 21,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "키리카제",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 22,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "실버울프",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 23,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "소니아",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 24,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "에마링크",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 25,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "이멜다",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 26,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "리파니",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 27,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "에그베르트",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 28,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "헤인",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 29,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "란스",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 30,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "올리비에",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 31,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "클로제",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 32,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "아이리스",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 33,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "세레나",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 34,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "안젤리카",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 35,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "카즈마",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 36,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "알프레드",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 37,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "판",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 38,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "필로테스",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 39,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
+    },
+    {
+        name: "올리보",
+        type: 1,
+        stats: ["작업중 : ","작업중 : ", 
+                "작업중 : ", "작업중 : ", 
+                "생명 +, 방어 +, 마방 +",
+                "2", "3","4","5","%","%","%","%"],
+        ability: 40,
+         classes: [
+            {
+                name: "작업중",
+                classes: [
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                        classes: [
+                            {
+                                name: "작업중"
+                            }
+                        ]
+                    },
+                    {
+                        name: "작업중",
+                    }
+                ]
+            }
+        ],
+        troops: [0],
+        skills: [0],
+        group1: 0,
+        group2: 1,
+        group3: 12
     }
 ]
