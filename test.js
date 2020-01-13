@@ -28,6 +28,10 @@ var filterFns = {
   a2: function() {
     var name = $(this).find('.name').text();
     return name.match( /제국/ );
+  },
+  a3: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /기원/ );
   }
 };
 // bind filter button click
