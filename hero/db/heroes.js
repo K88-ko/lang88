@@ -1753,8 +1753,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 4,
+        group2: 10,
         group3: 12
     },
     {
@@ -1833,8 +1833,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 2,
+        group2: 6,
         group3: 12
     },
     {
@@ -1873,8 +1873,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 2,
+        group2: 4,
         group3: 12
     },
     {
@@ -1913,8 +1913,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 5,
+        group2: 4,
         group3: 12
     },
     {
@@ -1955,7 +1955,7 @@ const heroes = [
         skills: [0],
         group1: 0,
         group2: 1,
-        group3: 12
+        group3: 2
     },
     {
         name: "쉐리",
@@ -1993,9 +1993,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 1,
+        group2: 5,
+        group3: 8
     },
     {
         name: "리아나",
@@ -2035,7 +2035,7 @@ const heroes = [
         skills: [0],
         group1: 0,
         group2: 1,
-        group3: 12
+        group3: 5
     },
     {
         name: "알테뮬러",
@@ -2073,9 +2073,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 2,
+        group2: 6,
+        group3: 4
     },
     {
         name: "루나",
@@ -2113,9 +2113,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 5,
+        group2: 3,
+        group3: 6
     },
     {
         name: "디하르트",
@@ -2154,8 +2154,8 @@ const heroes = [
         troops: [0],
         skills: [0],
         group1: 0,
-        group2: 1,
-        group3: 12
+        group2: 3,
+        group3: 8
     },
     {
         name: "티아리스",
@@ -2194,8 +2194,8 @@ const heroes = [
         troops: [0],
         skills: [0],
         group1: 0,
-        group2: 1,
-        group3: 12
+        group2: 3,
+        group3: 5
     },
     {
         name: "쥬그라",
@@ -2233,9 +2233,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 3,
+        group2: 8,
+        group3: 10
     },
     {
         name: "젤다",
@@ -2273,9 +2273,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 4,
+        group2: 8,
+        group3: 10
     },
     {
         name: "제리올&레이라",
@@ -2313,8 +2313,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 3,
+        group2: 6,
         group3: 12
     },
     {
@@ -2353,8 +2353,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 5,
+        group2: 7,
         group3: 12
     },
     {
@@ -2393,9 +2393,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 5,
+        group2: 7,
+        group3: 8
     },
     {
         name: "란포드",
@@ -2433,8 +2433,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 6,
+        group2: 7,
         group3: 12
     },
     {
@@ -2473,8 +2473,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 4,
+        group2: 7,
         group3: 12
     },
     {
@@ -2515,7 +2515,7 @@ const heroes = [
         skills: [0],
         group1: 0,
         group2: 1,
-        group3: 12
+        group3: 9
     },
     {
         name: "요슈아",
@@ -2553,9 +2553,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 8,
+        group2: 5,
+        group3: 9
     },
     {
         name: "레온하르트",
@@ -2593,9 +2593,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 3,
+        group2: 2,
+        group3: 9
     },
     {
         name: "렌",
@@ -2633,9 +2633,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 4,
+        group2: 7,
+        group3: 9
     },
     {
         name: "란디우스",
@@ -2673,8 +2673,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 7,
+        group2: 0,
         group3: 12
     },
     {
@@ -2713,8 +2713,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 7,
+        group2: 0,
         group3: 12
     },
     {
@@ -2753,8 +2753,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 7,
+        group2: 6,
         group3: 12
     },
     {
@@ -2793,8 +2793,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 4,
+        group2: 10,
         group3: 12
     },
     {
@@ -2834,8 +2834,8 @@ const heroes = [
         troops: [0],
         skills: [0],
         group1: 0,
-        group2: 1,
-        group3: 12
+        group2: 8,
+        group3: 7
     },
     {
         name: "람다",
@@ -2874,8 +2874,8 @@ const heroes = [
         troops: [0],
         skills: [0],
         group1: 0,
-        group2: 1,
-        group3: 12
+        group2: 7,
+        group3: 10
     },
     {
         name: "사쿠라",
@@ -2913,9 +2913,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 2,
+        group2: 0,
+        group3: 9
     },
     {
         name: "스미레",
@@ -2953,9 +2953,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 2,
+        group2: 5,
+        group3: 9
     },
     {
         name: "클라렛",
@@ -2993,9 +2993,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 5,
+        group2: 8,
+        group3: 7
     },
     {
         name: "엘라스타",
@@ -3033,9 +3033,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 1,
+        group2: 3,
+        group3: 6
     },
     {
         name: "오메가",
@@ -3073,8 +3073,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 8,
+        group2: 4,
         group3: 12
     },
     {
@@ -3113,9 +3113,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 1,
+        group2: 5,
+        group3: 10
     },
     {
         name: "유스케",
@@ -3154,8 +3154,8 @@ const heroes = [
         troops: [0],
         skills: [0],
         group1: 0,
-        group2: 1,
-        group3: 12
+        group2: 10,
+        group3: 9
     },
     {
         name: "히에이",
@@ -3193,9 +3193,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 3,
+        group2: 8,
+        group3: 9
     },
     {
         name: "쿠라마",
@@ -3233,9 +3233,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 7,
+        group2: 6,
+        group3: 9
     },
     {
         name: "도구로형제",
@@ -3273,9 +3273,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 2,
+        group2: 4,
+        group3: 9
     },
     {
         name: "레인폴스",
@@ -3313,9 +3313,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 6,
+        group2: 7,
+        group3: 10
     },
     {
         name: "베티",
@@ -3353,9 +3353,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 1,
+        group2: 2,
+        group3: 4
     },
     {
         name: "여신의화신",
@@ -3393,9 +3393,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 1,
+        group2: 3,
+        group3: 10
     },
     {
         name: "에밀리아",
@@ -3433,8 +3433,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 2,
+        group2: 5,
         group3: 12
     },
     {
@@ -3473,8 +3473,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 7,
+        group2: 8,
         group3: 12
     },
     {
@@ -3513,8 +3513,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 6,
+        group2: 7,
         group3: 12
     },
     {
@@ -3553,9 +3553,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 1,
+        group2: 3,
+        group3: 10
     },
     {
         name: "브렌다",
@@ -3593,8 +3593,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 7,
+        group2: 8,
         group3: 12
     },
     {
@@ -3633,9 +3633,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 5,
+        group2: 3,
+        group3: 9
     },
     {
         name: "아슈람",
@@ -3673,9 +3673,9 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
-        group3: 12
+        group1: 4,
+        group2: 6,
+        group3: 9
     },
     {
         name: "아레스",
@@ -3714,8 +3714,8 @@ const heroes = [
         troops: [0],
         skills: [0],
         group1: 0,
-        group2: 1,
-        group3: 12
+        group2: 2,
+        group3: 11
     },
     {
         name: "마이야",
@@ -3753,8 +3753,8 @@ const heroes = [
         ],
         troops: [0],
         skills: [0],
-        group1: 0,
-        group2: 1,
+        group1: 2,
+        group2: 11,
         group3: 12
     }
 ]
