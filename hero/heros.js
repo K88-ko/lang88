@@ -100,29 +100,29 @@ const Hero = {
                         <td>10</td>
                     </tr>
                         <td>재료1</td>
-                        <td><img :src="'img/heart/' + {{ hero.heart[0] }} + '.png'" calss="u-max-full-width"> }}</td>
-                        <td><img :src="'img/heart/' + {{ hero.heart[1] }} + '.png'" calss="u-max-full-width"> }}</td>
-                        <td><img :src="'img/heart/' + {{ hero.heart[2] }} + '.png'" calss="u-max-full-width"> }}</td>
-                        <td><img :src="'img/heart/' + {{ hero.heart[3] }} + '.png'" calss="u-max-full-width"> }}</td>
-                        <td><img :src="'img/heart/' + {{ hero.heart[4] }} + '.png'" calss="u-max-full-width"> }}</td>
-                        <td><img :src="'img/heart/' + {{ hero.heart[5] }} + '.png'" calss="u-max-full-width"> }}</td>
-                        <td><img :src="'img/heart/' + {{ hero.heart[6] }} + '.png'" calss="u-max-full-width"> }}</td>
-                        <td><img :src="'img/heart/' + {{ hero.heart[7] }} + '.png'" calss="u-max-full-width"> }}</td>
-                        <td><img :src="'img/heart/' + {{ hero.heart[8] }} + '.png'" calss="u-max-full-width"> }}</td>
+                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
+                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
+                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
+                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
+                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
+                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
+                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
+                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
+                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
                         <td><img :src="img/heart/x.png" calss="u-max-full-width"></td>
                     </tr>
                     <tr>
                         <td>재료2</td>
-                        <td><img :src="'img/heart/' + {{ hero.heart2[0] }} + '.png'" calss="u-max-full-width"></td>
-                        <td><img :src="'img/heart/' + {{ hero.heart2[1] }} + '.png'" calss="u-max-full-width"></td>
-                        <td><img :src="'img/heart/' + {{ hero.heart2[2] }} + '.png'" calss="u-max-full-width"></td>
-                        <td><img :src="'img/heart/' + {{ hero.heart2[3] }} + '.png'" calss="u-max-full-width"></td>
-                        <td><img :src="'img/heart/' + {{ hero.heart2[4] }} + '.png'" calss="u-max-full-width"></td>
-                        <td><img :src="'img/heart/' + {{ hero.heart2[5] }} + '.png'" calss="u-max-full-width"></td>
-                        <td><img :src="'img/heart/' + {{ hero.heart2[6] }} + '.png'" calss="u-max-full-width"></td>
-                        <td><img :src="'img/heart/' + {{ hero.heart2[7] }} + '.png'" calss="u-max-full-width"></td>
-                        <td><img :src="'img/heart/' + {{ hero.heart2[8] }} + '.png'" calss="u-max-full-width"></td>
-                        <td><img :src="'img/heart/' + {{ hero.heart2[9] }} + '.png'" calss="u-max-full-width"></td>
+                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
+                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
+                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
+                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
+                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
+                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
+                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
+                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
+                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
+                        <td><img :src="img/heart/x.png" calss="u-max-full-width"></td>
                     </tr>
                 </table>
             </div>
