@@ -83,49 +83,6 @@ const Hero = {
                     </tr>
                 </table>
             </div>
-            <div class="row-name">중앙재료</div>
-                <div class="row-content">
-                    <table>
-                    <tr>
-                        <td>레벨></td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>10</td>
-                    </tr>
-                        <td>재료1</td>
-                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
-                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
-                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
-                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
-                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
-                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
-                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
-                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
-                        <td><img :src="img/heart/1.png" calss="u-max-full-width"> }}</td>
-                        <td><img :src="img/heart/x.png" calss="u-max-full-width"></td>
-                    </tr>
-                    <tr>
-                        <td>재료2</td>
-                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
-                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
-                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
-                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
-                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
-                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
-                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
-                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
-                        <td><img :src="img/heart/2.png" calss="u-max-full-width"></td>
-                        <td><img :src="img/heart/x.png" calss="u-max-full-width"></td>
-                    </tr>
-                </table>
-            </div>
             <div class="row-name">용병수정치</div>
                 <div class="row-content">
                     <table>
