@@ -39,8 +39,8 @@ const Hero = {
         <div class="row u-max-full-width">
             <div class="row-name">{{ hero.name }}</div>
             <div class="row-content">
-                <p style="text-align: center;">
                 <img :src="'../img/type/' + hero.type + '.png'" class="u-max-full-width">
+                <p style="text-align: center;">
                 <img :src="'../img/group/' + hero.group1 + '.png'" calss="u-max-full-width">
                 <img :src="'../img/group/' + hero.group2 + '.png'" calss="u-max-full-width">
                 <img :src="'../img/group/' + hero.group3 + '.png'" calss="u-max-full-width">
