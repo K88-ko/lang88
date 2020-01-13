@@ -6,7 +6,7 @@ const Main = {
     },
     template: `
     <div>
-        <router-link v-for="(hero, i) in heroes" :to="'/hero/' + i" :key="i"><img :src="'img/portrait/' + i + '.png'" class="mh20 portrait"></router-link>
+        <router-link v-for="(hero, i) in heroes" :to="'/hero/' + i" :key="i"><img :src="'../img/portrait/' + i + '.png'" class="mh20 portrait"></router-link>
     </div>` 
 }
 
