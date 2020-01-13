@@ -106,7 +106,7 @@ body {
 
 .element-item .symbol {
   position: absolute;
-  left: 10px;
+  left: 0px;
   top: 0px;
   font-size: 42px;
   font-weight: bold;
@@ -115,7 +115,7 @@ body {
 
 .element-item .number {
   position: absolute;
-  right: 8px;
+  left: 5px;
   top: 5px;
 }
 
