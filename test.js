@@ -16,6 +16,10 @@ var filterFns = {
   ium: function() {
     var name = $(this).find('.name').text();
     return name.match( /ium$/ );
+  },
+  a0: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /빛$/ );
   }
 };
 // bind filter button click
