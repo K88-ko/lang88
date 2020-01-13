@@ -99,13 +99,13 @@ body {
 
 .element-item .symbol {
   position: absolute;
-  left: -10px;
-  top: 0px;
+  left: 0px;
+  top: 5px;
 }
 
 .element-item .number {
   position: absolute;
-  right: 8px;
+  right: -10px;
   top: 5px;
 }
 
