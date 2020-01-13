@@ -8,7 +8,6 @@ body {
 
 .button {
   display: inline-block;
-  padding: 0.5em 1.0em;
   background: #EEE;
   border: none;
   background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
