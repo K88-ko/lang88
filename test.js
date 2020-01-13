@@ -7,23 +7,13 @@ var $grid = $('.grid').isotope({
 });
 // filter functions
 var filterFns = {
-  // show if number is greater than 50
-  numberGreaterThan50: function() {
-    var number = $(this).find('.number').text();
-    return parseInt( number, 10 ) > 50;
-  },
-  // show if name ends with -ium
-  ium: function() {
-    var name = $(this).find('.name').text();
-    return name.match( /ium$/ );
-  },
   a0: function() {
     var name = $(this).find('.name').text();
-    return name.match( /빛/ );
+    return name.match( /주인공/ );
   },
   a1: function() {
     var name = $(this).find('.name').text();
-    return name.match( /전략/ );
+    return name.match( /빛/ );
   },
   a2: function() {
     var name = $(this).find('.name').text();
@@ -32,6 +22,38 @@ var filterFns = {
   a3: function() {
     var name = $(this).find('.name').text();
     return name.match( /기원/ );
+  },
+  a4: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /암흑/ );
+  },
+  a5: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /공주/ );
+  },
+  a6: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /전략/ );
+  },
+  a7: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /전설/ );
+  },
+  a8: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /유성/ );
+  },
+  a9: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /시공/ );
+  },
+  a10: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /초월/ );
+  },
+  a11: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /전생/ );
   }
 };
 // bind filter button click
