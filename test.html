@@ -6,12 +6,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 <body>
-     <h1>Isotope - filteringa &amp; sorting</h1>
+     <h1>Isotope - filteringd &amp; sorting</h1>
 <h2>Filter</h2>
 <div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">show all</button>
   <button class="button" data-filter=".metal">metal</button>
   <button class="button" data-filter=".transition">transition</button>
-  <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+  <button class="button" data-filter=".alkali, .alkaline-earth">alkali bbnd alkaline-earth</button>
   <button class="button" data-filter=":not(.transition)">not transition</button>
   <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
   <button class="button" data-filter="numberGreaterThan50">number > 50</button>
@@ -27,10 +27,7 @@
   <button class="button" data-sort-by="category">category</button>
 </div>
 
-<div class="grid" data-isotope='{ "itemSelector": ".grid-item", "getSortData": { "name": ".name", "category": "[data-category]" }, "masonry": { "columnWidth": 200 } }'>
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
-  <div class="grid-item"></div>
+<div class="grid">
   <div class="element-item transition metal " data-category="transition">
     <h3 class="name">Mercury</h3>
     <p class="symbol">Hg</p>
@@ -140,5 +137,5 @@
     <p class="weight">(244)</p>
   </div>
 </div>
-    </body>
-    </html>
+</body>
+</html>
