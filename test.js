@@ -23,6 +23,10 @@ var filterFns = {
   },
   a1: function() {
     var name = $(this).find('.name').text();
+    return name.match( /$전략$/ );
+  },
+  a2: function() {
+    var name = $(this).find('.name').text();
     return name.match( /$빛$/ );
   }
 };
