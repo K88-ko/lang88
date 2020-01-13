@@ -118,7 +118,7 @@ body {
   top: 76px;
   font-size: 12px;
 }
-.element-item.alkali          { background-image: url("img/f_type/0.png"); }
+.element-item.alkali          { background-image: url(img/f_type/0.png); }
 .element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
 .element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
 .element-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
