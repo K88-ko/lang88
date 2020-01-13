@@ -27,7 +27,7 @@ var filterFns = {
   },
   a2: function() {
     var name = $(this).find('.name').text();
-    return name.match( /$빛$/ );
+    return name.match( /$$/ );
   }
 };
 // bind filter button click
