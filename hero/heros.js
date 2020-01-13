@@ -6,7 +6,7 @@ const Main = {
     },
     template: `
     <div>
-        <router-link v-for="(hero, i) in heroes" :to="'/hdb/' + i" :key="i"><img :src="'../img/portrait/' + i + '.png'" class="mh20 portrait"></router-link>
+        <router-link v-for="(hero, i) in heroes" :to="'/hero/' + i" :key="i"><img :src="'../img/portrait/' + i + '.png'" class="mh20 portrait"></router-link>
     </div>` 
 }
 
@@ -40,12 +40,12 @@ const Hero = {
             <div class="row-name">{{ hero.name }}</div>
             <div class="row-content">
                 <p style="text-align: center;">
-                <img :src="'img/type/' + hero.type + '.png'" class="u-max-full-width">
-                <img :src="'img/group/' + hero.group1 + '.png'" calss="u-max-full-width">
-                <img :src="'img/group/' + hero.group2 + '.png'" calss="u-max-full-width">
-                <img :src="'img/group/' + hero.group3 + '.png'" calss="u-max-full-width">
+                <img :src="'../img/type/' + hero.type + '.png'" class="u-max-full-width">
+                <img :src="'../img/group/' + hero.group1 + '.png'" calss="u-max-full-width">
+                <img :src="'../img/group/' + hero.group2 + '.png'" calss="u-max-full-width">
+                <img :src="'../img/group/' + hero.group3 + '.png'" calss="u-max-full-width">
                 <br>
-                <img :src="'img/F_hero/' + $route.params.id + '.png'" class="u-max-full-width">
+                <img :src="'../img/F_hero/' + $route.params.id + '.png'" class="u-max-full-width">
                 </br>    
             </div>
         </div>
@@ -103,7 +103,7 @@ const Hero = {
             <div class="row-name">고유 기술</div>
             <div class="block">
                 <div class="two columns">
-                    <img :src="'img/ability/' + hero.ability + '.png'" class="u-full-width img">
+                    <img :src="'../img/ability/' + hero.ability + '.png'" class="u-full-width img">
                 </div>
                 <div class="ten columns">
                     <p><strong>{{ ability[hero.ability].name }}</strong></p>
@@ -137,7 +137,7 @@ const Hero = {
             <div class="row-name">용병</div>
             <div class="block" v-for="troopId in hero.troops">
                 <div class="two columns">
-                    <img :src="'img/troop/' + troopId + '.png'" class="u-full-width">
+                    <img :src="'../img/troop/' + troopId + '.png'" class="u-full-width">
                     <p style="text-align: center;">{{ troops[troopId].name }}</p>
                 </div>
                 <div class="ten columns">
@@ -163,7 +163,7 @@ const Hero = {
             <div class="row-name">보유 스킬</div>
             <div class="block" v-for="skillId in hero.skills">
                 <div class="two columns">
-                    <img :src="'img/skills/' + skill(skillId) + '.png'" class="u-full-width" style="border-radius: 10px;">
+                    <img :src="'../img/skills/' + skill(skillId) + '.png'" class="u-full-width" style="border-radius: 10px;">
                 </div>
                 <div class="ten columns">
                     <p style="padding-bottom: 20px;"><strong>{{ skills[skillId].name }}</strong></p>
