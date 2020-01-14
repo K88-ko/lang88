@@ -190,7 +190,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [0,1,7,15,17,44,58],
         skills: [17, 18, 19, 20, 21, 22, 23, 24, 25],
         group1: 0,
         group2: 1,
@@ -227,7 +227,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [16,21,23,24,25,31,32],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 1,
         group2: 12,
@@ -264,7 +264,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [23,25,58,60],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 1,
         group2: 12,
@@ -301,7 +301,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [0,1,22,26,62],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 2,
         group2: 5,
@@ -338,7 +338,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [14,18,40,60],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 3,
         group2: 6,
@@ -375,7 +375,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [25,27,47,48,49],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 1,
         group2: 12,
@@ -412,7 +412,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [11,17,43,44,45],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 1,
         group2: 3,
@@ -449,7 +449,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [48,51,54,58,60],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 1,
         group2: 6,
@@ -486,7 +486,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [8,9,10,15,16,17],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 2,
         group2: 8,
@@ -523,7 +523,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [24,25,31,34,39],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 3,
         group2: 12,
@@ -560,7 +560,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [48,51,52,62],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 2,
         group2: 8,
@@ -597,7 +597,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [21,23,38,41,42],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 3,
         group2: 8,
@@ -634,7 +634,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [18,49,52,59,62],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 2,
         group2: 6,
@@ -671,7 +671,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [2, 16, 20, 17, 9, 10, 13, 51, 59, 53, 36],
+        troops: [28,38,39,41,42],
         skills: [26, 27, 28, 29, 30, 31, 32, 33, 7],
         group1: 1,
         group2: 8,
@@ -711,7 +711,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,2,3,4,17,44],
         skills: [0],
         group1: 3,
         group2: 5,
@@ -751,7 +751,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [7,8,13,40,43,62,64],
         skills: [0],
         group1: 4,
         group2: 8,
@@ -791,7 +791,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [4,23,25,30,33,35,58,60],
         skills: [0],
         group1: 3,
         group2: 5,
@@ -831,7 +831,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [20,22,26,32,35,36,55],
         skills: [0],
         group1: 2,
         group2: 6,
@@ -871,7 +871,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [13,15,18,33,46,48,51],
         skills: [0],
         group1: 2,
         group2: 4,
@@ -911,7 +911,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [15,16,17,18,47,50,60],
         skills: [0],
         group1: 1,
         group2: 5,
@@ -951,7 +951,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,3,4,17,24,29,30,31],
         skills: [0],
         group1: 0,
         group2: 1,
@@ -991,7 +991,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [6,8,13,25,28,31,55],
         skills: [0],
         group1: 3,
         group2: 8,
@@ -1031,7 +1031,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [6,7,8,11,13,17,18],
         skills: [0],
         group1: 3,
         group2: 8,
@@ -1071,7 +1071,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [13,18,46,53,56,59,63,65],
         skills: [0],
         group1: 2,
         group2: 4,
@@ -1111,7 +1111,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [20,36,48,50,51,52,62],
         skills: [0],
         group1: 2,
         group2: 6,
@@ -1151,7 +1151,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,5,12,13,14,18,44],
         skills: [0],
         group1: 2,
         group2: 6,
@@ -1191,7 +1191,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [13,14,15,17,35,43,44],
         skills: [0],
         group1: 3,
         group2: 5,
@@ -1231,7 +1231,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [11,13,35,44,62,64,65],
         skills: [0],
         group1: 2,
         group2: 6,
@@ -1271,7 +1271,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,2,12,14,17,44],
         skills: [0],
         group1: 1,
         group2: 2,
@@ -1311,7 +1311,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [20,47,48,52,55,59,60],
         skills: [0],
         group1: 2,
         group2: 6,
@@ -1351,7 +1351,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [7,15,17,34,43,50],
         skills: [0],
         group1: 2,
         group2: 6,
@@ -1391,7 +1391,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [3,4,25,29,31,42],
         skills: [0],
         group1: 5,
         group2: 7,
@@ -1431,7 +1431,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,5,16,18,43,44],
         skills: [0],
         group1: 2,
         group2: 5,
@@ -1471,7 +1471,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [3,4,24,27,31,57,60],
         skills: [0],
         group1: 7,
         group2: 6,
@@ -1511,7 +1511,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [7,23,26,44,45],
         skills: [0],
         group1: 1,
         group2: 9,
@@ -1551,7 +1551,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [20,23,31,34,35,60],
         skills: [0],
         group1: 1,
         group2: 8,
@@ -1591,7 +1591,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [29,38,42,52,58],
         skills: [0],
         group1: 8,
         group2: 7,
@@ -1631,7 +1631,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [28,29,31,48,49,57,60],
         skills: [0],
         group1: 0,
         group2: 3,
@@ -1671,7 +1671,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [7,9,13,40,62,64],
         skills: [0],
         group1: 4,
         group2: 8,
@@ -1711,7 +1711,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [8,10,17,18,40,57,59],
         skills: [0],
         group1: 8,
         group2: 7,
@@ -1751,7 +1751,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [11,13,22,43,44,45,62,64],
         skills: [0],
         group1: 4,
         group2: 10,
@@ -1791,7 +1791,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [3,4,21,24,25,31,34,42],
         skills: [0],
         group1: 0,
         group2: 1,
@@ -1831,7 +1831,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [28,35,46,50,52,55,56,62],
         skills: [0],
         group1: 2,
         group2: 6,
@@ -1871,7 +1871,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [22,26,33,35,52,55,63,64],
         skills: [0],
         group1: 2,
         group2: 4,
@@ -1911,7 +1911,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,13,22,26,43,44,62],
         skills: [0],
         group1: 5,
         group2: 4,
@@ -1951,7 +1951,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [20,25,27,31,34,35,49,57],
         skills: [0],
         group1: 0,
         group2: 1,
@@ -1991,7 +1991,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [7,8,10,17,48,50,57,60],
         skills: [0],
         group1: 1,
         group2: 5,
@@ -2031,7 +2031,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,2,4,17,29,44,58],
         skills: [0],
         group1: 0,
         group2: 1,
@@ -2071,7 +2071,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [20,25,27,32,46,48,51],
         skills: [0],
         group1: 2,
         group2: 6,
@@ -2111,7 +2111,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [16,17,18,47,48,59,60],
         skills: [0],
         group1: 5,
         group2: 3,
@@ -2151,7 +2151,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [8,9,18,48,54,57,59,60],
         skills: [0],
         group1: 0,
         group2: 3,
@@ -2191,7 +2191,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,5,11,16,18,43,58],
         skills: [0],
         group1: 0,
         group2: 3,
@@ -2231,7 +2231,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [22,32,36,38,41,46,51,53,56,63,64],
         skills: [0],
         group1: 3,
         group2: 8,
@@ -2271,7 +2271,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [7,8,10,11,13,62,63,64],
         skills: [0],
         group1: 4,
         group2: 8,
@@ -2311,7 +2311,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [5,13,43,44,46,56,63,65],
         skills: [0],
         group1: 3,
         group2: 6,
@@ -2351,7 +2351,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,2,15,17,39,40,42,44],
         skills: [0],
         group1: 5,
         group2: 7,
@@ -2391,7 +2391,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [28,41,42,48,50,54,57,60],
         skills: [0],
         group1: 5,
         group2: 7,
@@ -2431,7 +2431,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [20,24,28,35,48,49,52,59],
         skills: [0],
         group1: 6,
         group2: 7,
@@ -2471,7 +2471,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [19,22,26,46,51,56,63,64],
         skills: [0],
         group1: 4,
         group2: 7,
@@ -2511,7 +2511,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [3,4,23,24,25,28,31],
         skills: [0],
         group1: 0,
         group2: 1,
@@ -2551,7 +2551,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [7,8,9,12,13,32,35],
         skills: [0],
         group1: 8,
         group2: 5,
@@ -2591,7 +2591,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [20,27,29,33,35,52,62],
         skills: [0],
         group1: 3,
         group2: 2,
@@ -2631,7 +2631,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [22,27,43,44,62,63,64],
         skills: [0],
         group1: 4,
         group2: 7,
@@ -2671,7 +2671,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [19,20,23,33,35,52,58,62],
         skills: [0],
         group1: 7,
         group2: 0,
@@ -2711,7 +2711,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,12,13,15,43,45,47,50],
         skills: [0],
         group1: 7,
         group2: 0,
@@ -2751,7 +2751,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,1,2,3,11,17,29,44],
         skills: [0],
         group1: 7,
         group2: 6,
@@ -2791,7 +2791,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [32,36,37,40,41,44,62,63],
         skills: [0],
         group1: 4,
         group2: 10,
@@ -2831,7 +2831,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [9,12,13,17,31,37,40,42],
         skills: [0],
         group1: 0,
         group2: 8,
@@ -2871,7 +2871,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,3,11,13,14,17,43,44],
         skills: [0],
         group1: 0,
         group2: 7,
@@ -2911,7 +2911,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [3,4,31,33,56,60],
         skills: [0],
         group1: 2,
         group2: 0,
@@ -2951,7 +2951,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [15,17,22,24,25,52,58,59],
         skills: [0],
         group1: 2,
         group2: 5,
@@ -2991,7 +2991,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [28,30,31,34,47,48,59,60],
         skills: [0],
         group1: 5,
         group2: 8,
@@ -3031,7 +3031,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [11,13,18,47,51,56,57],
         skills: [0],
         group1: 1,
         group2: 3,
@@ -3071,7 +3071,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [8,9,13,16,40,62,64],
         skills: [0],
         group1: 8,
         group2: 4,
@@ -3111,7 +3111,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [3,4,24,31,34,54,58,59],
         skills: [0],
         group1: 1,
         group2: 5,
@@ -3151,7 +3151,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [3,4,31,32,36,63,64],
         skills: [0],
         group1: 0,
         group2: 10,
@@ -3191,7 +3191,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [8,9,11,13,40,41,62],
         skills: [0],
         group1: 3,
         group2: 8,
@@ -3231,7 +3231,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [6,8,17,43,44,62,64],
         skills: [0],
         group1: 7,
         group2: 6,
@@ -3271,7 +3271,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [36,46,51,56,57,63,64],
         skills: [0],
         group1: 2,
         group2: 4,
@@ -3311,7 +3311,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [4,6,8,12,17,28,31,37],
         skills: [0],
         group1: 6,
         group2: 7,
@@ -3351,7 +3351,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [21,22,27,29,35,36,52,57],
         skills: [0],
         group1: 1,
         group2: 2,
@@ -3391,7 +3391,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [0,1,11,13,17,43,44],
         skills: [0],
         group1: 1,
         group2: 3,
@@ -3431,7 +3431,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [3,4,19,20,22,32,36],
         skills: [0],
         group1: 2,
         group2: 5,
@@ -3471,7 +3471,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [4,20,24,28,31,38,42],
         skills: [0],
         group1: 7,
         group2: 8,
@@ -3511,7 +3511,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [10,16,43,47,49,54,59],
         skills: [0],
         group1: 6,
         group2: 7,
@@ -3551,7 +3551,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [19,22,44,46,55,56,65],
         skills: [0],
         group1: 1,
         group2: 3,
@@ -3591,7 +3591,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [24,25,28,29,51,52,57],
         skills: [0],
         group1: 7,
         group2: 8,
@@ -3631,7 +3631,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [1,17,31,44,45,54,58],
         skills: [0],
         group1: 5,
         group2: 3,
@@ -3671,7 +3671,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [36,46,51,56,57,63,64],
         skills: [0],
         group1: 4,
         group2: 6,
@@ -3711,7 +3711,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [28,31,34,49,50,59,60],
         skills: [0],
         group1: 0,
         group2: 2,
@@ -3751,7 +3751,7 @@ const heroes = [
                 ]
             }
         ],
-        troops: [0],
+        troops: [3,4,6,14,17,34,44],
         skills: [0],
         group1: 2,
         group2: 11,
