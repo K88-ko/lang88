@@ -1,4 +1,4 @@
 GotoMain.addEventListener("click",function()
 {
-    window.location = '../';
+    window.location = '/';
 })
