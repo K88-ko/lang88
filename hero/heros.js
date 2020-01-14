@@ -39,11 +39,11 @@ const Hero = {
         <div class="row u-max-full-width">
             <div class="row-name">{{ hero.name }}</div>
             <div class="row-content">
-                <img :src="'../img/type/' + hero.type + '.png'" class="u-max-full-width">
+                <img :src="'../img/type/' + hero.type + '.png'">
                 <p style="text-align: center;">
-                <img :src="'../img/group/' + hero.group1 + '.png'" calss="u-max-full-width">
-                <img :src="'../img/group/' + hero.group2 + '.png'" calss="u-max-full-width">
-                <img :src="'../img/group/' + hero.group3 + '.png'" calss="u-max-full-width">
+                <img :src="'../img/group/' + hero.group1 + '.png'">
+                <img :src="'../img/group/' + hero.group2 + '.png'">
+                <img :src="'../img/group/' + hero.group3 + '.png'">
                 <br>
                 <img :src="'../img/F_hero/' + $route.params.id + '.png'" class="u-max-full-width">
                 </br>    
@@ -103,7 +103,7 @@ const Hero = {
             <div class="row-name">고유 기술</div>
             <div class="block">
                 <div class="two columns">
-                    <img :src="'../img/ability/' + hero.ability + '.png'" class="u-full-width img">
+                    <img :src="'../img/ability/' + hero.ability + '.png'">
                 </div>
                 <div class="ten columns">
                     <p><strong>{{ ability[hero.ability].name }}</strong></p>
