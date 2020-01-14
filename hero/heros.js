@@ -138,7 +138,6 @@ const Hero = {
             <div class="block" v-for="troopId in hero.troops">
                 <div class="two columns">
                     <p style="text-align: center;"><img :src="'../img/troop/' + troopId + '.png'"></p>
-                    <p style="text-align: center;">{{ troops[troopId].name }}</p>
                 </div>
                 <div class="ten columns">
                     <table>
