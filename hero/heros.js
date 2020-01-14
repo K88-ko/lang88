@@ -105,8 +105,7 @@ const Hero = {
                     <img :src="'../img/ability/' + hero.ability + '.png'" class="u-max-full-width">
                 </div>
                 <div class="ten columns">
-                    <p><strong>{{ ability[hero.ability].name }}</strong></p>
-                    <p>{{ ability[hero.ability].desc }}</p>
+                    <img :src="'../img/abilitys/' + hero.ability + '.png'" class="u-max-full-width">
                 </div>
             </div>
         </div>
