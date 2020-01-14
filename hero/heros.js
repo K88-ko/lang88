@@ -38,8 +38,8 @@ const Hero = {
         <h5></h5>
         <div class="row u-max-full-width">
             <div class="row-name">{{ hero.name }}
-            </br>
             <img :src="'../img/type/' + hero.type + '.png'">
+            </br>
             <img :src="'../img/group/' + hero.group1 + '.png'">
             <img :src="'../img/group/' + hero.group2 + '.png'">
             <img :src="'../img/group/' + hero.group3 + '.png'">
@@ -137,7 +137,7 @@ const Hero = {
             <div class="row-name">용병</div>
             <div class="block" v-for="troopId in hero.troops">
                 <div class="two columns">
-                    <img :src="'../img/troop/' + troopId + '.png'" class="u-max-full-width">
+                    <p style="text-align: center;"><img :src="'../img/troop/' + troopId + '.png'"></p>
                     <p style="text-align: center;">{{ troops[troopId].name }}</p>
                 </div>
                 <div class="ten columns">
