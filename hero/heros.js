@@ -37,14 +37,14 @@ const Hero = {
     <div>
         <h5></h5>
         <div class="row u-max-full-width">
-            <div class="row-name">{{ hero.name }}</div>
+            <div class="row-name">{{ hero.name }}
+            <img :src="'../img/type/' + hero.type + '.png'">
+            <img :src="'../img/group/' + hero.group1 + '.png'">
+            <img :src="'../img/group/' + hero.group2 + '.png'">
+            <img :src="'../img/group/' + hero.group3 + '.png'">
+            </div>
             <div class="row-content">
-                <img :src="'../img/type/' + hero.type + '.png'">
                 <p style="text-align: center;">
-                <img :src="'../img/group/' + hero.group1 + '.png'">
-                <img :src="'../img/group/' + hero.group2 + '.png'">
-                <img :src="'../img/group/' + hero.group3 + '.png'">
-                <br>
                 <img :src="'../img/F_hero/' + $route.params.id + '.png'" class="u-max-full-width">
                 </br>    
             </div>
