@@ -1,8 +1,24 @@
-<HTML>
-  <HEAD>
-    <TITLE>test</TITLE>
-  </HEAD>
-  <BODY>
-  <? include "https://client.langrisser.co.kr/notice.php"; ?>
-  </BODY>
-</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script>
+$(function() {
+	$.get(
+	 	'https://client.langrisser.co.kr/notice.php',
+		 function(data){
+		   $('#sampleDOM').html(data);
+		   $('#sampleDOMCode pre').html(data.replace(/</g,'&lt;').replace(/>/g,'&gt;'));
+	});
+});	 
+</script>
+</head>
+<body>
+ <div id="sampleDOM">
+ </div>
+ <div id="sampleDOMCode">
+    <pre></pre>
+ </div>
+</body>
+</html>
