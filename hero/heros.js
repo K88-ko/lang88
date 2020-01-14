@@ -104,9 +104,6 @@ const Hero = {
                 <div class="two columns">
                     <img :src="'../img/ability/' + hero.ability + '.png'" class="u-max-full-width">
                 </div>
-                <div class="ten columns">
-                    <img :src="'../img/ability/' + hero.ability + '.png'" class="u-max-full-width">
-                </div>
             </div>
         </div>
         <div class="row u-max-full-width">
