@@ -103,7 +103,7 @@ const Hero = {
             <div class="row-name">고유 기술</div>
             <div class="block">
                 <div class="two columns">
-                    <img :src="'../img/ability/' + hero.ability + '.png'">
+                    <img :src="'../img/ability/' + hero.ability + '.png'" class="u-max-full-width">
                 </div>
                 <div class="ten columns">
                     <p><strong>{{ ability[hero.ability].name }}</strong></p>
