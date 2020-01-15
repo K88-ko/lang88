@@ -3,23 +3,6 @@
     <TITLE>test</TITLE>
   </HEAD>
   <BODY>
-  <script type="text/javascript">
-
-	jQuery.fn.center = function () {
-		this.css("position","absolute");
-		this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop()) + "px");
-		this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
-		//	alert("aa");
-		return this;
-	}
-	function showPopup(v){
-	
-		$("#popArea").html("<img src='"+v+"' style='max-width:800px;'>");
-		$("#popArea").center();
-		$("#backArea").show();
-		$("#popArea").show();
-	}
-</script>
 <style>
 	* { margin: 0; padding: 0;}
 html, body, div, p, ul, li, img, h1, h2, h3, h4, h5, h6, h2, span, a { margin: 0; padding: 0;}
