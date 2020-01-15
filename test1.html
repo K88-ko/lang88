@@ -1,0 +1,1109 @@
+<HTML>
+  <HEAD>
+    <TITLE>test</TITLE>
+  </HEAD>
+  <BODY>
+<style>
+	* { margin: 0; padding: 0;}
+html, body, div, p, ul, li, img, h1, h2, h3, h4, h5, h6, h2, span, a { margin: 0; padding: 0;}
+
+div.comm_wrap, div.DB_wrap { position: relative; margin: 0 auto; width: 772px; font-family: Dotum,돋움; font-size: 12px;}
+div.comm_wrap a, div.DB_wrap a { text-decoration: none;}
+div.comm_wrap img, div.DB_wrap img { border: none; vertical-align: middle;}
+div.comm_wrap li, div.DB_wrap li { list-style: none;}
+
+p.comm_notice, div.comm_tab_btn, div.comm_wrap div.comm_bbs ul { position: absolute;}
+
+
+/* 매인 상단 */
+.wrap-ClassName { position: relative; margin: 0 auto; width: 772px; font-family: 'MalgunGothic','맑은고딕',Dotum,돋움;}
+.wrap-ClassName a { text-decoration: none; }
+.wrap-ClassName a:hover { text-decoration: underline;}
+.wrap-ClassName p, .wrap-ClassName ul { position: absolute; list-style: none; }
+.wrap-ClassName img { border: none; }
+
+
+.col_white	{ color: #fff;}
+.col_red	{ color: #ff0000;}
+.col_orange	{ color: #ff6000;}
+.col_pink	{ color: #ff7878;}
+.col_blue	{ color: #007eff;}
+.col_sky	{ color: #41acff;}
+.col_green	{ color: #2ed95a;}
+.col_yellow { color: #d19800;}
+.col_purple { color: #7a3db9;}
+.col_olive	{ color: #4e9100;}
+
+.bg_olive	{ background-color: #4e9100;}
+.bg_orange	{ background-color: #ff6000;}
+.bg_blue	{ background-color: #007eff;}
+.bg_yellow	{ background-color: #d19800;}
+.bg_purple	{ background-color: #7a3db9;}
+
+
+/* 탭 버튼 */
+div.tab_layer { position: absolute; top: 165px; left: 15px; overflow: hidden;}
+a.tab_btn { display: block; float: left; margin-left: 4px; width: 112px; height: 36px; line-height: 36px; font-size: 13px; font-weight: bold; text-align: center;
+	color: #eee;
+	background: top center url(http://appdata.hungryapp.co.kr/images/sim/princeredive/tab_btn.png) repeat-y;
+	background-size: 100% 100%;
+	/*border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;*/
+	box-shadow: 0,1px,5px,rgba(0,0,0,0.9);
+	-o-box-shadow: 0,1px,5px,rgba(0,0,0,0.9);
+	-ms-box-shadow: 0,1px,5px,rgba(0,0,0,0.9);
+	-moz-box-shadow: 0,1px,5px,rgba(0,0,0,0.9);
+	-webkit-box-shadow: 0,1px,5px,rgba(0,0,0,0.9);}
+a.tab_btn:hover, a.tab_on { text-decoration: none; color: #000;
+	background: top center url(http://appdata.hungryapp.co.kr/images/sim/princeredive/tab_btn_on.png) repeat-y;
+	background-size: 100% 100%;}
+
+
+/* 표 영역 */
+div.comm_cell { position: relative; padding: 10px 0 0 30px;
+	background: top center url(http://appdata.hungryapp.co.kr/images/sim/princeredive/DB_cell_body.gif) repeat;}
+ul.cell_info { position: relative; padding-left: 94px;}
+ul.cell_info li { overflow: hidden;}
+ul.cell_info li.cell_tp { position: absolute; top: 0; left: 0; width: 94px; height: 28px; line-height: 28px; font-weight: bold; text-align: center; 
+	background: center center url(http://appdata.hungryapp.co.kr/images/sim/princeredive/img_ct.png) no-repeat;
+	color: #fff;
+	background-size: 100% 100%;
+	/*border: 1px solid #ffe8b7;
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;*/}
+ul.cell_info li a { display: block; 
+					float: left; 
+					margin: 1px 0 6px 6px;
+					height: 24px; 
+					text-align: center; 
+					line-height: 24px; 
+					font-size: 12px;
+					font-weight: bold;
+					letter-spacing: 0;
+					border: 1px solid #cdb6a2;
+					background: rgba(0,0,0,0.1); 
+					border-radius: 3px;
+					-o-border-radius: 3px;
+					-ms-border-radius: 3px;
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;}
+
+ul.cell_info li.char_class a img { width: auto; height: 16px; margin: -3px 4px 0 0;}
+ul.cell_info li.cell_normal a { width: 90px; 
+	color: #333;}
+
+ul.cell_info li a:hover, ul.cell_info li a.value_check { text-align: center; 
+	color: #e72b00;
+	background: #ffcf72; 
+	border: 1px solid #ff7f00;}
+
+ul.type_layer { position: absolute; top: 43px; left: 58%;}
+
+
+/* 검색 영역 */
+ul.comm_search { position: absolute; top: 5px; left: 50%; margin-left: -25%; overflow: hidden;}
+ul.comm_search li { float: left;}
+ul.comm_search li:first-child img { margin-right: 1px;}
+ul.comm_search li.li_sh { width: 290px; height: 30px; text-align: center;
+	background: center center url(http://appdata.hungryapp.co.kr/images/sim/princeredive/sch_bar.png) no-repeat;
+	background-size: 100% 100%;}
+ul.comm_search li input { width: 240px; height: 28px; margin: 1px 0 0 30px; background: none; border: none; color: #fff;}
+ul.comm_search li.sch_btn { margin-left: 5px;}
+ul.comm_search li.sch_btn02 { margin-top: 2px;}
+ul.comm_search li.sch_btn02 a { display: block; width: 66px; height: 30px; margin-left: 4px; line-height: 24px; text-align: center;
+	color: #fff; background: #777;
+	border: 1px solid #ccc;}
+
+
+/* DB 테이블 Basic */
+div.DB_wrap { width: 772px; margin: 0 auto;}
+div.DB_wrap table { position: relative; background: #a5bde7; width: 100%; font-size: 12px;}
+div.DB_wrap table td, div.DB_wrap table th { text-align: center; height: 31px;}
+div.DB_wrap table th { color: #fff; background: #516787;}
+div.DB_wrap table td { color: #333; background: #f8f8f8;}
+div.DB_wrap table th.td_left, div.DB_wrap table td.td_left { text-align: left; padding-left: 10px;}
+
+	/* 추가*/
+div.DB_wrap table tr th.edit_title { position: relative; padding-left: 10px;}
+div.DB_wrap table tr th.edit_title a { position: absolute; top: 5px; right: 10px; display: block; width: 40px; height: 20px; line-height: 20px; text-align: center;
+	background: #777; color: #fff;}
+div.DB_wrap table tr td.edit_txt { height: 50px;}
+
+	/* 함께쓰기 좋은 카드 */
+div.DB_wrap table tr td.useful_card { padding: 10px 0 5px 0;}
+a.card_sel, .card_sel span, .card_sel img { display: block;}
+a.card_sel { float: left; margin-left: 1.4%; width: 11%; font-size: 11px;
+	 color: #333;}
+a.card_sel:hover { text-decoration: underline;}
+a.card_sel img { width: 100%;}
+a.card_sel span { margin: 5px 0; text-align: center;}
+
+
+/* DB 리스트 */
+div.DB_list { padding-top: 5px;}
+div.DB_list table { border-top: 1px solid #222222;}
+div.DB_list table th, div.DB_list table td { border-bottom: 1px solid #ccc;}
+div.DB_list table th { height: 34px;}
+div.DB_list table td { height: 60px;}
+div.DB_list table td:first-child img.list_char { width: auto; height: 58px; margin: 5px;}
+div.DB_list table td.td_name { text-align: left; padding-left: 10px;}
+div.DB_list table td.td_name a { color: #0067ff; font-weight: bold; font-size: 14px; text-decoration: none;}
+div.DB_list table td.td_name a span { color: #ff6000; font-size: 15px;}
+div.DB_list table td.td_name a:hover { text-decoration: underline;}
+div.DB_list table td.td_skill { text-align: left;}
+
+
+/* 리스트 정렬 */
+ul.list_array { overflow: hidden; padding-top: 10px;}
+ul.list_array li { overflow: hidden;}
+ul.list_array li:first-child { float: left; padding-top: 5px;}
+ul.list_array li:first-child a { display: block; margin-right: 10px; padding: 2px 0 2px 25px;
+	background: 5px center url(http://appdata.hungryapp.co.kr/images/sim/girlsfrontline/ico_check.png) no-repeat;
+	background-size: auto 100%;}
+ul.list_array li:first-child a.arr_check {
+	background: 5px center url(http://appdata.hungryapp.co.kr/images/sim/girlsfrontline/ico_check_ok.png) no-repeat;
+	background-size: auto 100%;}
+ul.list_array li:first-child a img { margin: -2px 3px 0 0;}
+ul.list_array li:last-child { position: relative; float: right; padding: 0 0 0 50px; overflow: block;}
+ul.list_array li:last-child input { display: block; float: left; width: 250px; height: 20px; margin-right: 5px;
+	background: #ddd;
+	border: 1px solid #333333;}
+ul.list_array li:last-child a { display: block; float: left; width: 40px; height: 20px; line-height: 20px; text-align: center; font-size: 12px; font-weight: bold;
+	color: #000; background: #ffcc00;
+	border: 1px solid #333333;}
+
+
+/* DB 상세보기 */
+
+div.DB_view { margin-top: 10px; padding: 10px 10px 10px 10px;
+	background: #f5efe7;}
+div.DB_view table { width: 100%; margin-bottom: 10px;}
+div.DB_view table:last-child { margin-bottom: 0;}
+div.DB_view table tr td.td_class img { width: 16px;}
+div.DB_view table tr td.td_name { font-size: 14px; font-weight: bold;
+	color: #0067ff;}
+
+
+/* 캐릭터 기본정보 */
+div.char_info { overflow: hidden;}
+div.flat_left { float: left; width: 49.5%;}
+div.flat_right { float: right; width: 49.5%;}
+
+
+/* 타이틀 */
+div.view_title { position: relative; height: 32px; line-height: 32px; font-size: 14px; font-weight: bold; text-align: left; padding: 6px 0 0 10px; margin-bottom: 10px;
+	color: #ec5e00; 
+	border-bottom: 2px solid #ec5e00;}
+div.view_title a { position: absolute; top: 12px; right: 0; display: block; width: 50px; height: 20px; line-height: 22px; text-align: center; font-size: 12px;
+	color: #fff; background-color: #555;}
+
+/* 정보 */
+div.char_info { overflow: hidden;}
+div.char_info table td.view_img { height: ;}
+div.char_info table td.view_img img { width: 100%;}
+div.char_info table.info_txt, div.char_info table.info_char { width: 49.5%;}
+
+table tr td.td_graph { position: relative; padding-right: 115px;}
+span.graph_bg, span.graph_bg em, strong.graph_point, strong.graph_rank { display: block;}
+span.graph_bg { margin-left: 7px;
+	background: #e3e3e3;}
+span.graph_bg em { height: 20px;}
+strong.graph_point { position: absolute; top: 8px; right: 50px; width: 60px; text-align: left;}
+strong.graph_rank { position: absolute; top: 8px; right: 10px;}
+strong.graph_rank em { font-style: inherit;}
+
+
+/* posi 포지션 배치 순서 */
+div.char_skin { width: 750px; height: 115px;
+	color: #333;
+	background: #f8f8f8;
+	border: 1px solid #a5bde7; overflow-x: auto; overflow-y: hidden; white-space:nowrap;position:relative;}
+div.char_skin_scroll { padding: 10px 5px;}
+div.char_skin_scroll ul { float: left; margin: 0 5px; width: 65px;}
+div.char_skin_scroll ul li { text-align: center;}
+div.char_skin_scroll ul li:last-child { padding: 5px 0 2px 0;}
+div.char_skin_scroll ul li img { width: 100%;}
+
+
+/* 스킬 정보 */
+table tr td.td_pd10 { padding: 7px;}
+table tr td.td_pd10 img { width: 100%;}
+table tr td.td_skpt { padding: 7px 3px; overflow: hidden;}
+table tr td.td_skpt span { position: relative; display: block; float: left; width: 7%; margin: 0 1%;} /* 아이콘 크기 조절 */
+table tr td.td_skpt span strong { position: absolute; top: 0; left: 0; width: 12px; height: 12px; font-weight: normal; font-size: 8px; text-align: center;
+	color: #fff; background: rgba(0,0,0,0.7);}
+table tr td.td_skpt span img { width: 100%;}
+table tr td.td_rank { height: 47px; padding: 3px; text-align: left;}
+table tr td.td_rank img { width: 13%; margin: 3px;}
+
+
+/* 관련 이미지 */
+div.char_slideImg { padding: 10px 10px 0 10px; height: 244px;
+	background: #f8f8f8;
+	border: 1px solid #a5bde7;}
+div.img_paging {  overflow: hidden; text-align:center;}
+div.img_paging img { }
+ul.img_paging { position: relative; padding-top: 12px;}
+ul.img_paging li { text-align: center;}
+ul.img_paging li.slide_pagingDot { margin-top: 3px;}
+ul.img_paging li.slide_pagingDot a { margin: 0 3px;}
+ul.img_paging li.slideBtn_left	{ position: absolute; top: 10px; left:0;}
+ul.img_paging li.slideBtn_right	{ position: absolute; top: 10px; right: 0;}
+
+
+/* 추가정보 */
+div.m-info_txt { padding: 10px; min-height: 60px;
+	background: #f8f8f8;
+	border: 1px solid #a5bde7;}
+
+
+/* 궁합이 좋은 캐릭터 */
+div.char_rech { width: 750px; height: 95px;
+	color: #333;
+	background: #f8f8f8;
+	border: 1px solid #a5bde7;}
+div.char_rech { padding: 10px 5px;}
+div.char_rech ul { float: left; margin: 0 5px; width: 10%;}
+div.char_rech ul li { text-align: center;}
+div.char_rech ul li:last-child { padding: 5px 0 2px 0;}
+div.char_rech ul li img { width: 100%;}
+
+
+/* 목록보기, 리플영역 */
+div.view_btn1 { margin: 10px 0; text-align: center;}
+div.view_btn1 button { width: 100px; height: 35px; font-size: 0; background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn06.gif) no-repeat;}
+
+div.DB_view_reply { margin: 10px 0 20px 0;}
+div.DB_view_reply table.tb_reply { margin-bottom: 10px;}
+
+
+.db_check{display:none}
+
+
+/* 아이템 팝업 */
+div.DB_list table td.td_op span, div.layerPopop_lip table td.td_op span  { display: block;}
+div.DB_layerPopup { position: absolute; overflow: hidden; top: 0; left: 0; width: 400px; 
+	background: #4e535a;cursor:pointer;z-index:1000}
+div.layerPopop_wrap { position: relative; width: 100%;}
+a.layerPopClose { position: absolute; top: 0; right: 0; display: block; width: 30px; height: 30px; font-size: 0; z-index: 5;
+	background: rgba(0,0,0,0.7) center center url(http://appdata.hungryapp.co.kr/images/sim/princeredive/btn_close.gif) no-repeat;}
+div.layerPopop_lip { padding: 10px;}
+div.layerPopop_lip table { width: 100%;}
+div.layerPopop_lip table tr td { padding: 4px;}
+div.layerPopop_lip table tr th.itemIcon img { width: 100%;}
+div.layerPopop_lip table tr td.itemName { font-size: 16px; font-weight: bold;
+	color: #00193e; background: #e5f0ff;}
+div.layerPopop_lip table tr td.td_class img { width: 16px;}
+div.layerPopop_lip table tr td.td_name { font-size: 14px; font-weight: bold;
+	color: #0067ff;}
+div.layerPopop_lip table td.td_op a { display: block; color: #0068ff; text-decoration: underline; margin-top: 3px;}
+div.layerPopop_lip table tr td.td_pickup span { display: inline; margin: 0 3px; line-height: 16px; text-decoration: underline; }
+div.layerPopop_lip table tr td.use_char { text-align: left;}
+div.layerPopop_lip table tr td.use_char img { width: 10%; margin: 2px 1%;}
+
+a.layerPopop_close { display: block; width: 20%; margin: 0 auto; padding: 5px 0; text-align: center; font-size: 12px; font-weight: bold;
+	color: #002c6d; background: #acb1bc;
+	border: 1px solid #ffffff;}
+
+</style>
+
+
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script type="text/javascript">
+<!--
+
+	function showDetail(idx,e)
+	{
+	
+		if($("$('div[name=popItem"+idx+"]'").length > 0){
+			$("$('div[name=popItem"+idx+"]'").remove();
+		}
+		$.ajax({
+			  url: "/bbs/ajax/ajax_princeredive_item.php",
+			  global: false,
+			  type: "POST",
+			  data: ({"idx":idx,}),
+			  async:true,
+			  success: function(data){
+
+				  if(data){
+					$("#popArea2").append(data);
+					$(".DB_layerPopup" ).draggable();
+					$('div[name=popItem'+idx+']').css("top",e.pageY);
+					$('div[name=popItem'+idx+']').css("left",e.pageX);
+
+				  }
+				
+			  }
+		   }
+		);
+
+	}
+
+//-->
+</script>
+
+<div style="display: none;position: fixed;z-index: 100;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.7);" id="backArea" onclick="$('#backArea').hide();$('#popArea').hide();">
+	
+</div>
+<div style="position:absolute;z-index:1001" id="popArea" onclick="$('#backArea').hide();$('#popArea').hide();">
+	
+</div>
+
+<div class="DB_wrap">
+
+
+
+	<!-- 캐릭 이미지 및 정보 -->
+	<div class="DB_view">
+
+		<div class="char_info">
+
+			<div class="flat_left">
+			
+				<table border="0" cellpadding="0" cellspacing="1">
+					<tr>
+						<td class="view_img"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/img13_1.png" title="안나" class="charImg"  onerror="noimage(this)" onclick="showPopup($(this).attr('src'))" style="cursor:pointer;" /></td>
+					</tr>
+				</table>
+		
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>이름</th>
+						<td colspan="3" class="td_name">안나</td>
+					</tr>
+					<tr>
+						<th>등급</th>
+						<td class="td_class"><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/ico_star.png" /><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/ico_star.png" /><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/ico_star.png" /></td>
+						<th>공격</th>
+						<td>마법</td>
+					</tr>
+					<tr>
+						<th>포지션</th>
+						<td>중위</td>
+						<th>역할</th>
+						<td>어태커</td>
+					</tr>
+					<tr>
+						<th >획득법</th>
+						<td colspan="3" class="td_left" style="height :62px">프린세스 아레나 코인, 뽑기</td>
+					</tr>
+				</table>
+
+			</div>
+
+			<div class="flat_right">
+			
+				<table border="0" cellpadding="0" cellspacing="1">
+					<tr>
+						<td class="view_img"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/img13_2.png" title="안나" class="charImg"  onerror="noimage(this)" onclick="showPopup($(this).attr('src'))" style="cursor:pointer;" /></td>
+					</tr>
+				</table>
+		
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>HP</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_olive" style="width: 42.5146663138%;"></em></span>
+							<strong class="graph_point col_olive">19,277</strong>
+							<strong class="graph_rank">66<em>위</em></strong>
+						</td>
+					</tr>
+					<tr>
+						<th>물리공격</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_orange" style="width: 0%;"></em></span>
+							<strong class="graph_point col_orange">0</strong>
+							<strong class="graph_rank">62<em>위</em></strong>
+						</td>
+					</tr>
+					<tr>
+						<th>마법공격</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_blue" style="width: 100%;"></em></span>
+							<strong class="graph_point col_blue">10,190</strong>
+							<strong class="graph_rank">1<em>위</em></strong>
+						</td>
+					</tr>
+					<tr>
+						<th>물리방어</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_yellow" style="width: 16.2663755459%;"></em></span>
+							<strong class="graph_point col_yellow">149</strong>
+							<strong class="graph_rank">71<em>위</em></strong>
+						</td>
+					</tr>
+					<tr>
+						<th>마법방어</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_purple" style="width: 3.36340009173%;"></em></span>
+							<strong class="graph_point col_purple">220</strong>
+							<strong class="graph_rank">49<em>위</em></strong>
+						</td>
+					</tr>
+				</table>
+
+			</div>
+
+		</div>
+
+		<div class="char_info">
+			
+			<div class="view_title">중위 포지션 배치 순서</div>
+
+			<div class="char_skin">
+								<div style="position:absolute;top:5px;left:5px;width:2024px;">
+				<div class="char_skin_scroll">
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=67"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum67.png" title="미야코(할로윈)"  onerror="noimage(this)"></a></li>
+						<li>미야코...</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=56"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum56.png" title="요리"  onerror="noimage(this)"></a></li>
+						<li>요리</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=31"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum31.png" title="아카리"  onerror="noimage(this)"></a></li>
+						<li>아카리</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=49"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum49.png" title="미츠키"  onerror="noimage(this)"></a></li>
+						<li>미츠키</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=40"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum40.png" title="린"  onerror="noimage(this)"></a></li>
+						<li>린</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=65"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum65.png" title="콧코로(서머)"  onerror="noimage(this)"></a></li>
+						<li>콧코로...</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=63"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum63.png" title="콧코로"  onerror="noimage(this)"></a></li>
+						<li>콧코로</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=66"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum66.png" title="미후유(서머)"  onerror="noimage(this)"></a></li>
+						<li>미후유...</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=25"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum25.png" title="시노부(할로윈)"  onerror="noimage(this)"></a></li>
+						<li>시노부...</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=13"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum13.png" title="안나"  onerror="noimage(this)"></a></li>
+						<li>안나</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=10"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum10.png" title="사렌"  onerror="noimage(this)"></a></li>
+						<li>사렌</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=14"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum14.png" title="이리야"  onerror="noimage(this)"></a></li>
+						<li>이리야</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=48"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum48.png" title="미후유"  onerror="noimage(this)"></a></li>
+						<li>미후유</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=11"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum11.png" title="니논"  onerror="noimage(this)"></a></li>
+						<li>니논</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=12"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum12.png" title="모니카"  onerror="noimage(this)"></a></li>
+						<li>모니카</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=58"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum58.png" title="유카리"  onerror="noimage(this)"></a></li>
+						<li>유카리</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=43"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum43.png" title="마히루"  onerror="noimage(this)"></a></li>
+						<li>마히루</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=42"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum42.png" title="시노부"  onerror="noimage(this)"></a></li>
+						<li>시노부</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=38"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum38.png" title="미미"  onerror="noimage(this)"></a></li>
+						<li>미미</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=71"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum71.png" title="시즈루(발렌타인)"  onerror="noimage(this)"></a></li>
+						<li>시즈루...</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=75"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum75.png" title="아유미"  onerror="noimage(this)"></a></li>
+						<li>아유미</li>
+					</ul>
+															<ul>
+						<li><a href="/bbs/game_princeredive_charDetail.php?idx=77"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/img/thum77.png" title="글레어"  onerror="noimage(this)"></a></li>
+						<li>글레어</li>
+					</ul>
+										
+					
+				</div>
+
+				</div>
+			
+			</div>
+
+		</div>
+
+		<div class="char_info">
+			
+			<div class="view_title">스킬 정보</div>
+	
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+					<col width="70px">
+					<col width="*">
+				</colgroup>
+				<tr>
+					<th><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/ico_unic.png" alt="유니크"></th>
+					<th class="td_left" style="font-weight:bold;">나찰열반 · 극광종천명괴파</th>
+				</tr>
+				<tr>
+					<td class="td_pd10"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/skill/s13_1.jpg" onerror="noimage(this)"></th>
+					<td class="td_left">적 전체에 마법 대미지(중)를 준다. 스킬 사용 후 자신의 물리/마법 방어력이 0이 된다.</td>
+				</tr>
+			</table>
+	
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+					<col width="70px">
+					<col width="*">
+				</colgroup>
+				<tr>
+					<th><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/ico_skill1.png" alt="스킬1"></th>
+					<th class="td_left" style="font-weight:bold;">나찰열반 · 무식</th>
+				</tr>
+				<tr>
+					<td class="td_pd10"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/skill/s13_2.jpg" onerror="noimage(this)"></th>
+					<td class="td_left">눈앞의 적 1명에게 마법 대미지(중)를 준다.</td>
+				</tr>
+			</table>
+	
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+					<col width="70px">
+					<col width="*">
+				</colgroup>
+				<tr>
+					<th><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/ico_skill2.png" alt="스킬2"></th>
+					<th class="td_left" style="font-weight:bold;">명공천승</th>
+				</tr>
+				<tr>
+					<td class="td_pd10"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/skill/s13_3.jpg" onerror="noimage(this)"></th>
+					<td class="td_left">안나의 최대 HP가 10% 이하가 되었을 때 발동. 주변 적 전체에 마법 대미지(대)를 준다. 스킬 사용 후 전투 불능 상태가 된다.</td>
+				</tr>
+			</table>
+	
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+					<col width="70px">
+					<col width="*">
+				</colgroup>
+				<tr>
+					<th><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/ico_ex.png" alt="EX"></th>
+					<th class="td_left" style="font-weight:bold;">패차명멸옥염주</th>
+				</tr>
+				<tr>
+					<td class="td_pd10"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/skill/s13_4.jpg" onerror="noimage(this)"></th>
+					<td class="td_left">전투 시작 시 자신의 마법 공격력을 증가(중)시킨다.</td>
+				</tr>
+			</table>
+	
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+					<col width="70px">
+					<col width="*">
+				</colgroup>
+				<tr>
+					<th>초기 패턴</th>
+					<td class="td_left td_skpt">
+																		<span><strong>1</strong><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/skill/s13_2.jpg" onerror="noimage(this)"></span>																		<span><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/attack.png"></span>																		
+					</td>
+				</tr>
+				<tr>
+					<th>반복 패턴</th>
+					<td class="td_left td_skpt">
+																		<span><strong>1</strong><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/skill/s13_2.jpg" onerror="noimage(this)"></span>																		<span><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/attack.png"></span>																							</td>
+				</tr>
+			</table>
+
+		</div>
+		
+		<div class="char_info">
+
+			<div class="flat_left">
+			
+				<div class="view_title">캐릭터 프로필</div>
+		
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>나이</th>
+						<td>17세</td>
+						<th>생일</th>
+						<td>7월 5일</td>
+					</tr>
+					<tr>
+						<th>신장</th>
+						<td>160cm</td>
+						<th>체중</th>
+						<td>45kg</td>
+					</tr>
+					<tr>
+						<th>혈액형</th>
+						<td>A형</td>
+						<th>종족</th>
+						<td>마족</td>
+					</tr>
+					<tr>
+						<th>길드</th>
+						<td colspan="3">트와일라이트 캐러밴</td>
+					</tr>
+					<tr>
+						<th>취미</th>
+						<td colspan="3">소설 쓰기</td>
+					</tr>
+					<tr>
+						<th>성우</th>
+						<td colspan="3">타카노 마미</td>
+					</tr>
+					<tr>
+						<td colspan="4" style="height :62px">분명히 들렸다, 나를 부르는 목소리가! 나야말로, 질풍의 헤카테!</td>
+					</tr>
+				</table>
+			
+			</div>
+						<script>
+			var startCg = 0;
+			var maxCg = 1;
+			function setStartCg(type){
+				if(type=="pre"){
+					startCg = startCg-1;
+					if(startCg<0) startCg = maxCg;
+				}
+				else if(type=="next"){
+					startCg = startCg+1;
+					if(startCg>maxCg) {
+						startCg = 0;
+					}
+				}
+				else{
+					startCg = type;
+				}
+
+				$("img[name='cgImg']").hide();
+				$("img[name='cgImg']").eq(startCg).show();
+
+				$("img[name='bullCg']").attr("src","http://appdata.hungryapp.co.kr/images/sim/princeredive/paging_off.png");
+				$("img[name='bullCg']").eq(startCg).attr("src","http://appdata.hungryapp.co.kr/images/sim/princeredive/paging_on.png");
+
+			}
+
+			$(document).ready(function(){
+				$("img[name='cgImg']").each(function (index){
+					console.log($(this).width());
+					console.log($(this).height());
+
+					if($(this).height()>200){
+						$(this).height("200px");
+					}
+				});
+
+			});
+
+			</script>
+			<div class="flat_right">
+			
+				<div class="view_title">관련 이미지</div>
+				
+				<div class="char_slideImg" style="position:relative;">
+
+					<div class="img_paging" style="width:100%;height:200px;line-height:200px;display: table;">
+					<div style="display: table-cell;text-align: center;vertical-align: middle;">
+										<img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/cg/cg13_1.png" onerror="noimage(this)" onclick="showPopup($(this).attr('src'))" style="cursor:pointer;vertical-align:middle;" name="cgImg" >
+										<img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/cg/cg13_2.png" onerror="noimage(this)" onclick="showPopup($(this).attr('src'))" style="cursor:pointer;vertical-align:middle;display:none;" name="cgImg" >
+										</div>
+					</div>
+					
+					<ul class="img_paging">
+						<li class="slideBtn_left"><a href="javascript:;" onclick="setStartCg('pre')"><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/paging_left.png"></a></li>
+						<li class="slide_pagingDot">
+												<a href="javascript:;" onclick="setStartCg('0')"><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/paging_on.png" name="bullCg"></a>												<a href="javascript:;" onclick="setStartCg('1')"><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/paging_off.png" name="bullCg"></a>												</li>
+						<li class="slideBtn_right"><a href="javascript:;" onclick="setStartCg('next')"><img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/paging_right.png"></a></li>
+					</ul>
+					
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="char_info" id="rankUPArea">
+
+			<div class="view_title">랭크업 장비</div>
+
+			<div class="flat_left">
+		
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+										<tr>
+						<th>1 랭크</th>
+						<td class="td_rank">
+												 <a href="javascript:;" onclick="showDetail(7,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item7.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(7,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item7.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(9,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item9.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(12,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item12.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(15,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item15.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(15,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item15.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															<tr>
+						<th>2 랭크</th>
+						<td class="td_rank">
+												 <a href="javascript:;" onclick="showDetail(41,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item41.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(20,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item20.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(25,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item25.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(27,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item27.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(15,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item15.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(15,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item15.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															<tr>
+						<th>3 랭크</th>
+						<td class="td_rank">
+												 <a href="javascript:;" onclick="showDetail(58,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item58.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(41,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item41.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(46,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item46.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(49,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item49.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(32,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item32.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(32,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item32.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															<tr>
+						<th>4 랭크</th>
+						<td class="td_rank">
+												 <a href="javascript:;" onclick="showDetail(75,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item75.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(64,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item64.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(59,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item59.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(67,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item67.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(52,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item52.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(52,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item52.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															<tr>
+						<th>5 랭크</th>
+						<td class="td_rank">
+												 <a href="javascript:;" onclick="showDetail(92,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item92.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(75,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item75.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(78,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item78.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(83,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item83.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(67,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item67.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(67,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item67.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															<tr>
+						<th>6 랭크</th>
+						<td class="td_rank">
+												 <a href="javascript:;" onclick="showDetail(106,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item106.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(92,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item92.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(95,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item95.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(83,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item83.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(78,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item78.jpg" onerror="noimage(this)"></a>
+						 												 <a href="javascript:;" onclick="showDetail(86,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item86.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															
+				</table>
+			
+			</div>
+
+			<div class="flat_right">
+		
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+										<tr>
+						<th>7 랭크</th>
+						<td class="td_rank">
+												  <a href="javascript:;" onclick="showDetail(124,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item124.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(106,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item106.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(111,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item111.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(98,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item98.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(98,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item98.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(86,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item86.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															<tr>
+						<th>8 랭크</th>
+						<td class="td_rank">
+												  <a href="javascript:;" onclick="showDetail(142,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item142.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(124,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item124.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(131,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item131.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(106,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item106.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(134,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item134.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(97,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item97.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															<tr>
+						<th>9 랭크</th>
+						<td class="td_rank">
+												  <a href="javascript:;" onclick="showDetail(160,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item160.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(142,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item142.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(148,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item148.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(124,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item124.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(152,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item152.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(133,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item133.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															<tr>
+						<th>10 랭크</th>
+						<td class="td_rank">
+												  <a href="javascript:;" onclick="showDetail(179,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item179.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(160,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item160.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(167,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item167.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(142,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item142.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(171,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item171.jpg" onerror="noimage(this)"></a>
+						 												  <a href="javascript:;" onclick="showDetail(151,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item151.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															<tr>
+						<th>11 랭크</th>
+						<td class="td_rank">
+												<img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/unknown.png">
+						 												  <a href="javascript:;" onclick="showDetail(179,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item179.jpg" onerror="noimage(this)"></a>
+						 												<img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/unknown.png">
+						 												  <a href="javascript:;" onclick="showDetail(160,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item160.jpg" onerror="noimage(this)"></a>
+						 												<img src="http://appdata.hungryapp.co.kr/images/sim/princeredive/unknown.png">
+						 												  <a href="javascript:;" onclick="showDetail(171,event);"><img src="http://appdata.hungryapp.co.kr/images/dbimg/princeredive/item/item171.jpg" onerror="noimage(this)"></a>
+						 												</td>
+					</tr>
+															<tr>
+						<th>12 랭크</th>
+						<td class="td_rank"></td>
+					</tr>
+														</table>
+			
+			</div>
+
+		</div>
+
+		<div class="char_info">
+			
+			<div class="view_title">인연 보너스</div>
+
+			<div class="flat_left">
+		
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>1 랭크</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th>2 랭크</th>
+						<td>마법공격 +15</td>
+					</tr>
+					<tr>
+						<th>3 랭크</th>
+						<td>마법공격 +15</td>
+					</tr>
+					<tr>
+						<th>4 랭크</th>
+						<td>마법공격 +30</td>
+					</tr>
+				</table>
+			
+			</div>
+
+			<div class="flat_right">
+		
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>5 랭크</th>
+						<td>마법공격 +40</td>
+					</tr>
+					<tr>
+						<th>6 랭크</th>
+						<td>마법공격 +60</td>
+					</tr>
+					<tr>
+						<th>7 랭크</th>
+						<td>마법공격 +60</td>
+					</tr>
+					<tr>
+						<th>8 랭크</th>
+						<td>마법공격 +90, 크리티컬 +10</td>
+					</tr>
+				</table>
+			
+			</div>
+
+		</div>
+
+		<div class="more_info">
+				
+		<div class="view_title">◎ PVP 마법 어태커</div>
+		<div class="m-info_txt">
+	
+							<script type="text/javascript" src="/editor/cheditor.js?131218"></script>
+							<div id="memoArea1"><div><font color="#ff0000">강력한 광역 마법 공격&nbsp; &nbsp;</font></div>
+<div><br /></div>
+<div>강력한 광역 UB와 스킬 패턴이 좋아 높은 대미지를 기대할 수 있다.</div>
+<div><span style="font-size: 9pt">체력이 10%이하로 남으면 큰 데미지를 주는 자폭 공격으로 아레나 역전의 수단이 된다.</span></div>
+<div>전용 장비 추가 후에는 스킬 패턴이 좋아서 PVE에서도 강력한 모습을 보여준다.&nbsp;</div>
+<div><br /></div>
+<div><br /></div>
+<div><font color="#0070c0">취약한 생존력&nbsp;</font></div>
+<div><br /></div>
+<div>중위에 위치하는 캐릭터라 범위 공격에 취약하다.</div>
+<div>UB를 사용하면 물리, 마법 방어력이 0되 도발이나 버프의 지원 없이 생존이 힘들다.</div>
+<div>자폭 스킬은 한 번에 큰 대미지를 받을 경우 발동하지 않고 쓰러질 수 있다.</div></div>
+
+							<div class="" style="width:95%px;display:none;" id="editorArea1">
+								<form name="editorFrm1" id="editorFrm1" method="post">
+									<input type="hidden" name="mode" value="editor" />
+									<input type="hidden" name="p_idx" value="13" />
+									<input type="hidden" name="type" value="charAdd1" />
+									<div style="font-weigh:bold; padding:5px;">타이틀 : <input type="text" name="title" value="◎ PVP 마법 어태커" /></div>
+									<textarea id="contents1" name="contents" style="display:none;" required="required"  label="내용"  option="badword" style="overflow:visible;" onkeyup="resize(this)"><div><font color="#ff0000">강력한 광역 마법 공격&nbsp; &nbsp;</font></div>
+<div><br /></div>
+<div>강력한 광역 UB와 스킬 패턴이 좋아 높은 대미지를 기대할 수 있다.</div>
+<div><span style="font-size: 9pt">체력이 10%이하로 남으면 큰 데미지를 주는 자폭 공격으로 아레나 역전의 수단이 된다.</span></div>
+<div>전용 장비 추가 후에는 스킬 패턴이 좋아서 PVE에서도 강력한 모습을 보여준다.&nbsp;</div>
+<div><br /></div>
+<div><br /></div>
+<div><font color="#0070c0">취약한 생존력&nbsp;</font></div>
+<div><br /></div>
+<div>중위에 위치하는 캐릭터라 범위 공격에 취약하다.</div>
+<div>UB를 사용하면 물리, 마법 방어력이 0되 도발이나 버프의 지원 없이 생존이 힘들다.</div>
+<div>자폭 스킬은 한 번에 큰 대미지를 받을 경우 발동하지 않고 쓰러질 수 있다.</div></textarea>
+										<!-- 1.썸내일 이미지 뷰어 영역 -->
+									<div class="imgboxw ">
+										<ul id="thumbnailBox"  class="imgbox">
+										</ul>
+									</div>
+									
+									<!-- //썸내일 이미지 뷰어 영역 -->
+									<script type="text/javascript" language="javascript">
+											var myeditor1 = new cheditor("myeditor1");
+											myeditor1.config.editorHeight = '350px';
+											myeditor1.config.editorWidth = '100%';
+											myeditor1.config.editorPath = '/editor/';
+											myeditor1.inputForm = 'contents1';
+											myeditor1.run();
+									</script>
+									<script>
+										var editorImg_idx = 0;
+									</script>
+									<div style="text-align:center"><button type="button" onclick="onEditor(1)">수정완료</button> <button type="button" onclick="$('#memoArea1').show();$('#editorArea1').hide();">취소</button></div>
+								</form>
+							</div>
+
+
+			</div>
+				
+
+		</div>
+
+		<div class="more_info">
+			
+				
+		<div class="view_title">◎ 여신석 투자 TIP</div>
+		<div class="m-info_txt">
+	
+							
+							<div id="memoArea2"><div>안나의 메모리 피스는 P아레나 코인으로 획득할 수 있다.</div>
+<div><br /></div>
+<div>여신석을 사용하면서 까지 재능 재화 할 필요는 없다.</div>
+<div><span style="font-size: 9pt">P아레나 코인으로</span>&nbsp;미야코, 카오리에 먼저 투자하고 이후 취향에 따라 재능 개화 해주도록 하자.</div>
+<div>전용 장비가 생기면 화력이 대폭 증가하니 미리 준비해두는 것도 좋다.&nbsp;</div>
+<div><br /></div>
+<div><b><font color="#0070c0">[재능 개화 난이도]</font></b></div>
+<div>★★★☆<span style="font-size: 9pt">☆</span></div></div>
+
+							<div class="" style="width:95%px;display:none;" id="editorArea2">
+								<form name="editorFrm2" id="editorFrm2" method="post">
+									<input type="hidden" name="mode" value="editor" />
+									<input type="hidden" name="p_idx" value="13" />
+									<input type="hidden" name="type" value="charAdd2" />
+									<div style="font-weigh:bold; padding:5px;">타이틀 : <input type="text" name="title" value="◎ 여신석 투자 TIP" /></div>
+									<textarea id="contents2" name="contents" style="display:none;" required="required"  label="내용"  option="badword" style="overflow:visible;" onkeyup="resize(this)"><div>안나의 메모리 피스는 P아레나 코인으로 획득할 수 있다.</div>
+<div><br /></div>
+<div>여신석을 사용하면서 까지 재능 재화 할 필요는 없다.</div>
+<div><span style="font-size: 9pt">P아레나 코인으로</span>&nbsp;미야코, 카오리에 먼저 투자하고 이후 취향에 따라 재능 개화 해주도록 하자.</div>
+<div>전용 장비가 생기면 화력이 대폭 증가하니 미리 준비해두는 것도 좋다.&nbsp;</div>
+<div><br /></div>
+<div><b><font color="#0070c0">[재능 개화 난이도]</font></b></div>
+<div>★★★☆<span style="font-size: 9pt">☆</span></div></textarea>
+										<!-- 1.썸내일 이미지 뷰어 영역 -->
+									<div class="imgboxw ">
+										<ul id="thumbnailBox"  class="imgbox">
+										</ul>
+									</div>
+									
+									<!-- //썸내일 이미지 뷰어 영역 -->
+									<script type="text/javascript" language="javascript">
+											var myeditor2 = new cheditor("myeditor2");
+											myeditor2.config.editorHeight = '350px';
+											myeditor2.config.editorWidth = '100%';
+											myeditor2.config.editorPath = '/editor/';
+											myeditor2.inputForm = 'contents2';
+											myeditor2.run();
+									</script>
+									<script>
+										var editorImg_idx = 1;
+									</script>
+									<div style="text-align:center"><button type="button" onclick="onEditor(2)">수정완료</button> <button type="button" onclick="$('#memoArea2').show();$('#editorArea2').hide();">취소</button></div>
+								</form>
+							</div>
+
+
+			</div>
+		
+		</div>
+	</div>	
+	</div>
+</div>
+  </body>
+</HTML>
