@@ -40,6 +40,12 @@ p.comm_notice, div.comm_tab_btn, div.comm_wrap div.comm_bbs ul { position: absol
 .bg_blue	{ background-color: #007eff;}
 .bg_yellow	{ background-color: #d19800;}
 .bg_purple	{ background-color: #7a3db9;}
+.bg_hp	{ background-color: #ABF200;}
+.bg_atk	{ background-color: #FFD8D8;}
+.bg_matk	{ background-color: #D4F4FA;}
+.bg_def	{ background-color: #FAECC5;}
+.bg_mdef	{ background-color: #CEFBC9;}
+.bg_cri	{ background-color: #A566FF;}
 
 
 /* 탭 버튼 */
@@ -365,18 +371,14 @@ a.layerPopop_close { display: block; width: 20%; margin: 0 auto; padding: 5px 0;
 	<div class="DB_view">
 
 		<div class="char_info">
-
 			<div class="flat_left">
-			
 				<table border="0" cellpadding="0" cellspacing="1">
 					<tr>
 						<td class="view_img"><img src="img/F_hero/0.png" title="매튜" class="charImg"  onerror="noimage(this)" /></td>
 					</tr>
 				</table>
 			</div>
-
 			<div class="flat_right">
-				
 				<table border="0" cellpadding="0" cellspacing="1">
 					<colgroup>
 						<col width="22%">
@@ -415,7 +417,6 @@ a.layerPopop_close { display: block; width: 20%; margin: 0 auto; padding: 5px 0;
 						<td colspan="3" class="td_left">기본지급</td>
 					</tr>
 				</table>
-				
 				<table border="0" cellpadding="0" cellspacing="1">
 					<colgroup>
 						<col width="22%">
@@ -440,58 +441,111 @@ a.layerPopop_close { display: block; width: 20%; margin: 0 auto; padding: 5px 0;
 						<td colspan="3" class="td_name">호감도 총합 92</td>
 					</tr>
 				</table>
-				
+			</div>
+		</div>
+		<div class="char_info">
+			<div class="flat_left">
 				<table border="0" cellpadding="0" cellspacing="1">
 					<colgroup>
 						<col width="22%">
 						<col width="*">
 					</colgroup>
 					<tr>
-						<th>HP</th>
+						<th>생명</th>
 						<td class="td_graph">
-							<span class="graph_bg"><em class="graph_line bg_olive" style="width: 42.5146663138%;"></em></span>
-							<strong class="graph_point col_olive">19,277</strong>
-							<strong class="graph_rank">66<em>위</em></strong>
+							<span class="graph_bg"><em class="graph_line bg_hp" style="width: 74.38%;"></em></span>
+							<strong class="graph_point col_olive">4463</strong>
 						</td>
 					</tr>
 					<tr>
-						<th>물리공격</th>
+						<th>공격</th>
 						<td class="td_graph">
-							<span class="graph_bg"><em class="graph_line bg_orange" style="width: 0%;"></em></span>
-							<strong class="graph_point col_orange">0</strong>
-							<strong class="graph_rank">62<em>위</em></strong>
+							<span class="graph_bg"><em class="graph_line bg_atk" style="width: 86.15%;"></em></span>
+							<strong class="graph_point col_orange">560</strong>
 						</td>
 					</tr>
 					<tr>
-						<th>마법공격</th>
+						<th>지력</th>
 						<td class="td_graph">
-							<span class="graph_bg"><em class="graph_line bg_blue" style="width: 100%;"></em></span>
-							<strong class="graph_point col_blue">10,190</strong>
-							<strong class="graph_rank">1<em>위</em></strong>
+							<span class="graph_bg"><em class="graph_line bg_matk" style="width: 42.33%;"></em></span>
+							<strong class="graph_point col_blue">254</strong>
 						</td>
 					</tr>
 					<tr>
-						<th>물리방어</th>
+						<th>방어</th>
 						<td class="td_graph">
-							<span class="graph_bg"><em class="graph_line bg_yellow" style="width: 16.2663755459%;"></em></span>
-							<strong class="graph_point col_yellow">149</strong>
-							<strong class="graph_rank">71<em>위</em></strong>
+							<span class="graph_bg"><em class="graph_line bg_def" style="width: 70.44%;"></em></span>
+							<strong class="graph_point col_yellow">317</strong>
 						</td>
 					</tr>
 					<tr>
-						<th>마법방어</th>
+						<th>마방</th>
 						<td class="td_graph">
-							<span class="graph_bg"><em class="graph_line bg_purple" style="width: 3.36340009173%;"></em></span>
-							<strong class="graph_point col_purple">220</strong>
-							<strong class="graph_rank">49<em>위</em></strong>
+							<span class="graph_bg"><em class="graph_line bg_mdef" style="width: 61.55%;"></em></span>
+							<strong class="graph_point col_purple">277</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>기술</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_cri" style="width: 44%;"></em></span>
+							<strong class="graph_point col_purple">154</strong>
 						</td>
 					</tr>
 				</table>
-
-			</div>
-
+			</div>			
+			<div class="flat_right">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>생명</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_hp" style="width: 74.38%;"></em></span>
+							<strong class="graph_point col_olive">4463</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>공격</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_atk" style="width: 86.15%;"></em></span>
+							<strong class="graph_point col_orange">560</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>지력</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_matk" style="width: 42.33%;"></em></span>
+							<strong class="graph_point col_blue">254</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>방어</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_def" style="width: 70.44%;"></em></span>
+							<strong class="graph_point col_yellow">317</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>마방</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_mdef" style="width: 61.55%;"></em></span>
+							<strong class="graph_point col_purple">277</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>기술</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_cri" style="width: 44%;"></em></span>
+							<strong class="graph_point col_purple">154</strong>
+						</td>
+					</tr>
+				</table>
+			</div>	
 		</div>
-
+		
 		<div class="char_info">
 			
 			<div class="view_title">중위 포지션 배치 순서</div>
