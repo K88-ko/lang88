@@ -1,0 +1,611 @@
+<HTML>
+  <HEAD>
+	<link rel="icon" type="image/png" href="../img/Icon_Hero.png" />
+	<link rel="stylesheet" href="../css/heros.css">
+    <title>랑그릿사 모바일 영웅</title>
+  </HEAD>
+  <BODY>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<div class="DB_wrap">
+
+	<div class="DB_view">
+
+		<div class="char_info">
+			<div class="flat_left">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<tr>
+						<td class="view_img"><img src="../img/F_hero/6.png" /></td>
+					</tr>
+				</table>
+			</div>
+			<div class="flat_right">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>이름</th>
+						<td colspan="3" class="td_name">안나</td>
+					</tr>
+					<tr>
+						<th>CV</th>
+						<td colspan="3" class="td_name">사쿠라바 아리사</td>
+					</tr>
+					<tr>
+						<th>희귀도</th>
+						<td><img src="../img/type/2.png" /></td>
+						<th>초기성급</th>
+						<td><img src="../img/StarBig.png" width="16" height="16" /><img src="../img/StarBig.png" width="16" height="16" /></td>
+					</tr>
+					<tr>
+						<th>세력</th>
+						<td colspan="3"><img src="../img/group/2.png" width="32" height="32" /><img src="../img/group/5.png" width="32" height="32" /></td>
+					</tr>
+					<tr>
+						<th>생명수정치</th>
+						<td>+10%</td>
+						<th>공격수정치</th>
+						<td>+10%</td>
+					</tr>
+					<tr>
+						<th>방어수정치</th>
+						<td>+35%</td>
+						<th>마방수정치</th>
+						<td>+35%</td>
+					</tr>
+					<tr>
+						<th >획득법</th>
+						<td colspan="3" class="td_left">영웅 소환, 우정티켓 소환</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th><img src="../img/Icon/Spirit1.png" width="32" height="32" /></th>
+						<td colspan="3" class="td_name">레벨 30</td>
+					</tr>
+					<tr>
+						<th><img src="../img/Icon/Spirit2.png" width="32" height="32" /></th>
+						<td colspan="3" class="td_name">클래스 오라클 전직</td>
+					</tr>
+					<tr>
+						<th><img src="../img/Icon/Spirit3.png" width="32" height="32" /></th>
+						<td colspan="3" class="td_name">파나를 도와 운명의문4</td>
+					</tr>
+					<tr>
+						<th><img src="../img/Icon/Spirit4.png" width="32" height="32" /></th>
+						<td colspan="3" class="td_name">알테뮬러를 도와 운명의문7</td>
+					</tr>
+					<tr>
+						<th><img src="../img/Icon/Icon_pink.png" width="32" height="32" /></th>
+						<td colspan="3" class="td_name">생명+400, 방어+20, 마방+60</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="char_info">
+			<div class="view_title">고유 기술</div>
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+					<col width="70px">
+					<col width="*">
+				</colgroup>
+				<tr>
+					<td class="td_pd10"><img src="../img/ability/4.png" width="100px" height="90px"/></th>
+					<td class="td_left">자신 부대 생명 +20%. 아군에게 스킬 시전 시 무작위 버프 1개 추가 부여.</td>
+				</tr>				
+				<tr>
+					<th><img src="../img/2star.png" width="100" /></th>
+					<th class="td_left" style="font-weight:bold;">자신 부대 생명 +10%. 아군에게 스킬 시전 시 무작위 버프 1개 추가 부여.</th>
+				</tr>
+				<tr>
+					<th><img src="../img/3star.png" width="100" /></th>
+					<th class="td_left" style="font-weight:bold;">자신 부대 생명 +12%. 아군에게 스킬 시전 시 무작위 버프 1개 추가 부여.</th>
+				</tr>
+				<tr>
+					<th><img src="../img/4star.png" width="100" /></th>
+					<th class="td_left" style="font-weight:bold;">자신 부대 생명 +14%. 아군에게 스킬 시전 시 무작위 버프 1개 추가 부여.</th>
+				</tr>
+				<tr>
+					<th><img src="../img/5star.png" width="100" /></th>
+					<th class="td_left" style="font-weight:bold;">자신 부대 생명 +16%. 아군에게 스킬 시전 시 무작위 버프 1개 추가 부여.</th>
+				</tr>
+			</table>
+			<div class="view_title">클래스 최종 능력치(70레벨 호감도4,5 10레벨)</div>
+			<div class="flat_left">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>클래스</th>
+						<td colspan="3" class="td_name">오라클</td>
+					</tr>
+					<tr>
+						<th>생명</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_hp" style="width: 50%;"></em></span>
+							<strong class="graph_point col_olive">3044</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>공격</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_atk" style="width: 47%;"></em></span>
+							<strong class="graph_point col_orange">311</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>지력</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_matk" style="width: 64%;"></em></span>
+							<strong class="graph_point col_blue">386</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>방어</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_def" style="width: 50%;"></em></span>
+							<strong class="graph_point col_yellow">229</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>마방</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_mdef" style="width: 83%;"></em></span>
+							<strong class="graph_point col_purple">377</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>기술</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_cri" style="width: 22%;"></em></span>
+							<strong class="graph_point col_purple">80</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>마음의유대4</th>
+						<td class="td_left">받는 범위피해 -10%</td>
+					</tr>
+					<tr>
+						<th>마음의유대7</th>
+						<td class="td_left">치료효과 +10%</td>
+					</tr>
+				</table>
+			</div>	
+		</div>
+		<div class="char_info" id="rankUPArea">
+
+			<div class="view_title">클래스전직</div>
+			<div class="flat_left">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+						<tr>
+						<th>시스터</th>
+						<td colspan="3" class="td_name">마방+6, 지력+5</td>
+						</tr>
+						<tr>
+						<th>T1</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank1-4.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T2</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank1-4.png">
+						</td>
+						</tr>
+						<tr>
+						<th>주교</th>
+						<td colspan="3" class="td_name">마방+8, 생명+48</td>
+						</tr>
+						<tr>
+						<th>T1</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank2-5.png">
+							<img src="../img/classup/rank1-5.png">
+							<img src="../img/classup/rank1-4.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T2</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank3-4.png">
+							<img src="../img/classup/rank3-5.png">
+							<img src="../img/classup/rank2-5.png">
+							<img src="../img/classup/rank2-4.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T3</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank4-5.png">
+							<img src="../img/classup/rank4-4.png">
+							<img src="../img/classup/rank3-4.png">
+							<img src="../img/classup/rank3-5.png">
+						</td>
+						</tr>
+						<tr>
+						<th>오라클</th>
+						<td colspan="3" class="td_name">마방+16, 생명+90, 지력+15</td>
+						</tr>
+						<tr>
+						<th>T1</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank5-4.png">
+							<img src="../img/classup/rank5-5.png">
+							<img src="../img/classup/rank4-5.png">
+							<img src="../img/classup/rank4-4.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T2</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank6-8.png">
+							<img src="../img/classup/rank6-7.png">
+							<img src="../img/classup/rank5-4.png">
+							<img src="../img/classup/rank5-5.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T3</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank7-5.png">
+							<img src="../img/classup/rank7-6.png">
+							<img src="../img/classup/rank6-8.png">
+							<img src="../img/classup/rank6-7.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T4</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank8-6.png">
+							<img src="../img/classup/rank8-4.png">
+							<img src="../img/classup/rank7-5.png">
+							<img src="../img/classup/rank7-6.png">
+						</td>
+						</tr>															
+				</table>
+			</div>
+
+			<div class="flat_right">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+						<tr>
+						<th>스나이퍼</th>
+						<td colspan="3" class="td_name">공격+12, 생명+48</td>
+						</tr>
+						<tr>
+						<th>T1</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank2-6.png">
+							<img src="../img/classup/rank1-2.png">
+							<img src="../img/classup/rank1-5.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T2</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank3-2.png">
+							<img src="../img/classup/rank3-1.png">
+							<img src="../img/classup/rank2-2.png">
+							<img src="../img/classup/rank2-6.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T3</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank4-3.png">
+							<img src="../img/classup/rank4-1.png">
+							<img src="../img/classup/rank3-2.png">
+							<img src="../img/classup/rank3-1.png">
+						</td>
+						</tr>
+						<tr>
+						<th>서모너</th>
+						<td colspan="3" class="td_name">생명+80, 방어+5</td>
+						</tr>
+						<tr>
+						<th>T1</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank2-4.png">
+							<img src="../img/classup/rank1-5.png">
+							<img src="../img/classup/rank1-4.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T2</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank3-5.png">
+							<img src="../img/classup/rank3-6.png">
+							<img src="../img/classup/rank2-4.png">
+							<img src="../img/classup/rank2-5.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T3</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank4-4.png">
+							<img src="../img/classup/rank4-5.png">
+							<img src="../img/classup/rank3-5.png">
+							<img src="../img/classup/rank3-6.png">
+						</td>
+						</tr>					
+				</table>
+			</div>
+			</br>
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+					<col width="70px">
+					<col width="*">
+				</colgroup>
+				<tr>
+					<th>용병</th>
+					<td class="td_left td_skpt">
+						<span><img src="../img/troop/0.png"/></span>
+						<span><img src="../img/troop/1.png"/></span>
+						<span><img src="../img/troop/22.png"/></span>
+						<span><img src="../img/troop/26.png"/></span>
+						<span><img src="../img/troop/62.png"/></span>
+					</td>
+				</tr>
+			</table>
+			<div class="view_title">재료정보</div>
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+						<col width="22%">
+						<col width="*">
+				</colgroup>
+				<tr>
+					<th>중앙2~10순서</th>
+					<td class="td_rank">
+						<img src="../img/heart/h2.png">
+						<img src="../img/heart/h3.png">
+						<img src="../img/heart/h1.png">
+						<img src="../img/heart/h4.png">
+						<img src="../img/heart/h2-1.png">
+						<img src="../img/heart/h3-1.png">
+						<img src="../img/heart/h1-1.png">
+						<img src="../img/heart/h4-1.png">
+						<img src="../img/heart/x.png">
+					</td>
+				</tr>
+				<tr>
+					<th>유대</th>
+					<td class="td_rank">
+						<img src="../img/heart/3.png">
+						<img src="../img/heart/3-1.png">
+						<img src="../img/heart/3-2.png">
+						<img src="../img/heart/3-3.png">
+						<img src="../img/heart/3-4.png">
+					</td>
+				</tr>
+				<tr>
+					<th>각성</th>
+					<td class="td_rank">
+						<img src="../img/classup/ranka1.png">
+						<img src="../img/classup/ranka3.png">
+						<img src="../img/classup/ranka1-1.png">
+						<img src="../img/classup/ranka3-1.png">
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="char_info">
+			<div class="view_title">스킬 정보</div>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">힐(COST 1)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>치료</td>
+						<th>쿨타임</th>
+						<td>0턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>2칸</td>
+						<th>범위</th>
+						<td>단일</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/17.png" width="100" /></th>
+						<td colspan="3">[치료] 액티브 스킬. 단일 부대의 생명을 회복시킨다.
+						</br>회복량은 사용자 지력의 5배. 그리고 디버프를 1개 제거한다.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">재생(COST 1)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>지원</td>
+						<th>쿨타임</th>
+						<td>1턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>2칸</td>
+						<th>범위</th>
+						<td>단일</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Skill_Heal2.png" width="100" /></th>
+						<td colspan="3">[지원]액티브 스킬, 단일 아군 부대에게 전투 후 생명을 10% 회복하게한다. 2턴지속.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">광역 실드(COST 2)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>지원</td>
+						<th>쿨타임</th>
+						<td>2턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>3칸</td>
+						<th>범위</th>
+						<td>3칸</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Skill_MassDefup.png" width="100" /></th>
+						<td colspan="3">[지원]액티브 스킬, 범위 내 아군들의 방어 +20%. 그리고
+						</br>'방어, 마방 감소','치료 방해' 면역 부여, 2턴 지속.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">제거(COST 2)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>지원</td>
+						<th>쿨타임</th>
+						<td>1턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>2칸</td>
+						<th>범위</th>
+						<td>3칸</td>
+					</tr>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Passive_Extend.png" width="100" /></th>
+						<td colspan="3">[지원]액티브 스킬, 범위 내 다수 부대의 생명 회복.
+						</br>회복량은 시전자 지력의 1.5배, 3개 디버프 제거.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">광역 마방(COST 2)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>지원</td>
+						<th>쿨타임</th>
+						<td>2턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>3칸</td>
+						<th>범위</th>
+						<td>3칸</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Skill_MassMDefKup.png" width="100" /></th>
+						<td colspan="3">[지원] 액티브 스킬, 범위 내 아군들의 마방+30%,
+						</br>그리고 '기절', '강화 방해', '이동력 감소' 면역 부여, 2턴 지속.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">강화(COST 1)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>지원</td>
+						<th>쿨타임</th>
+						<td>1턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>3칸</td>
+						<th>범위</th>
+						<td>단일</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Skill_ATKup.png" width="100" /></th>
+						<td colspan="3">[지원]액티브 스킬, 1개 부대의 공격,지력 +20% 및
+						</br> 면역: '공격, 지력 감소', '침묵', 2턴 지속.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">해골 소환(COST 2)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>지원</td>
+						<th>쿨타임</th>
+						<td>3턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>3칸</td>
+						<th>범위</th>
+						<td>단일</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Skill_Skeleton02.png" width="100" /></th>
+						<td colspan="3">해골 부대를 1개 소환한다.</td>
+					</tr>
+				</table>				
+		</div>
+	</div>
+</div>
+</body>
+</HTML>
