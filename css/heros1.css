@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0;}
 html, body, div, p, ul, li, img, h1, h2, h3, h4, h5, h6, h2, span, a { margin: 0; padding: 0;}
 
-div.comm_wrap, div.DB_wrap { position: relative; margin: 0 auto; width: 772px; font-family: Dotum,돋움; font-size: 12px;}
+div.comm_wrap, div.DB_wrap { position: relative; margin: 0 auto; width: 500px; font-family: Dotum,돋움; font-size: 12px;}
 div.comm_wrap a, div.DB_wrap a { text-decoration: none;}
 div.comm_wrap img, div.DB_wrap img { border: none; vertical-align: middle;}
 div.comm_wrap li, div.DB_wrap li { list-style: none;}
