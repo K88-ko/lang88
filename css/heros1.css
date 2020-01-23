@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0;}
 html, body, div, p, ul, li, img, h1, h2, h3, h4, h5, h6, h2, span, a { margin: 0; padding: 0;}
 
-div.comm_wrap, div.DB_wrap { position: relative; margin: 0 auto; width: 500px; font-family: Dotum,돋움; font-size: 12px;}
+div.comm_wrap, div.DB_wrap { position: relative; margin: 0 auto; width: 650px; font-family: Dotum,돋움; font-size: 12px;}
 div.comm_wrap a, div.DB_wrap a { text-decoration: none;}
 div.comm_wrap img, div.DB_wrap img { border: none; vertical-align: middle;}
 div.comm_wrap li, div.DB_wrap li { list-style: none;}
@@ -10,7 +10,7 @@ p.comm_notice, div.comm_tab_btn, div.comm_wrap div.comm_bbs ul { position: absol
 
 
 /* 매인 상단 */
-.wrap-ClassName { position: relative; margin: 0 auto; width: 500px; font-family: 'MalgunGothic','맑은고딕',Dotum,돋움;}
+.wrap-ClassName { position: relative; margin: 0 auto; width: 650px; font-family: 'MalgunGothic','맑은고딕',Dotum,돋움;}
 .wrap-ClassName a { text-decoration: none; }
 .wrap-ClassName a:hover { text-decoration: underline;}
 .wrap-ClassName p, .wrap-ClassName ul { position: absolute; list-style: none; }
@@ -41,7 +41,7 @@ p.comm_notice, div.comm_tab_btn, div.comm_wrap div.comm_bbs ul { position: absol
 .bg_cri	{ background-color: #A566FF;}
 
 /* DB 테이블 Basic */
-div.DB_wrap { width: 500px; margin: 0 auto;}
+div.DB_wrap { width: 600px; margin: 0 auto;}
 div.DB_wrap table { position: relative; background: #a5bde7; width: 100%; font-size: 12px;}
 div.DB_wrap table td, div.DB_wrap table th { text-align: center; height: 31px;}
 div.DB_wrap table th { color: #fff; background: #516787;}
