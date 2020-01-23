@@ -1,0 +1,732 @@
+<HTML>
+  <HEAD>
+	<link rel="icon" type="image/png" href="../img/Icon_Hero.png" />
+	<link rel="stylesheet" href="../css/heros.css">
+    <title>랑그릿사 모바일 영웅</title>
+  </HEAD>
+  <BODY>
+
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<div class="DB_wrap">
+
+	<div class="DB_view">
+
+		<div class="char_info">
+			<div class="flat_left">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<tr>
+						<td class="view_img"><img src="../img/F_hero/96.png" /></td>
+					</tr>
+				</table>
+			</div>
+			<div class="flat_right">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>이름</th>
+						<td colspan="3" class="td_name">실린카</td>
+					</tr>
+					<tr>
+						<th>CV</th>
+						<td colspan="3" class="td_name">준비중</td>
+					</tr>
+					<tr>
+						<th>희귀도</th>
+						<td><img src="../img/type/0.png" /></td>
+						<th>초기성급</th>
+						<td><img src="../img/StarBig.png" width="16" height="16" /><img src="../img/StarBig.png" width="16" height="16" /><img src="../img/StarBig.png" width="16" height="16" /></td>
+					</tr>
+					<tr>
+						<th>세력</th>
+						<td colspan="3"><img src="../img/group/8.png" width="32" height="32" /><img src="../img/group/10.png" width="32" height="32" /></td>
+					</tr>
+					<tr>
+						<th>생명수정치</th>
+						<td>준비중</td>
+						<th>공격수정치</th>
+						<td>유대3 공격 15%</td>
+					</tr>
+					<tr>
+						<th>방어수정치</th>
+						<td>유대3 방어+15%</td>
+						<th>마방수정치</th>
+						<td>준비중</td>
+					</tr>
+					<tr>
+						<th >획득법</th>
+						<td colspan="3" class="td_left">영웅 소환,파멸의날개(비행타입이동)</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th><img src="../img/Icon/Spirit1.png" width="32" height="32" /></th>
+						<td colspan="3" class="td_name">레벨 30</td>
+					</tr>
+					<tr>
+						<th><img src="../img/Icon/Spirit2.png" width="32" height="32" /></th>
+						<td colspan="3" class="td_name">클래스 파멸의날개 전직</td>
+					</tr>
+					<tr>
+						<th><img src="../img/Icon/Spirit3.png" width="32" height="32" /></th>
+						<td colspan="3" class="td_name">브렌다와 함께 운명의문4</td>
+					</tr>
+					<tr>
+						<th><img src="../img/Icon/Spirit4.png" width="32" height="32" /></th>
+						<td colspan="3" class="td_name">레인폴스와 함께 운명의문5</td>
+					</tr>
+					<tr>
+						<th><img src="../img/Icon/Icon_pink.png" width="32" height="32" /></th>
+						<td colspan="3" class="td_name">준비중</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="char_info">
+			<div class="view_title">고유 기술</div>
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+					<col width="70px">
+					<col width="*">
+				</colgroup>
+				<tr>
+					<td><img src="../img/ability/93.png" width="100px" height="90px"/></th>
+					<td class="td_left"></td>
+				</tr>				
+				<tr>
+					<th><img src="../img/3star.png" width="100" /></th>
+					<th class="td_left" style="font-weight:bold;">행동종료시 주위 2칸 범위 내에 아군이 없을 경우
+					</br>입히는 피해 +10%, 받는피해 -10%, 1턴 지속.
+					</br>[휴면상태]가 아닐 경우 사망 시 생명 90% 회복 후 [휴면상태]:
+					</br>'행동불가','효과 종료시 생명 20%회복',3턴 지속.
+					</br>(이 효과는 면역 및 제거불가, 전장마다 최대 1회 발동.)</th>
+				</tr>
+				<tr>
+					<th><img src="../img/4star.png" width="100" /></th>
+					<th class="td_left" style="font-weight:bold;">행동종료시 주위 2칸 범위 내에 아군이 없을 경우
+					</br>입히는 피해 +13%, 받는피해 -13%, 1턴 지속.
+					</br>[휴면상태]가 아닐 경우 사망 시 생명 90% 회복 후 [휴면상태]:
+					</br>'행동불가','효과 종료시 생명 30%회복',2턴 지속.
+					</br>(이 효과는 면역 및 제거불가, 전장마다 최대 1회 발동.)</th>
+				</tr>
+				<tr>
+					<th><img src="../img/5star.png" width="100" /></th>
+					<th class="td_left" style="font-weight:bold;">행동종료시 주위 2칸 범위 내에 아군이 없을 경우
+					</br>입히는 피해 +16%, 받는피해 -16%, 1턴 지속.
+					</br>[휴면상태]가 아닐 경우 사망 시 생명 90% 회복 후 [휴면상태]:
+					</br>'행동불가','효과 종료시 생명 40%회복',2턴 지속.
+					</br>(이 효과는 면역 및 제거불가, 전장마다 최대 1회 발동.)</th>
+				</tr>
+			</table>
+			<div class="view_title">클래스 최종 능력치(70레벨 호감도4,5 10레벨,마음의유대X)</div>
+			<div class="flat_left">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>클래스</th>
+						<td colspan="3" class="td_name">파멸의날개</td>
+					</tr>
+					<tr>
+						<th>생명</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_hp" style="width: 48%;"></em></span>
+							<strong class="graph_point col_olive">2874</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>공격</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_atk" style="width: 80%;"></em></span>
+							<strong class="graph_point col_orange">519</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>지력</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_matk" style="width: 47%;"></em></span>
+							<strong class="graph_point col_blue">283</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>방어</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_def" style="width: 48%;"></em></span>
+							<strong class="graph_point col_yellow">215</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>마방</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_mdef" style="width: 58%;"></em></span>
+							<strong class="graph_point col_purple">259</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>기술</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_cri" style="width: 62%;"></em></span>
+							<strong class="graph_point col_purple">216</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>마음의유대4</th>
+						<td class="td_left">준비중</td>
+					</tr>
+					<tr>
+						<th>마음의유대7</th>
+						<td class="td_left">준비중</td>
+					</tr>
+				</table>
+			</div>			
+			<div class="flat_right">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<th>클래스</th>
+						<td colspan="3" class="td_name">검성</td>
+					</tr>
+					<tr>
+						<th>생명</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_hp" style="width: 60%;"></em></span>
+							<strong class="graph_point col_olive">3625</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>공격</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_atk" style="width: 88%;"></em></span>
+							<strong class="graph_point col_orange">575</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>지력</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_matk" style="width: 47%;"></em></span>
+							<strong class="graph_point col_blue">283</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>방어</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_def" style="width: 54%;"></em></span>
+							<strong class="graph_point col_yellow">245</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>마방</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_mdef" style="width: 50%;"></em></span>
+							<strong class="graph_point col_purple">224</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>기술</th>
+						<td class="td_graph">
+							<span class="graph_bg"><em class="graph_line bg_cri" style="width: 69%;"></em></span>
+							<strong class="graph_point col_purple">243</strong>
+						</td>
+					</tr>
+					<tr>
+						<th>마음의유대4</th>
+						<td class="td_left">준비중</td>
+					</tr>
+					<tr>
+						<th>마음의유대7</th>
+						<td class="td_left">준비중</td>
+					</tr>
+				</table>
+			</div>	
+		</div>
+		<div class="char_info" id="rankUPArea">
+
+			<div class="view_title">클래스전직</div>
+			<div class="flat_left">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+						<tr>
+						<th>파이터</th>
+						<td colspan="3" class="td_name">생명+36, 공격+9</td>
+						</tr>
+						<tr>
+						<th>T1</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank1-1.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T2</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank1-1.png">
+						</td>
+						</tr>
+						<tr>
+						<th>소드맨</th>
+						<td colspan="3" class="td_name">생명+80, 기술+5</td>
+						</tr>
+						<tr>
+						<th>T1</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank2-1.png">
+							<img src="../img/classup/rank1-1.png">
+							<img src="../img/classup/rank1-2.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T2</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank3-1.png">
+							<img src="../img/classup/rank3-6.png">
+							<img src="../img/classup/rank2-1.png">
+							<img src="../img/classup/rank2-2.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T3</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank4-1.png">
+							<img src="../img/classup/rank4-2.png">
+							<img src="../img/classup/rank3-1.png">
+							<img src="../img/classup/rank3-6.png">
+						</td>
+						</tr>
+						<tr>
+						<th>검성</th>
+						<td colspan="3" class="td_name">생명+90, 공격+25, 방어+10</td>
+						</tr>
+						<tr>
+						<th>T1</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank5-1.png">
+							<img src="../img/classup/rank5-2.png">
+							<img src="../img/classup/rank4-1.png">
+							<img src="../img/classup/rank4-3.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T2</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank6-1.png">
+							<img src="../img/classup/rank6-3.png">
+							<img src="../img/classup/rank5-1.png">
+							<img src="../img/classup/rank5-2.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T3</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank7-2.png">
+							<img src="../img/classup/rank7-4.png">
+							<img src="../img/classup/rank6-1.png">
+							<img src="../img/classup/rank6-3.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T4</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank8-1.png">
+							<img src="../img/classup/rank8-5.png">
+							<img src="../img/classup/rank7-2.png">
+							<img src="../img/classup/rank7-4.png">
+						</td>
+						</tr>
+				</table>
+			</div>
+
+			<div class="flat_right">
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+						<tr>
+						<th>복수자</th>
+						<td colspan="3" class="td_name">생명+48, 공격+12</td>
+						</tr>
+						<tr>
+						<th>T1</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank2-6.png">
+							<img src="../img/classup/rank1-2.png">
+							<img src="../img/classup/rank1-5.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T2</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank3-2.png">
+							<img src="../img/classup/rank3-1.png">
+							<img src="../img/classup/rank2-2.png">
+							<img src="../img/classup/rank2-6.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T3</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank4-3.png">
+							<img src="../img/classup/rank4-1.png">
+							<img src="../img/classup/rank3-2.png">
+							<img src="../img/classup/rank3-1.png">
+						</td>
+						</tr>
+						<tr>
+						<th>파멸의날개</th>
+						<td colspan="3" class="td_name">공격+25, 생명+90, 방어+10</td>
+						</tr>
+						<tr>
+						<th>T1</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank5-2.png">
+							<img src="../img/classup/rank5-1.png">
+							<img src="../img/classup/rank4-3.png">
+							<img src="../img/classup/rank4-1.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T2</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank6-3.png">
+							<img src="../img/classup/rank6-1.png">
+							<img src="../img/classup/rank5-2.png">
+							<img src="../img/classup/rank5-1.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T3</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank7-3.png">
+							<img src="../img/classup/rank7-2.png">
+							<img src="../img/classup/rank6-3.png">
+							<img src="../img/classup/rank6-1.png">
+						</td>
+						</tr>
+						<tr>
+						<th>T4</th>
+						<td class="td_rank">
+							<img src="../img/classup/rank8-3.png">
+							<img src="../img/classup/rank8-5.png">
+							<img src="../img/classup/rank7-4.png">
+							<img src="../img/classup/rank7-3.png">
+						</td>
+						</tr>
+				</table>
+			</div>
+			</br>
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+					<col width="70px">
+					<col width="*">
+				</colgroup>
+				<tr>
+					<th>용병</th>
+					<td class="td_left td_skpt">
+						<span><img src="../img/troop/17.png"/></span>
+						<span><img src="../img/troop/8.png"/></span>
+						<span><img src="../img/troop/31.png"/></span>
+						<span><img src="../img/troop/64.png"/></span>
+						<span><img src="../img/troop/37.png"/></span>
+						<span><img src="../img/troop/15.png"/></span>
+						<span><img src="../img/troop/12.png"/></span>
+					</td>
+				</tr>
+			</table>
+			<div class="view_title">재료정보</div>
+			<table border="0" cellpadding="0" cellspacing="1">
+				<colgroup>
+						<col width="22%">
+						<col width="*">
+				</colgroup>
+				<tr>
+					<th>중앙2~10순서</th>
+					<td class="td_rank">
+						<img src="../img/skills/Mood032.png">
+					</td>
+				</tr>
+				<tr>
+					<th>유대</th>
+					<td class="td_rank">
+						<img src="../img/heart/1.png">
+						<img src="../img/heart/1-1.png">
+						<img src="../img/heart/1-2.png">
+						<img src="../img/heart/1-3.png">
+						<img src="../img/heart/1-4.png">
+					</td>
+				</tr>
+				<tr>
+					<th>각성</th>
+					<td class="td_rank">
+						<img src="../img/classup/ranka1.png">
+						<img src="../img/classup/ranka4.png">
+						<img src="../img/classup/ranka1-1.png">
+						<img src="../img/classup/ranka4-1.png">
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="char_info">
+			<div class="view_title">스킬 정보</div>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">바람칼날(COST 2)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>물리 피해</td>
+						<th>쿨타임</th>
+						<td>2턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>2칸</td>
+						<th>범위</th>
+						<td>단일</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/0.png" width="100" /></th>
+						<td colspan="3">[물리 피해]단일 적 부대를 공격해 1.5배의 피해를 준다.
+						</br>근접전 병사를 이끌고 있다면 병사도 함께 공격한다.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">경화(COST 1)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>패시브</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Mood032.png" width="100" /></th>
+						<td colspan="3">[패시브]근접병사를 휴대시, 부대의 이동방식을 '비행'으로 변경.
+						</br>공격을 받아 전투 진입 후, 적군에게 [고정피해]를 입히며(피해량은 적군의 '공격'+'지력'의 1배),
+						</br>자신의 생명 회복(회복량은 적군의 '공격'+'지력'의 1배),
+						</br>[휴면상태]의 경우 2배 효과.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">저격(COST 2)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>물리 피해</td>
+						<th>쿨타임</th>
+						<td>2턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>2칸</td>
+						<th>범위</th>
+						<td>단일</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/14.png" width="100" /></th>
+						<td colspan="3">[물리 피해] 단일 적을 1.4배 피해로 공격,
+						</br>'비병'과 전투 시 더큰 피해를 준다.
+						</br>전투 후 50%확률로 스킬사용 불가 부여, 1턴 지속.(제거 불가)</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">강화(COST 1)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>지원</td>
+						<th>쿨타임</th>
+						<td>1턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>3칸</td>
+						<th>범위</th>
+						<td>단일</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Skill_ATKup.png" width="100" /></th>
+						<td colspan="3">[지원]액티브 스킬, 1개 부대의 공격,지력 +20% 및
+						</br> 면역: '공격, 지력 감소', '침묵', 2턴 지속.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">사투(COST 1)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>패시브</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/9.png" width="100" /></th>
+						<td colspan="3">[패시브]전투 진입 시 부대 공격, 기술 +12%, 방어, 마방 -7%.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">점멸(COST 1)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>지원</td>
+						<th>쿨타임</th>
+						<td>4턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>자신</td>
+						<th>범위</th>
+						<td>단일</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Mood032.png" width="100" /></th>
+						<td colspan="3">[패시브]원거리병사를 휴대시, 부대의 이동방식을 '비행'으로 변경.
+						</br>[지원]액티브 스킬, 자신을 순간이동하여 임의의 위치로 이동할 시 
+						</br>'이동력 +2, [말살]버프 시전:
+						</br>공격하여 전투 진입 전 적군 주위 1칸내 1명 이상의 적군이 있을경우 영웅을 직접 공격',
+						</br>1턴 지속.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">장갑 파괴(COST 1)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>패시브</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Passive_BreakDef.png" width="100" /></th>
+						<td colspan="3">[패시브]전투 진입전 50% 확률로 적의 방어 -20%, 1턴 지속.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">파몽(COST 2)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>물리 피해</td>
+						<th>쿨타임</th>
+						<td>3턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>2칸</td>
+						<th>범위</th>
+						<td>단일</td>
+					</tr>
+					<tr>
+						<th><img src="../img/skills/Mood032.png" width="100" /></th>
+						<td colspan="3">[물리 피해]단일 적 부대를 공격해 1.4배의 피해를 준다.
+						</br>근접전 병사를 이끌고 있다면 병사도 함께 공격한다.
+						</br>자신 주위 3칸 범위 내에 아군이 없을 경우, 호위를 무시하고 공격한다.
+						</br>이 스킬로 적군을 격파한 경우 2칸 재이동 가능.</td>
+					</tr>
+				</table>
+				<table border="0" cellpadding="0" cellspacing="1">
+					<colgroup>
+						<col width="22%">
+						<col width="28%">
+						<col width="22%">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td colspan="4"><b><font color="#0070c0">각성스킬(COST 3)</font></b></td>
+					</tr>
+					<tr>
+						<th>유형</th>
+						<td>물리피해</td>
+						<th>쿨타임</th>
+						<td>5턴</td>
+					</tr>
+					<tr>
+						<th>사거리</th>
+						<td>2칸</td>
+						<th>범위</th>
+						<td>단일</td>
+					</tr>
+					<tr>
+						<th><img src="../img/Super/Mood032.png" width="100" /></th>
+						<td colspan="3">[물리 피해]단일 적 부대를 공격해 1.6배의 피해를 준다.
+						</br>근접전 병사를 이끌고 있다면 병사도 함께 공격한다.
+						</br>전투 후 가한 피해량의 30%만큼 생명을 회복한다.
+						</br>적 부대 1칸 주변 아군 1명당 방어 무시 20%(최대 40%).
+						</br>적 부대 2칸 주위내 아군이 없을 시 적 적파 후 재행동 가능
+						</br>(재행동은 1턴 내에 연속발동 불가)</td>
+					</tr>
+					<tr>
+						<td colspan="4"><img src="../img/Super/Mood032.png" /></td>
+					</tr>
+				</table>
+		</div>
+	</div>
+</div>
+</body>
+</HTML>
