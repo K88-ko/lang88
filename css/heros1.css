@@ -10,7 +10,7 @@ p.comm_notice, div.comm_tab_btn, div.comm_wrap div.comm_bbs ul { position: absol
 
 
 /* 매인 상단 */
-.wrap-ClassName { position: relative; margin: 0 auto; width: 772px; font-family: 'MalgunGothic','맑은고딕',Dotum,돋움;}
+.wrap-ClassName { position: relative; margin: 0 auto; width: 500px; font-family: 'MalgunGothic','맑은고딕',Dotum,돋움;}
 .wrap-ClassName a { text-decoration: none; }
 .wrap-ClassName a:hover { text-decoration: underline;}
 .wrap-ClassName p, .wrap-ClassName ul { position: absolute; list-style: none; }
@@ -41,7 +41,7 @@ p.comm_notice, div.comm_tab_btn, div.comm_wrap div.comm_bbs ul { position: absol
 .bg_cri	{ background-color: #A566FF;}
 
 /* DB 테이블 Basic */
-div.DB_wrap { width: 772px; margin: 0 auto;}
+div.DB_wrap { width: 500px; margin: 0 auto;}
 div.DB_wrap table { position: relative; background: #a5bde7; width: 100%; font-size: 12px;}
 div.DB_wrap table td, div.DB_wrap table th { text-align: center; height: 31px;}
 div.DB_wrap table th { color: #fff; background: #516787;}
@@ -85,7 +85,7 @@ div.flat_right { float: right; width: 49.5%;}
 
 
 /* 타이틀 */
-div.view_title { position: relative; height: 32px; line-height: 32px; font-size: 25px; font-weight: bold; text-align: left; padding: 6px 0 0 10px; margin-bottom: 10px;
+div.view_title { position: relative; height: 32px; line-height: 32px; font-size: 14px; font-weight: bold; text-align: left; padding: 6px 0 0 10px; margin-bottom: 10px;
 	color: #ec5e00; 
 	border-bottom: 2px solid #ec5e00;}
 div.view_title a { position: absolute; top: 12px; right: 0; display: block; width: 50px; height: 20px; line-height: 22px; text-align: center; font-size: 12px;
@@ -110,7 +110,7 @@ strong.graph_rank em { font-style: inherit;}
 table tr td.td_pd10 { padding: 7px;}
 table tr td.td_skpt { padding: 7px 3px; overflow: hidden;}
 table tr td.td_skpt span { position: relative; display: block; float: left; width: 13%; margin: 0 1%;} /* 아이콘 크기 조절 */
-table tr td.td_skpt span strong { position: absolute; top: 0; left: 0; width: 12px; height: 12px; font-weight: normal; font-size: 15px; text-align: center;
+table tr td.td_skpt span strong { position: absolute; top: 0; left: 0; width: 12px; height: 12px; font-weight: normal; font-size: 8px; text-align: center;
 	color: #fff; background: rgba(0,0,0,0.7);}
 table tr td.td_skpt span img { width: 100%;}
 table tr td.td_rank { height: 47px; padding: 3px; text-align: left;}
