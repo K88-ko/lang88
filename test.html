@@ -2,32 +2,41 @@
   <HEAD>
 		<link rel="icon" type="image/png" href="img/Icon_Drill.png" />
 		<link rel="stylesheet" href="css/trooppop.css">
-		<link rel="stylesheet" href="css/hero.css">
+		<link rel="stylesheet" href="css/heros.css">
+		<link rel="stylesheet" href="css/troopcheckbox.css">
 		<script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<title>랑그릿사 모바일</title>
 	</HEAD>
 	<BODY>
-	<input type="checkbox" name="troop" value="1"><img src="img/troop/Icon_Occupation_Infantryman.png" width="50px/>검병
-	<input type="checkbox" name="troop" value="2"><img src="img/troop/Icon_Occupation_Marines.png" width="50px/>창병
-	<input type="checkbox" name="troop" value="3"><img src="img/troop/Icon_Occupation_Cavalry.png" width="50px/>검병
-	<input type="checkbox" name="troop" value="4"><img src="img/troop/Icon_Occupation_Fly.png" width="50px/>검병
-	<input type="checkbox" name="troop" value="5"><img src="img/troop/Icon_Occupation_Water.png" width="50px/>검병
-	<input type="checkbox" name="troop" value="6"><img src="img/troop/Icon_Occupation_Archer.png" width="50px/>검병
-	<input type="checkbox" name="troop" value="7"><img src="img/troop/Icon_Occupation_Assassin.png" width="50px/>검병
-	<input type="checkbox" name="troop" value="8"><img src="img/troop/Icon_Occupation_Magician.png" width="50px/>검병
-	<input type="checkbox" name="troop" value="9"><img src="img/troop/Icon_Occupation_Monk.png" width="50px/>검병
-	<input type="checkbox" name="troop" value="10"><img src="img/troop/Icon_Occupation_Monster.png" width="50px/>검병
-		
-	<table>
-	<tr troop="1">
-	<a href="#layer1" class="btn-example"><img src="img/troop/28.png"/></a></p>
-	</tr>
-	<tr troop="2">
-	<a href="#layer2" class="btn-example"><img src="img/troop/29.png"/></a></p>
-	</tr>
-	</table>	
+	<div class="container">
+	<section class="col-xs-12 box filter">
+		<div class="filter-block">
+		<form class="form-horizontal" action="">
+        <div class="col-sm-6 form-group tags categories">
+          <h1>Categories</h1>
+          <div class="checkbox"><label><input type="checkbox" rel="검병"/> Category One</label></div>
+          <div class="checkbox"><label><input type="checkbox" rel="창병"/> Category Two</label></div>
+          <div class="checkbox"><label><input type="checkbox" rel="기병"/> Category Three</label></div>
+          <div class="checkbox"><label><input type="checkbox" rel="비병"/> Category Four</label></div>
+          <div class="checkbox"><label><input type="checkbox" rel="수병"/> Category Five</label></div>
+        </div>
+      
+    </div>
+	</section>
 	
+	<div class="col-xs-12 no-padding grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": ".col-sm-6" }'>
+    <section class="grid-item col-xs-12 col-sm-6 box" id="category-one">
+      <ul class="results list-unstyled">
+        <li class="검병">
+          <a href="#layer1" class="btn-example"><img src="img/troop/28.png"/></a>
+		</li>
+		<li class="검병">
+          <a href="#layer2" class="btn-example"><img src="img/troop/29.png"/></a>
+		</li>
+      </ul>
+    </section>
+			
 	<div id="layer2" class="pop-layer">
 		<div class="pop-container">
 			<div class="pop-conts">
@@ -158,4 +167,5 @@
 	</div>
 </BODY>
 <script src="js/trooppop.js"></script>
+<script src="js/troopcheckbox.js"></script>
 </HTML>
