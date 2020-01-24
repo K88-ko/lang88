@@ -12,16 +12,19 @@
 		function view() {
 			if(hiddenTB.style.display=="none") {
 			hiddenTB.style.display="block";
+			BT.value = "닫힘";
 		}
 		else {
 			hiddenTB.style.display="none";
+			BT.value = "열림";
 		}
 		}
     </script>
-		<input id="BT" type="button" value="<img src="img/troop/Icon_Occupation_Infantryman.png"/>" onclick="view()">
-		<table id="hiddenTB" Border=1 style="display:none">
+		<input id="BT" type="button" value="열림" onclick="view()">
+		<table id="hiddenTB" border=1 style="display:none">
 		<tr>
-		<a href="#layer1" class="btn-example"><img src="img/troop/28.png"/></a></p>
+			<td>
+			<a href="#layer1" class="btn-example"><img src="img/troop/28.png"/></a></p>
 			<div id="layer1" class="pop-layer">
 				<div class="pop-container">
 					<div class="pop-conts">
@@ -151,6 +154,7 @@
 					</div>
 				</div>
 			</div>
+		</td>
 		</tr>
 		</table>
 		<button class="button"><img src="img/troop/Icon_Occupation_Marines.png"/></button>
