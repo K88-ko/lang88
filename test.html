@@ -3,157 +3,162 @@
 		<link rel="icon" type="image/png" href="img/Icon_Drill.png" />
 		<link rel="stylesheet" href="css/trooppop.css">
 		<link rel="stylesheet" href="css/heros1.css">
+		<script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<title>랑그릿사 모바일</title>
   </HEAD>
   <BODY>
-		<script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<div class="button-group filters-button-group">
-			<button class="button" data-filter="a28"><img src="img/troop/Icon_Occupation_Infantryman.png"/></button>
-			<button class="button" data-filter="a29"><img src="img/troop/Icon_Occupation_Marines.png"/></button>
-			<button class="button" data-filter="a30"><img src="img/troop/Icon_Occupation_Cavalry.png"/></button>
-			<button class="button" data-filter="a31"><img src="img/troop/Icon_Occupation_Fly.png"/></button>
-			<button class="button" data-filter="a32"><img src="img/troop/Icon_Occupation_Water.png"/></button>
-			<button class="button" data-filter="a33"><img src="img/troop/Icon_Occupation_Archer.png"/></button>
-			<button class="button" data-filter="a32"><img src="img/troop/Icon_Occupation_Assassin.png"/></button>
-			<button class="button" data-filter="a33"><img src="img/troop/Icon_Occupation_Magician.png"/></button>
-			<button class="button" data-filter="a32"><img src="img/troop/Icon_Occupation_Monk.png"/></button>
-			<button class="button" data-filter="a33"><img src="img/troop/Icon_Occupation_Monster.png"/></button>
+			<button class="button" data-filter="a11"><img src="img/troop/Icon_Occupation_Infantryman.png"/></button>
+			<button class="button" data-filter="a12"><img src="img/troop/Icon_Occupation_Marines.png"/></button>
+			<button class="button" data-filter="a13"><img src="img/troop/Icon_Occupation_Cavalry.png"/></button>
+			<button class="button" data-filter="a14"><img src="img/troop/Icon_Occupation_Fly.png"/></button>
+			<button class="button" data-filter="a15"><img src="img/troop/Icon_Occupation_Water.png"/></button>
+			<button class="button" data-filter="a16"><img src="img/troop/Icon_Occupation_Archer.png"/></button>
+			<button class="button" data-filter="a17"><img src="img/troop/Icon_Occupation_Assassin.png"/></button>
+			<button class="button" data-filter="a18"><img src="img/troop/Icon_Occupation_Magician.png"/></button>
+			<button class="button" data-filter="a19"><img src="img/troop/Icon_Occupation_Monk.png"/></button>
+			<button class="button" data-filter="a20"><img src="img/troop/Icon_Occupation_Monster.png"/></button>
 		 </div>
-		
-		<a href="#layer1" class="btn-example"><img src="img/troop/28.png"/></a>
-		<div id="layer1" class="pop-layer">
-		<div class="pop-container">
-			<div class="pop-conts">
-				<!--content //-->
-				<p class="ctxt mb20">
-				<div class="DB_wrap">
-					<div class="DB_view">
-						<div class="char_info">
-							<div class="view_title">용병정보</div>
-							<table border="0" cellpadding="0" cellspacing="1">
-								<colgroup>
-									<col width="22%">
-									<col width="28%">
-									<col width="22%">
-									<col width="*">
-								</colgroup>
-								<tr>
-									<th>용병효과</th>
-									<td>치명타율 +10%(→30%).
-									</br>공격력 +5%(→15%).</td>
-								</tr>
-								<tr>
-									<th>용병재료</th>
-									<td>
-									<img src="img/item/체인.png" width="50px"/>
-									<img src="img/item/물병.png" width="50px"/>
-									</td>	
-								</tr>					
-							</table>
-							<div class="view_title">사용가능영웅</div>
-							<table border="0" cellpadding="0" cellspacing="1">
-								<colgroup>
-									<col width="22%">
-									<col width="28%">
-									<col width="22%">
-									<col width="*">
-								</colgroup>
-								<tr>
-									<td colspan="4">
-										<img src="img/card/레스터.png" width="50px"/>
-										<img src="img/card/키리카제.png" width="50px"/>
-										<img src="img/card/판.png" width="50px"/>
-										<img src="img/card/레온.png" width="50px"/>
-										<img src="img/card/안젤리나.png" width="50px"/>
-										<img src="img/card/란포드.png" width="50px"/>
-										<img src="img/card/에스텔.png" width="50px"/>
-										<img src="img/card/클라렛.png" width="50px"/>
-										<img src="img/card/레인폴스.png" width="50px"/>
-										<img src="img/card/비라쥬.png" width="50px"/>
-										<img src="img/card/브렌다.png" width="50px"/>
-										<img src="img/card/아레스.png" width="50px"/>
-									</td>
-								</tr>
-							</table>
+		<div class="grid">
+			<div class="element-item" data-category="보병">
+				<h3 class="name">11</h3>
+				<p class="number"><a href="#layer1" class="btn-example"><img src="img/troop/28.png"/></a></p>
+				<div id="layer1" class="pop-layer">
+					<div class="pop-container">
+						<div class="pop-conts">
+							<!--content //-->
+							<p class="ctxt mb20">
+							<div class="DB_wrap">
+								<div class="DB_view">
+									<div class="char_info">
+										<div class="view_title">용병정보</div>
+											<table border="0" cellpadding="0" cellspacing="1">
+												<colgroup>
+													<col width="22%">
+													<col width="28%">
+													<col width="22%">
+													<col width="*">
+												</colgroup>
+												<tr>
+													<th>용병효과</th>
+													<td>치명타율 +10%(→30%).
+													</br>공격력 +5%(→15%).</td>
+												</tr>
+												<tr>
+													<th>용병재료</th>
+													<td>
+													<img src="img/item/체인.png" width="50px"/>
+													<img src="img/item/물병.png" width="50px"/>
+													</td>	
+												</tr>					
+											</table>
+											<div class="view_title">사용가능영웅</div>
+											<table border="0" cellpadding="0" cellspacing="1">
+											<colgroup>
+												<col width="22%">
+												<col width="28%">
+												<col width="22%">
+												<col width="*">
+											</colgroup>
+											<tr>
+												<td colspan="4">
+													<img src="img/card/레스터.png" width="50px"/>
+													<img src="img/card/키리카제.png" width="50px"/>
+													<img src="img/card/판.png" width="50px"/>
+													<img src="img/card/레온.png" width="50px"/>
+													<img src="img/card/안젤리나.png" width="50px"/>
+													<img src="img/card/란포드.png" width="50px"/>
+													<img src="img/card/에스텔.png" width="50px"/>
+													<img src="img/card/클라렛.png" width="50px"/>
+													<img src="img/card/레인폴스.png" width="50px"/>
+													<img src="img/card/비라쥬.png" width="50px"/>
+													<img src="img/card/브렌다.png" width="50px"/>
+													<img src="img/card/아레스.png" width="50px"/>
+												</td>
+											</tr>
+											</table>
+									</div>
+								</div>
+							</div>
+							</p>
+							<div class="btn-r">
+							<a href="#" class="btn-layerClose">Close</a>
+							</div>
+							<!--// content-->
 						</div>
 					</div>
 				</div>
-				</p>
-
-            <div class="btn-r">
-                <a href="#" class="btn-layerClose">Close</a>
-            </div>
-            <!--// content-->
-        </div>
-    </div>
-</div>
-<a href="#layer2" class="btn-example"><img src="img/troop/29.png"/></a>
-<div id="layer2" class="pop-layer">
-    <div class="pop-container">
-        <div class="pop-conts">
-            <!--content //-->
-            <p class="ctxt mb20">
-			<div class="DB_wrap">
-			<div class="DB_view">
-			<div class="char_info">
-				<div class="view_title">용병정보</div>
-				<table border="0" cellpadding="0" cellspacing="1">
-					<colgroup>
-						<col width="22%">
-						<col width="28%">
-						<col width="22%">
-						<col width="*">
-					</colgroup>
-					<tr>
-						<th>용병효과</th>
-						<td>공격 +5%(→15%)
-						</br>받는 모든 피해량 -5%(→15%).</td>
-					</tr>
-					<tr>
-						<th>용병재료</th>
-						<td>
-						<img src="img/item/체인.png" width="50px"/>
-						<img src="img/item/서스펜더.png" width="50px"/>
-						</td>	
-					</tr>					
-				</table>
-				<div class="view_title">사용가능영웅</div>
-				<table border="0" cellpadding="0" cellspacing="1">
-					<colgroup>
-						<col width="22%">
-						<col width="28%">
-						<col width="22%">
-						<col width="*">
-					</colgroup>
-					<tr>
-						<td colspan="4">
-							<img src="img/card/매튜.png" width="50px"/>
-							<img src="img/card/크리스.png" width="50px"/>
-							<img src="img/card/클로제.png" width="50px"/>
-							<img src="img/card/알프레드.png" width="50px"/>
-							<img src="img/card/판.png" width="50px"/>
-							<img src="img/card/리아나.png" width="50px"/>
-							<img src="img/card/레온하르트.png" width="50px"/>
-							<img src="img/card/윌러.png" width="50px"/>
-							<img src="img/card/베티.png" width="50px"/>
-							<img src="img/card/브렌다.png" width="50px"/>
-						</td>
-					</tr>
-				</table>
 			</div>
+			<div class="element-item" data-category="보병">
+				<h3 class="name">11</h3>
+				<p class="number"><a href="#layer2" class="btn-example"><img src="img/troop/29.png"/></a></p>
+				<div id="layer2" class="pop-layer">
+					<div class="pop-container">
+						<div class="pop-conts">
+							<!--content //-->
+							<p class="ctxt mb20">
+							<div class="DB_wrap">
+								<div class="DB_view">
+									<div class="char_info">
+										<div class="view_title">용병정보</div>
+											<table border="0" cellpadding="0" cellspacing="1">
+												<colgroup>
+													<col width="22%">
+													<col width="28%">
+													<col width="22%">
+													<col width="*">
+												</colgroup>
+												<tr>
+													<th>용병효과</th>
+													<td>공격 +5%(→15%)
+													</br>받는 모든 피해량 -5%(→15%).</td>
+												</tr>
+												<tr>
+													<th>용병재료</th>
+													<td>
+													<img src="img/item/체인.png" width="50px"/>
+													<img src="img/item/서스펜더.png" width="50px"/>
+													</td>	
+												</tr>					
+											</table>
+											<div class="view_title">사용가능영웅</div>
+											<table border="0" cellpadding="0" cellspacing="1">
+											<colgroup>
+												<col width="22%">
+												<col width="28%">
+												<col width="22%">
+												<col width="*">
+											</colgroup>
+											<tr>
+												<td colspan="4">
+													<img src="img/card/매튜.png" width="50px"/>
+													<img src="img/card/크리스.png" width="50px"/>
+													<img src="img/card/클로제.png" width="50px"/>
+													<img src="img/card/알프레드.png" width="50px"/>
+													<img src="img/card/판.png" width="50px"/>
+													<img src="img/card/리아나.png" width="50px"/>
+													<img src="img/card/레온하르트.png" width="50px"/>
+													<img src="img/card/윌러.png" width="50px"/>
+													<img src="img/card/베티.png" width="50px"/>
+													<img src="img/card/브렌다.png" width="50px"/>
+												</td>
+											</tr>
+											</table>
+									</div>
+								</div>
+							</div>
+							</p>
+							<div class="btn-r">
+							<a href="#" class="btn-layerClose">Close</a>
+							</div>
+							<!--// content-->
+						</div>
+					</div>
+				</div>
 			</div>
-			</div>
-            </p>
-
-            <div class="btn-r">
-                <a href="#" class="btn-layerClose">Close</a>
-            </div>
-            <!--// content-->
-        </div>
-    </div>
-</div>
+		</div>
 </BODY>
 <script src="js/trooppop.js"></script>
-<script src="js/troop.js"></script>
+<script src="js/troop1.js"></script>
 </HTML>
