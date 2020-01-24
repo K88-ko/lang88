@@ -8,23 +8,13 @@
 		<title>랑그릿사 모바일</title>
 	</HEAD>
 	<BODY>
-	<script>
-		function view() {
-			if(hiddenTB.style.display=="none") {
-			hiddenTB.style.display="block";
-			BT.value = "닫힘";
-		}
-		else {
-			hiddenTB.style.display="none";
-			BT.value = "열림";
-		}
-		}
-    </script>
-		<input id="BT" type="button" value="열림" onclick="view()">
-		<table id="hiddenTB" border=1 style="display:none">
-		<tr>
-			<td>
-			<a href="#layer1" class="btn-example"><img src="img/troop/28.png"/></a></p>
+	<div>
+	<label><input type="checkbox" name="troop" value="검병"><img src="img/troop/Icon_Occupation_Infantryman.png"/>검병</label>
+	</div>
+	
+	<table>
+	<tr troop="검병">
+	<a href="#layer1" class="btn-example"><img src="img/troop/28.png"/></a></p>
 			<div id="layer1" class="pop-layer">
 				<div class="pop-container">
 					<div class="pop-conts">
@@ -90,6 +80,8 @@
 					</div>
 				</div>
 			</div>
+			</tr>
+			<tr troop="검병">
 			<p class="number"><a href="#layer2" class="btn-example"><img src="img/troop/29.png"/></a></p>
 			<div id="layer2" class="pop-layer">
 				<div class="pop-container">
@@ -154,9 +146,8 @@
 					</div>
 				</div>
 			</div>
-		</td>
-		</tr>
-		</table>
+			</tr>
+		</table>	
 		<button class="button"><img src="img/troop/Icon_Occupation_Marines.png"/></button>
 		<button class="button"><img src="img/troop/Icon_Occupation_Cavalry.png"/></button>
 		<button class="button"><img src="img/troop/Icon_Occupation_Fly.png"/></button>
