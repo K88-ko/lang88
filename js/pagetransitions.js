@@ -58,14 +58,24 @@ var PageTransitions = (function() {
 		isAnimating = true;
 		
 		var $currPage = $pages.eq( current );
-
-			if( current < 5 ) {
+		
+		if(options.showPage){
+			if( options.showPage < pagesCount - 1 ) {
+				current = options.showPage;
+			}
+			else {
+				current = 0;
+			}
+		}
+		else{
+			if( current < pagesCount - 1 ) {
 				++current;
 			}
 			else {
 				current = 0;
 			}
-
+		}
+		
 		var $nextPage = $pages.eq( current ).addClass( 'pt-page-current' ),
 			outClass = '', inClass = '';
 
