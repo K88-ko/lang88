@@ -13,7 +13,7 @@ html, body { height: 100%; }
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	top: 0;
+	top: 10%;
 	left: 0;
 	visibility: hidden;
 	overflow: scroll;
@@ -121,7 +121,7 @@ html, body { height: 100%; }
 	position: absolute;
 	width: 100px;
 	z-index: 999999;
-	left: 10%;
+	left: 50%;
 	margin-top: 10px;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
