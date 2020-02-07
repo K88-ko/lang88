@@ -484,7 +484,7 @@ $(document).ready(function() {
            allDay: true
        }, {
            _id: 23,
-           title: '빛의 메아리(유스케, 카즈마 스킨)',
+           title: '빛의 메아리(유스케, 쿠라마 스킨)',
            avatar: 'img/banner/Picture_Notice_1204.png',
 		   avatar2: 'img/Icon_SkinBig.png',
            start: '2020-04-15',
@@ -495,7 +495,7 @@ $(document).ready(function() {
            allDay: true
        }, {
            _id: 24,
-           title: '유스케 + 카즈마',
+           title: '유스케 + 쿠라마',
            avatar: 'img/banner/Picture_Notice_1201.png',
 		   avatar2: 'img/N.png',
            start: '2020-04-15',
@@ -517,7 +517,7 @@ $(document).ready(function() {
            allDay: true
        }, {
            _id: 26,
-           title: '도구로형제 + 유스케',
+           title: '도구로형제 + 히에이',
            avatar: 'img/banner/Picture_Notice_1202.png',
 		   avatar2: 'img/N.png',
            start: '2020-04-29',
