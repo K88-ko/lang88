@@ -4,7 +4,7 @@ var editEvent;
 $(document).ready(function() {
     
    var calendar = $('#calendar').fullCalendar({
-       
+		
        eventRender: function(event, element, view) {
          
          var startTimeEventInfo = moment(event.start).format('HH:mm');
@@ -203,7 +203,7 @@ $(document).ready(function() {
        locale: 'en-GB',
        timezone: "local",
        nextDayThreshold: "09:00:00",
-       allDaySlot: true,
+       allDaySlot: false,
        displayEventTime: true,
        displayEventEnd: true,
        firstDay: 3,
@@ -212,7 +212,7 @@ $(document).ready(function() {
        weekNumberCalculation: "ISO",
        eventLimit: false,
        eventLimitClick: 'week', //popover
-       navLinks: true,
+       navLinks: false,
        timeFormat: 'HH:mm',
        defaultTimedEventDuration: '01:00:00',
        editable: false,
@@ -339,7 +339,7 @@ $(document).ready(function() {
            _id: 10,
            title: '엘라스타 + 클라렛',
            avatar: 'img/banner/Picture_Notice_1001.png',
-		   avatar2: 'img/n.png',
+		   avatar2: 'img/N.png',
            start: '2020-02-19',
            end: '2020-03-04',
            username: 'NEW',
@@ -427,7 +427,7 @@ $(document).ready(function() {
            _id: 18,
            title: '유리아 + 오메가',
            avatar: 'img/banner/Picture_Notice_1101.png',
-		   avatar2: 'img/n.png',
+		   avatar2: 'img/N.png',
            start: '2020-03-18',
            end: '2020-04-01',
            username: 'NEW',
@@ -494,7 +494,7 @@ $(document).ready(function() {
            _id: 24,
            title: '유스케 + 카즈마',
            avatar: 'img/banner/Picture_Notice_1201.png',
-		   avatar2: 'img/n.png',
+		   avatar2: 'img/N.png',
            start: '2020-04-15',
            end: '2020-04-29',
            username: 'NEW',
@@ -710,7 +710,7 @@ $(document).ready(function() {
   //SET DEFAULT VIEW CALENDAR
     
   var defaultCalendarView = $("#calendar_view").val();
-  
+      $('#calendar').fullCalendar('option', 'height', 1000);
   if(defaultCalendarView == 'month'){                             
       $('#calendar').fullCalendar( 'changeView', 'month');
   }else if(defaultCalendarView == 'agendaWeek'){
@@ -770,7 +770,7 @@ $(document).ready(function() {
   });
   
   //WEATHER GRAMATICALLY
-  
+ 
   function retira_acentos(str) {
     var com_acento = "ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝRÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿr";
     var sem_acento = "AAAAAAACEEEEIIIIDNOOOOOOUUUUYRsBaaaaaaaceeeeiiiionoooooouuuuybyr";
@@ -829,5 +829,5 @@ $(document).ready(function() {
     // alert(place.address_components[0].long_name);
 
   });
-  
+   $('#calendar').fullCalendar('option', 'height', 700);
 });
