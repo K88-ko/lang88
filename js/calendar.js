@@ -78,7 +78,7 @@ $(document).ready(function() {
        header: {
            left: 'today',
            center: 'prev, title, next',
-           right: 'month,agendaWeek,listWeek'
+           right: 'month,agendaWeek'
        },
        views: {
             month: {
@@ -205,7 +205,7 @@ $(document).ready(function() {
        allDaySlot: true,
        displayEventTime: true,
        displayEventEnd: true,
-       firstDay: 3,
+       firstDay: 0,
        weekNumbers: false,
        selectable: false,
        weekNumberCalculation: "ISO",
@@ -228,7 +228,12 @@ $(document).ready(function() {
 	   monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
 	   dayNames: ['일', '월', '화', '수', '목', '금', '토'],
        dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
-       events: [{
+       buttonText: {
+            today:    '오늘',
+            month:    '월간',
+            week:     '주간'
+        },
+		events: [{
            _id: 1,
            title: '벛꽃필 무렵',
            avatar: 'img/banner/Picture_Notice_0906.png',
@@ -567,7 +572,7 @@ $(document).ready(function() {
            allDay: true
        }, {
            _id: 31,
-           title: '전설의 문(운명의 문 도전 횟수 증가) - 일섭과 같으면 5일 진행',
+           title: '전설의 문(운명의 문 도전 횟수 증가)',
            avatar: 'img/banner/Picture_Notice_HD01.png',
 		   avatar2: 'img/Mood033.png',
            start: '2020-05-13',
@@ -1829,6 +1834,281 @@ $(document).ready(function() {
            end: '2020-12-13',
            username: '레이드',
            backgroundColor: "#FFD9EC",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11000,
+           title: 'S1 256-128강(BO1)',
+           avatar: 'img/PeakArena256.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-02-22',
+           end: '2020-02-22',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11001,
+           title: 'S1 64-32강(BO1)',
+           avatar: 'img/PeakArena256.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-02-23',
+           end: '2020-02-23',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11002,
+           title: 'S1 16강(BO3)',
+           avatar: 'img/PeakArena16.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-02-29',
+           end: '2020-02-29',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11003,
+           title: 'S1 8강(BO3)',
+           avatar: 'img/PeakArena8.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-03-01',
+           end: '2020-03-01',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11004,
+           title: 'S1 준결승전(BO3)',
+           avatar: 'img/PeakArena2.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-03-07',
+           end: '2020-03-07',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11005,
+           title: 'S1 결승전(BO3)',
+           avatar: 'img/PeakArena1.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-03-08',
+           end: '2020-03-08',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11006,
+           title: 'S2 시즌',
+           avatar: 'img/S2.png',
+		   avatar2: 'img/S2.png',
+           start: '2020-03-18',
+           end: '2020-05-27',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11007,
+           title: 'S2 256강(BO3)',
+           avatar: 'img/PeakArena256.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-06-02',
+           end: '2020-06-02',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11008,
+           title: 'S2 128강(BO3)',
+           avatar: 'img/PeakArena256.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-06-04',
+           end: '2020-06-04',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11009,
+           title: 'S2 64강(BO3)',
+           avatar: 'img/PeakArena256.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-06-06',
+           end: '2020-06-06',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11010,
+           title: 'S2 32강(BO3)',
+           avatar: 'img/PeakArena256.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-06-07',
+           end: '2020-06-07',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11011,
+           title: 'S2 16강(BO3)',
+           avatar: 'img/PeakArena16.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-06-09',
+           end: '2020-06-09',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11012,
+           title: 'S2 8강(BO3)',
+           avatar: 'img/PeakArena8.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-06-11',
+           end: '2020-06-11',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11013,
+           title: 'S2 준결승전(BO3)',
+           avatar: 'img/PeakArena2.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-06-13',
+           end: '2020-06-13',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11014,
+           title: 'S2 결승전(BO3)',
+           avatar: 'img/PeakArena1.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-06-14',
+           end: '2020-06-14',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11015,
+           title: 'S3 시즌',
+           avatar: 'img/S3.png',
+		   avatar2: 'img/S3.png',
+           start: '2020-06-24',
+           end: '2020-09-02',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11016,
+           title: 'S3 256강(BO3)',
+           avatar: 'img/PeakArena256.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-09-08',
+           end: '2020-09-08',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11017,
+           title: 'S3 128강(BO3)',
+           avatar: 'img/PeakArena256.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-09-10',
+           end: '2020-09-10',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11018,
+           title: 'S3 64강(BO3)',
+           avatar: 'img/PeakArena256.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-09-12',
+           end: '2020-09-12',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11019,
+           title: 'S3 32강(BO3)',
+           avatar: 'img/PeakArena256.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-09-13',
+           end: '2020-09-13',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11020,
+           title: 'S3 16강(BO3)',
+           avatar: 'img/PeakArena16.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-09-15',
+           end: '2020-09-15',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11021,
+           title: 'S3 8강(BO3)',
+           avatar: 'img/PeakArena8.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-09-17',
+           end: '2020-09-17',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11022,
+           title: 'S3 준결승전(BO3)',
+           avatar: 'img/PeakArena2.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-09-19',
+           end: '2020-09-19',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11023,
+           title: 'S3 결승전(BO3)',
+           avatar: 'img/PeakArena1.png',
+		   avatar2: 'img/PeakArena.png',
+           start: '2020-09-20',
+           end: '2020-09-20',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11024,
+           title: 'S4 시즌',
+           avatar: 'img/S4.png',
+		   avatar2: 'img/S4.png',
+           start: '2020-09-30',
+           end: '2020-12-09',
+           username: '서밋아레나',
+           backgroundColor: "#D1B2FF",
            textColor: "#000000",
            allDay: true
        }
