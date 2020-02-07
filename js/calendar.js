@@ -14,7 +14,7 @@ $(document).ready(function() {
          if(event.avatar.length > 1){
            
            element.find(".fc-content").css('padding-left','55px');
-           element.find(".fc-content").after($("<div class=\"fc-avatar-image\"></div>").html('<img src=\''+event.avatar+'\' />'));
+           element.find(".fc-content").after($("<div class=\"fc-avatar-image\"></div>").html('<img src=\''+event.avatar2+'\' />'));
            
          }
          
@@ -27,29 +27,18 @@ $(document).ready(function() {
           element.popover({
             title:    '<div class="popoverTitleCalendar" style="background-color:'+ event.backgroundColor +'; color:'+ event.textColor +'">'+ event.title +'</div>',
             content:  '<div class="popoverInfoCalendar">' +
-                      '<img src="' + event.avatar + '" width="250px" />' +
-                      '<div class="popoverDescCalendar"><strong>Description:</strong> '+ event.description +'</div>' +
-					  '</div>',
+                      '<img src="' + event.avatar + '" width="245px" />' +
+                      '</div>',
             delay: { 
-               show: "800", 
-               hide: "50"
+               show: "100", 
+               hide: "10"
             },
-            trigger: 'hover',
+            trigger: 'click',
             placement: 'top',
             html: true,
             container: 'body'
           });
          
-           if (event.username == "Caio Vitorelli") {
-               element.css('background-color', '#f4516c');
-           }
-           if (event.username == "Peter Grant") {
-               element.css('background-color', '#1756ff');
-           }
-           if (event.username == "Adam Rackham") {
-               element.css('background-color', '#9816f4');
-           }
-
            var show_username, show_type = true, show_calendar = true;
 
            var username = $('input:checkbox.filter:checked').map(function() {
@@ -219,9 +208,9 @@ $(document).ready(function() {
        displayEventEnd: true,
        firstDay: 3,
        weekNumbers: false,
-       selectable: true,
+       selectable: false,
        weekNumberCalculation: "ISO",
-       eventLimit: true,
+       eventLimit: false,
        eventLimitClick: 'week', //popover
        navLinks: true,
        timeFormat: 'HH:mm',
@@ -238,107 +227,293 @@ $(document).ready(function() {
        selectLongPressDelay : 0,
        monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
 	   monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
-	   dayNames: ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'],
+	   dayNames: ['일', '월', '화', '수', '목', '금', '토'],
        dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
        events: [{
            _id: 1,
-           title: 'Michigan University',
-           avatar: 'img/banner/Picture_Notice_0901.png',
-           description: 'Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.',
-           start: '2020-02-05',
-           end: '2020-02-19',
-           type: 'Appointment',
-           calendar: 'Sales',
-           className: 'colorAppointment',
-           username: 'Caio Vitorelli',
-           backgroundColor: "#f4516c",
-           textColor: "#ffffff",
+           title: '벛꽃필 무렵',
+           avatar: 'img/banner/Picture_Notice_0906.png',
+		   avatar2: 'img/Icon_Events.png',
+           description: '따스한 봄볕 아래 활짝 피어난 벚꽃, 흩날리는 꽃잎 속으로 보이는 새로운 영웅... ',
+           start: '2020-01-21',
+           end: '2020-02-12',
+           username: 'Event',
+           backgroundColor: "#FFFC80",
+           textColor: "#000000",
            allDay: true
        }, {
            _id: 2,
-           title: 'California Polytechnic',
-           avatar: 'img/banner/Picture_Notice_0901.png',
-           description: 'Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.',
-           start: '2020-02-05',
+           title: '빛의 메아리(사쿠라, 스미레 스킨)',
+           avatar: 'img/banner/Picture_Notice_0904.png',
+		   avatar2: 'img/Icon_SkinBig.png',
+           description: '신구지 사쿠라, 칸자키 스미레 한정 스킨 「사쿠라의 무장」, 「스미레의 춤」절찬 출시!',
+           start: '2020-01-21',
            end: '2020-02-19',
-           type: 'Appointment',
-           calendar: 'Sales',
-           className: 'colorAppointment',
-           username: 'Adam Rackham',
-           backgroundColor: "#9816f4",
-           textColor: "#ffffff",
+           username: '빛의 메아리',
+           backgroundColor: "#C3ED60",
+           textColor: "#000000",
            allDay: true
        }, {
            _id: 3,
-           title: 'Vermont University 2',
-           avatar: 'http://kidscoaching.com.br/wp-content/uploads/2016/08/opulent-profile-square-02.jpg',
-           description: 'Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.',
+           title: '화격단 장비',
+           avatar: 'img/banner/Picture_Notice_0903.png',
+		   avatar2: 'img/Equip_Random_All.png',
+           description: '영검 아라타카, 화격단 제복, 빨간 리본, 곰인형 출현 확률 UP!',
            start: '2020-02-05',
            end: '2020-02-19',
-           type: 'Check-in',
-           calendar: 'Sales',
-           className: 'colorCheck-in',
-           username: 'Adam Rackham',
-           backgroundColor: "#9816f4",
+           username: '장비소환',
+           backgroundColor: "#003399",
            textColor: "#ffffff",
            allDay: true
        }, {
            _id: 4,
-           title: 'Vermont University',
-           avatar: '',
-           description: 'Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.',
-           start: '2018-03-06',
-           end: '2018-03-06',
-           type: 'Checkout',
-           calendar: 'Sales',
-           className: 'colorCheckout',
-           username: 'Peter Grant',
-           backgroundColor: "#1756ff",
-           textColor: "#ffffff",
+           title: '베른하르트 + 엘윈 + 레온 (특별 혜택 & 시공의 정수)',
+           avatar: 'img/banner/Picture_Notice_0902.png',
+		   avatar2: 'img/Word_3P.png',
+           description: '베른하르트, 엘윈, 레온의 출현 확률 UP!</br> + 특별 혜택 + 시공의 정수',
+           start: '2020-01-29',
+           end: '2020-02-12',
+           username: '3인',
+           backgroundColor: "#85FFFF",
+           textColor: "#000000",
            allDay: true
        }, {
            _id: 5,
-           title: 'Michigan High School',
-           avatar: '',
-           description: 'Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.',
-           start: '2018-03-08',
-           end: '2018-03-08',
-           type: 'Inventory',
-           calendar: 'Lettings',
-           className: 'colorInventory',
-           username: 'Peter Grant',
+           title: '전설의 문(운명의 문 도전 횟수 증가)',
+           avatar: 'img/banner/Picture_Notice_HD01.png',
+		   avatar2: 'img/Mood033.png',
+           description: '「운명의 문」 매일 도전 횟수 두배(9회에서 18회로 변경), 단일 영웅의 도전 횟수는 변하지 않습니다.',
+           start: '2020-02-05',
+           end: '2020-02-12',
+           username: '2배',
            backgroundColor: "#1756ff",
            textColor: "#ffffff",
            allDay: true
        }, {
            _id: 6,
-           title: 'Vermont High School',
-           avatar: '',
-           description: 'Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.',
-           start: '2018-03-09',
-           end: '2018-03-09',
-           type: 'Valuation',
-           calendar: 'Lettings',
-           className: 'colorValuation',
-           username: 'Peter Grant',
-           backgroundColor: "#1756ff",
+           title: '젤다 + 쥬그라',
+           avatar: 'img/banner/Picture_Notice_SP10.png',
+		   avatar2: 'img/Word_2P.png',
+           description: '젤다, 쥬그라의 출현 확률 UP!',
+           start: '2020-02-12',
+           end: '2020-02-26',
+           username: '2인',
+           backgroundColor: "#86B381",
            textColor: "#ffffff",
            allDay: true
        }, {
            _id: 7,
-           title: 'California High School',
-           avatar: 'https://republika.mk/wp-content/uploads/2017/07/man-852762_960_720.jpg',
-           description: 'Lorem ipsum dolor sit incid idunt ut Lorem ipsum sit.',
-           start: '2018-03-07',
-           end: '2018-03-08',
-           type: 'Viewing',
-           calendar: 'Lettings',
-           className: 'colorViewing',
-           username: 'Caio Vitorelli',
-           backgroundColor: "#f4516c",
+           title: '타로운세 - 리스틸',
+           avatar: 'img/banner/Picture_Notice_0805.png',
+		   avatar2: 'img/Card_Head_Aniki01_0.png',
+           description: '영웅 리스틸 한정 스킨 백의 천사',
+           start: '2020-02-12',
+           end: '2020-02-19',
+           username: '형귀',
+           backgroundColor: "#FFEAEA",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 8,
+           title: '칠음계의 주문',
+           avatar: 'img/banner/Picture_Notice_1006.png',
+		   avatar2: 'img/Icon_Events.png',
+           start: '2020-02-19',
+           end: '2020-03-18',
+           username: 'Event',
+           backgroundColor: "#FFFC80",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 9,
+           title: '빛의 메아리(엘라스타, 클라렛 스킨)',
+           avatar: 'img/banner/Picture_Notice_1004.png',
+		   avatar2: 'img/Icon_SkinBig.png',
+           start: '2020-02-19',
+           end: '2020-03-18',
+           username: '빛의 메아리',
+           backgroundColor: "#C3ED60",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 10,
+           title: '엘라스타 + 클라렛',
+           avatar: 'img/banner/Picture_Notice_1001.png',
+		   avatar2: 'img/n.png',
+           start: '2020-02-19',
+           end: '2020-03-04',
+           username: 'NEW',
+           backgroundColor: "#EDA900",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 11,
+           title: '루나 + 쉐리 + (SR)나암  (시공의 정수)',
+           avatar: 'img/banner/Picture_Notice_1002.png',
+		   avatar2: 'img/Word_2P.png',
+           start: '2020-02-26',
+           end: '2020-03-11',
+           username: '2인',
+           backgroundColor: "#86B381",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 12,
+           title: '리스틸 + 란포드 + 윌러 (특별 혜택 & 시공의 정수)',
+           avatar: 'img/banner/Picture_Notice_1003.png',
+		   avatar2: 'img/Word_3P.png',
+           start: '2020-03-04',
+           end: '2020-03-18',
+           username: '3인',
+           backgroundColor: "#85FFFF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 13,
+           title: '레딘 + 엘윈 + 란디우스 (특별 혜택 & 시공의 정수)',
+           avatar: 'img/banner/Picture_Notice_0802.png',
+		   avatar2: 'img/Word_3P.png',
+           start: '2020-03-11',
+           end: '2020-03-25',
+           username: '3인',
+           backgroundColor: "#85FFFF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 14,
+           title: '타로운세 - 란디우스',
+           avatar: 'img/banner/Picture_Notice_0905.png',
+		   avatar2: 'img/Card_Head_Aniki01_0.png',
+           start: '2020-03-11',
+           end: '2020-03-18',
+           username: '형귀',
+           backgroundColor: "#FFEAEA",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 15,
+           title: '불꽃놀이',
+           avatar: 'img/banner/Picture_Notice_1106.png',
+		   avatar2: 'img/Icon_Events.png',
+           start: '2020-03-18',
+           end: '2020-04-15',
+           username: 'Event',
+           backgroundColor: "#FFFC80",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 16,
+           title: '빛의 메아리(유리아, 오메가 스킨)',
+           avatar: 'img/banner/Picture_Notice_1104.png',
+		   avatar2: 'img/Icon_SkinBig.png',
+           start: '2020-03-18',
+           end: '2020-04-15',
+           username: '빛의 메아리',
+           backgroundColor: "#C3ED60",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 17,
+           title: '전설의 문(운명의 문 도전 횟수 증가) - 일섭과 같으면 5일 진행',
+           avatar: 'img/banner/Picture_Notice_HD01.png',
+		   avatar2: 'img/Mood033.png',
+           start: '2020-03-18',
+           end: '2020-03-25',
+           username: '2배',
+           backgroundColor: "#1756ff",
            textColor: "#ffffff",
            allDay: true
-       }]
+       }, {
+           _id: 18,
+           title: '유리아 + 오메가',
+           avatar: 'img/banner/Picture_Notice_1101.png',
+		   avatar2: 'img/n.png',
+           start: '2020-03-18',
+           end: '2020-04-01',
+           username: 'NEW',
+           backgroundColor: "#EDA900",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 19,
+           title: '시그마 + 람다 + 기자로프 (특별 혜택 & 시공의 정수)',
+           avatar: 'img/banner/Picture_Notice_1102.png',
+		   avatar2: 'img/Word_3P.png',
+           start: '2020-03-25',
+           end: '2020-04-08',
+           username: '3인',
+           backgroundColor: "#85FFFF",
+           textColor: "#000000",
+           allDay: true
+       }
+	   , {
+           _id: 20,
+           title: '라나 + 젤다 + 리아나 (특별 혜택 & 시공의 정수)',
+           avatar: 'img/banner/Picture_Notice_1103.png',
+		   avatar2: 'img/Word_3P.png',
+           start: '2020-04-01',
+           end: '2020-04-15',
+           username: '3인',
+           backgroundColor: "#85FFFF",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 21,
+           title: '타로운세 - 젤다',
+           avatar: 'img/banner/Picture_Notice_0905.png',
+		   avatar2: 'img/Card_Head_Aniki01_0.png',
+           start: '2020-04-08',
+           end: '2020-04-15',
+           username: '형귀',
+           backgroundColor: "#FFEAEA",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 22,
+           title: '유유백서',
+           avatar: 'img/banner/Picture_Notice_1206.png',
+		   avatar2: 'img/Icon_Events.png',
+           start: '2020-04-15',
+           end: '2020-05-13',
+           username: 'Event',
+           backgroundColor: "#FFFC80",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 23,
+           title: '빛의 메아리(유스케, 카즈마 스킨)',
+           avatar: 'img/banner/Picture_Notice_1204.png',
+		   avatar2: 'img/Icon_SkinBig.png',
+           start: '2020-04-15',
+           end: '2020-05-13',
+           username: '빛의 메아리',
+           backgroundColor: "#C3ED60",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 24,
+           title: '유스케 + 카즈마',
+           avatar: 'img/banner/Picture_Notice_1201.png',
+		   avatar2: 'img/n.png',
+           start: '2020-04-15',
+           end: '2020-04-29',
+           username: 'NEW',
+           backgroundColor: "#EDA900",
+           textColor: "#000000",
+           allDay: true
+       }, {
+           _id: 25,
+           title: '티아리스 + 클라렛 + 루나 (특별 혜택 & 시공의 정수)',
+           avatar: 'img/banner/Picture_Notice_1203.png',
+		   avatar2: 'img/Word_3P.png',
+           start: '2020-04-22',
+           end: '2020-05-06',
+           username: '3인',
+           backgroundColor: "#85FFFF",
+           textColor: "#000000",
+           allDay: true
+       }
+	   ]
 
    });
   
