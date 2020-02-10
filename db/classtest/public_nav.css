@@ -1,0 +1,12 @@
+.pubMain{width:1200px;margin:0 auto;position:relative;z-index:1;}
+.pubNav{width:100%;height:82px;min-width:1200px;background:url(i/qs_public_nav.png) no-repeat right top;position:absolute;top:0;left:0;z-index:99;}
+.pubNavList{font-size:0;white-space:nowrap;text-align:right;}
+.pubNavList li{width:14%;max-width:200px;display:inline-block;vertical-align:top;position:relative;}
+.pubNavList li:after{content:'';width:1px;height:28px;background:#cecece;position:absolute;top:50%;left:0;margin-top:-14px;opacity:.5;filter:alpha(opacity=50);-webkit-transform:rotate(-20deg);transform:rotate(-20deg);}
+.pubNavList li:first-child:after{display:none;}
+.pubNavList a{font-size:16px;line-height:82px;color:#cecece;text-align:center;display:block;position:relative;}
+.pubNavList span{line-height:1.5;display:inline-block;vertical-align:middle;margin:0 12px;}
+.pubNavList em{font-size:12px;display:block;-webkit-transform:scale(.84);transform:scale(.84);font-family: tahoma;font-style: normal;}
+.pubNavList a:before,.pubNavList a:after{content:'';width:8px;height:8px;background:transparent;display:inline-block;vertical-align:middle;-webkit-transform:rotate(54deg) skew(20deg);transform:rotate(54deg) skew(20deg);}
+.pubNavList a:hover{color:#ecc478;}
+.pubNavList a:hover:before,.pubNavList a:hover:after{background:#ecc478}
